@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Registration Open",
+    "description": "Sign up for the Con!",
+    "date": "SEP 13, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Call for Papers Announced",
+    "description": "",
+    "date": "OCT 8, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Keynotes Announced",
+    "description": "",
+    "date": "OCT 8, 2019",
+    "hidden": "false"
+  }, {
+    "title": "End of Early Registration",
+    "description": "",
+    "date": "DEC 27, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Call for Papers Close",
+    "description": "",
+    "date": "JAN 30, 2020",
+    "hidden": "false"
+  }, {
+    "title": "CFP Notifications Sent Out",
+    "description": "We love our speakers!",
+    "date": "FEB 14, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Tentative Agenda Announced",
+    "description": "",
+    "date": "FEB 25, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Pre-conference Training",
+    "description": "On-site training days (additional cost)",
+    "date": "March 25-26, 2020",
+    "hidden": "false"  
+  }, {
+    "title": "Tech Olympics Sign up",
+    "description": "On-site sign-up for annual Tech Olympics",
+    "date": "March 27, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Who's Slide Sign up",
+    "description": "On-site sign-up for annual Who's Slide Is It Anyways",
+    "date": "March 27, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Conference Days",
+    "description": "Kernelcon 2020",
+    "date": "March 27-28, 2020",
+    "hidden": "false"
+  }
+]

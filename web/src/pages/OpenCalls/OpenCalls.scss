@@ -1,0 +1,51 @@
+@import '../../static/styles/base/colors';
+.tab-bullets {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tab-sub-heading {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px 0px;
+    font-family: 'Jura', 'Montserrat', sans-serif;
+}
+
+.fine-notes {
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.stickers {
+    width: calc(100vw - 200px);
+    max-width: 700px;
+    margin-left: calc(2vw + 10vh);
+    margin-top: -10px;
+    margin-bottom: -80px;
+}
+
+.tab-ordered-list {
+    margin-left: 35px;
+    font-size: 14px;
+    ul>li {
+        margin-left: 30px;
+    }
+}
+
+.tab-note {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.tab-heading {
+    font-weight: 700;
+}
+
+.tab-title {
+    font-family: 'Jura', 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #409ABF;
+    display: block !important;
+}
