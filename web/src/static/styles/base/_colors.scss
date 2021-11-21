@@ -3,23 +3,47 @@
     names chosen from http://chir.ag/projects/name-that-color/  
 */
 
+
 /* whites and blacks */
-$black :                  #000;
-$black-forest:            #1A1A1A;
-$gray-darkest:            #25282A;
-$gray:                    #7F8283;
-$dusty-gray:              #929292;
-$white:                   #FFF;
-$ghost:                   transparent;
+
+$black: #000;
+$black-forest: #1a1a1a;
+$gray-darkest: #25282a;
+$white: #fff;
+$ghost: transparent;
 
 /* greys - lightest to darkest */
-$wild-sand:               #F6F6F6;
-$concrete:                #F2F2F2;
-$alto:                    #CFCFCF;
-$silver:                  #CCCCCC;
-$mine-shaft:              #333333;
+
+$wild-sand: #f6f6f6;
+$mercury: #e3e3e3;
+$concrete: #f3f3f3;
+$alto: #cfcfcf;
+$silver: #cccccc;
+$gray: #929292;
+$rolling-stone: #7f8283;
+$mine-shaft: #333333;
 
 /* blues - main highlights */
-$boston-blue:             #409ABF;
-$seagull:                 #87CEEB;
-$cornflower-blue:         #6195ED;
+
+$boston-blue: #409abf;
+$seagull: #87ceeb;
+$cornflower-blue: #6195ed;
+$azure-radiance: #009eff;
+$scooter: #31bac3;
+
+/* pinks */
+
+$cannon-pink: #934d7e;
+$shocking-pink: #f31bb2;
+$hollywood-cerise: #ff00a2;
+$cotton-candy: #ffade6;
+
+/* purps */
+
+$heliotrope: #df75ff;
+
+/* yellows */
+
+$wattle: #d8d846;
+$starship: #eaf63c;
+$primrose: #ecf1a7;

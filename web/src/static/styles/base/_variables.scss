@@ -1,4 +1,20 @@
-@import './colors';
+@import "./colors";
+$light-highlight: $seagull;
+// $text-highlight: $boston-blue;
+$text-highlight: $cotton-candy;
 
-$light-highlight:           $seagull;
-$text-highlight:            $boston-blue;
+/* punk theme one - blacks, blues, and pinks */
+
+
+/* light mode */
+
+$lm-bkg-highlight: $mercury;
+$lm-bkg-light: $concrete;
+
+/* dark mode */
+
+$dm-main-color: $gray-darkest;
+$dm-darker-main: $black-forest;
+$dm-highlight: $cornflower-blue;
+$dm-punk-highlight: $shocking-pink;
+$dm-punk-darklight: $cannon-pink;
