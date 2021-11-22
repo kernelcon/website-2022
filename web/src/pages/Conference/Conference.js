@@ -27,7 +27,7 @@ export default class Conference extends Component {
 							class="cybr-btn btn-bottom"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://reg.kernelcon.org">
+							href="http://reg.kernelcon.org/">
 							Register Now
 							<span aria-hidden class="cybr-btn__glitch">
 								Register Now
@@ -48,8 +48,10 @@ export default class Conference extends Component {
 						Omaha in 2022!
 					</p>
 				</div>
-				<div className="text-area">
-					<h3 className="title">Volunteers</h3>
+        <div className="tab-title">Stay Tuned!</div>
+        <p className="tab-paragraph">We have a TON more to announce as the event begins to take shape including in-depth professional training, hands-on villages, competitions, and more surprises. Follow along on twitter or right here for updates!</p>
+
+					<div className="tab-title">Volunteers</div>
 					<p className="tab-paragraph">
 						Thanks to all those who helped make the first three
 						Kernelcons a success! We will be reaching out to our
@@ -66,7 +68,7 @@ export default class Conference extends Component {
 						</a>{" "}
 						on twitter.
 					</p>
-				</div>
+
 			</div>
 		);
 	}

@@ -134,7 +134,7 @@ export default class Home extends Component {
 							class="cybr-btn btn-bottom"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://kernelcon.square.site/">
+							href="http://reg.kernelcon.org/">
 							Register Now
 							<span aria-hidden class="cybr-btn__glitch">
 								Register Now
