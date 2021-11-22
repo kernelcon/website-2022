@@ -46,11 +46,11 @@ export default class Venue extends Component {
 						<div className="venue-hotel">
 							<div className="venue-text">
 								We have a room block reserved at the conference
-								hotel from Mar 28 to Apr 3 at a rate of
+								hotel from Mar 29 to Apr 3 at a rate of
 								$149/night. Book directly with the hotel{" "}
 								<a
 									className="text-highlight"
-									href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
+									href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hilton.com%2Fen%2Fbook%2Freservation%2Fdeeplink%2F%3F%26ctyhocn%3DOMADTES%26groupCode%3DCESKCA%26arrival%3D20220329%26departure%3D20220403%26cid%3DOM%2CWW%2CHILTONLINK%2Cen%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=04%7C01%7Cfelicia.vann%40atriumhospitality.com%7C5099baec00c040cba43208d8f90ab428%7C2a940736346f4580951607fd1e7cc52d%7C0%7C0%7C637533171660458186%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=A%2FEbhsn2c6Wec1SF1O4WerJvbetp3b4BTl5594ykB38%3D&reserved=0"
 									rel="noopener noreferrer"
 									target="_blank">
 									HERE
@@ -165,8 +165,8 @@ export default class Venue extends Component {
 					<p className="about-sub-text">For commuters:</p>
 					<p className="about-sub-text">
 						We're happy to say that the conference parking is
-						readily available. We've purchased 150 spots down the
-						street from the con, first-come, first-serve. In
+						readily available. We plan on purchasing spots down the
+						street from the con on a first-come, first-serve basis. In
 						addition, parking is available at the hotel at $14/day
 						or there is metered parking all along 10th street.
 					</p>

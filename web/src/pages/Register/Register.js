@@ -20,7 +20,7 @@ class Register extends Component {
 							class="cybr-btn btn-bottom"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="http://reg.kernelcon.org/">
+							href="https://reg.kernelcon.org/">
 							Register Now
 							<span aria-hidden class="cybr-btn__glitch">
 								Register Now

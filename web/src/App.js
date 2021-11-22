@@ -18,6 +18,7 @@ import Home from "./pages/Home/Home";
 import Sponsors from "./pages/Sponsors/Sponsors";
 import Venue from "./pages/Venue/Venue";
 import Register from "./pages/Register/Register";
+import Safety from "./pages/Safety/Safety";
 
 function App() {
 	return (
@@ -36,6 +37,7 @@ function App() {
 					<Route exact path="/sponsors" component={Sponsors} />
 					<Route exact path="/venue" component={Venue} />
 					<Route exact path="/register" component={Register} />
+					<Route exact path="/safety" component={Safety} />
 				</div>
 			</div>
 			<Footer />
