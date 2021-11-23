@@ -46,7 +46,7 @@ export default class Home extends Component {
 						</div>
 						<div className="sizzle-text-section">
 							<div className="sizzle-text">
-								Join us on a trip to the cyber playground.
+								Join us on a trip to the cyber playground where you can let your punk flag fly whatever it is: biopunk, cyberpunk, steampunk, etc.
 							</div>
               <div className="sizzle-bullets">
                 <div className='sizzle-bullet-item'>
