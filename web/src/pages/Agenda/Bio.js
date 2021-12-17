@@ -44,6 +44,10 @@ export default class Bio extends Component {
 
   render() {
   	const twitter_mobile = this.state.twitter ? this.state.twitter.substr(1) : '';
+    function createMarkup(ele) {
+      return {__html: ele};
+    }
+    
     return (
       <div className='bio-section'>
       	<h1>{this.state.name}</h1>
@@ -55,7 +59,7 @@ export default class Bio extends Component {
 	      		{this.state.twitter}
       		</a>
       	</h4>
-      	<p>{this.state.bio}</p>
+        <div className='training-text' dangerouslySetInnerHTML={createMarkup(this.state.bio)} />
       </div>
   	);
   }

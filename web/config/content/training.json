@@ -59,7 +59,7 @@
         "short_form": "Have you been tasked with reviewing too much code for security bugs in too little of time? What about new frameworks or languages you are unfamiliar with? This course addresses common challenges in modern secure code review. Sharpen your code review techniques by gleaning from Seth & Ken's Excellent Adventures (in Secure Code Review) and the lessons we've learned along the way."
       },
       "prerequisites": "Attendees should be familiar with the development process (SDLC) and where security code reviews fit into the process. Attendees must have experience using an IDE, running command-line tools, and be able to read application source code. Attendees must have knowledge of the OWASP Top 10 and other common vulnerabilities.",
-      "equipment": ""
+      "equipment": "A laptop and an IDE."
     }
   },
   {

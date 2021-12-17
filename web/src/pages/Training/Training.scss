@@ -13,9 +13,8 @@
 // }
 .training {
   .training-card {
-    margin-bottom: 20px;
     padding-top: 100px; // hack for anchor scroll
-    margin-top: -100px; // hack for anchor scroll
+    margin-top: -80px; // hack for anchor scroll
     .training-title {
       background-color: skyblue;
       color: #25282a;
@@ -51,5 +50,11 @@
     .training-heading {
       font-weight: 700;
     }
+  }
+}
+
+.training-text {
+  p {
+    margin-bottom: 20px;
   }
 }
