@@ -1,0 +1,121 @@
+[{
+    "id": "ghidra",
+    "hide": false,
+    "instructors": [{
+      "name": "Chris Eagle",
+      "title": "",
+      "twitter_handle": "@sk3wl",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse / anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA 's Cyber GrandChallenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The Ghidra Book\" and \"The IDA ProBook\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
+    }],
+    "course": {
+      "title": "Introduction to Ghidra",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>This is an introductory reverse engineering course that teaches students the basics of the Ghidra disassembler/decompiler along with the basic reverse engineering concepts needed to begin analyzing binary software.</p><p>The course begins by ensuring that everyone has a working Ghidra installation and discussing the basic layout of the Ghidra source repo. Next, basic project creation is discussed on the way to examining a simple binary that allows all of the basic features of Ghidra to be explored. In particular, Ghidra's treatment of stack frames, calling conventions and cross references and their importance to the reverse engineering process are discussed.</p><p>The course then moves on to discuss complex data structures and the Ghidra features that assist in decoding and representing them with examples of arrays, C structs and C++ polymorphic classes and vtables.</p><p>The course concludes with a discussion of Ghidra's collaborative reverse engineering capabilities and the setup of a Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting where we will review several of Ghidra's example scripts along with some of the basic scripting APIs. Basic scripting using Java and Python are covered, along with Ghidra's Eclipse integration.</p>",
+        "short_form": "<p>This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra's handling of complex data types is covered from both the disassembler's and the decompiler's point of view.</p><p>The course conclude with a discussion of configuring and using the Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.</p>"
+      },
+      "prerequisites": "Prerequisites for the course include some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized). The ability to read C is useful for understanding the decompiler's output, and the ability program in Java and/or Python are essential to understanding the scripting portions of the course.",
+      "equipment": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater and the Eclipse IDE."
+    }
+  },
+  {
+    "id": "codereview",
+    "hide": false,
+    "instructors": [{
+      "name": "Seth Law",
+      "title": "",
+      "twitter_handle": "@sethlaw",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Seth Law is an experienced Application Security Professional with over 15 years of experience in the computer security industry. During this time, Seth has worked within multiple disciplines in the security field, from software development to network protection, both as a manager and individual contributor. Seth has honed his application security skills using offensive and defensive techniques, including tool development. Seth is employed as a security consultant, hosts the Absolute AppSec podcast with Ken Johnson, and is a regular speaker at developer meetups and security events, including Blackhat, Defcon, CactusCon, and other regional conferences."
+    }, {
+      "name": "Ken Johnson",
+      "title": "",
+      "twitter_handle": "@cktricky",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Ken Johnson, has been hacking web applications professionally for 12 years and given security training for 9 of those years. Ken is both a breaker and builder and currently works on the GitHub application security team. Previously, Ken has spoken at RSA, You Sh0t the Sheriff, Insomnihack, CERN,  DerbyCon, AppSec USA, AppSec DC, AppSec California, DevOpsDays DC, LASCON, RubyNation, and numerous Ruby, OWASP, and AWS events about appsec, devops security, and AWS security. Ken's current projects are WeirdAAL, OWASP Railsgoat, and the Absolute AppSec podcast with Seth Law."
+    }],
+    "course": {
+      "title": "Practical Secure Code Review",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>Ready to take your bug hunting to a deeper level? Ever been tasked with reviewing source code for SQL Injection, XSS, Access Control and other security flaws? Does the idea of reviewing this code leave you with heartburn? Join us for Practical Secure Code Review, aka Seth & Ken's Excellent Adventures (in Secure Code Review). This course introduces a proven methodology and framework for performing a secure code review, as well as addressing common challenges in modern secure code review. Short circuit developing individual secure code review techniques by gleaning from Seth & Ken's past adventures in performing hundreds of code reviews and the lessons we've learned along the way. We will share a proven methodology to perform security analysis of any source code repository and suss out security flaws, no matter the size of the code base, or the framework, or the language.</p><p>This course introduces security professionals and software developers to the nitty/gritty details of performing a code review. Specifically, the course imparts the following to attendees:</p> <ul><li>Code Review Methodology used to cover security issues</li><li>Practical methods for identifying vulnerabilities in multiple languages, including:<ul><li>Ruby/Rails</li><li>Django/Python</li><li>Node/Express</li><li>Java/Spring</li><li>.Net/MVC</li></ul></li><li>Open source code review tools available for different languages</li><li>Hands-on experience identifying vulnerabilities in known-vulnerable code bases.</li></ul>",
+        "short_form": "Have you been tasked with reviewing too much code for security bugs in too little of time? What about new frameworks or languages you are unfamiliar with? This course addresses common challenges in modern secure code review. Sharpen your code review techniques by gleaning from Seth & Ken's Excellent Adventures (in Secure Code Review) and the lessons we've learned along the way."
+      },
+      "prerequisites": "Attendees should be familiar with the development process (SDLC) and where security code reviews fit into the process. Attendees must have experience using an IDE, running command-line tools, and be able to read application source code. Attendees must have knowledge of the OWASP Top 10 and other common vulnerabilities.",
+      "equipment": ""
+    }
+  },
+  {
+    "id": "webhacking",
+    "hide": false,
+    "instructors": [{
+      "name": "Matt South",
+      "title": "",
+      "twitter_handle": "@themattymcfatty",
+      "github_handle": "",
+      "workplace": "Trust Foundry",
+      "image_name": "",
+      "bio": "<p>Matt is a penetration tester from Kansas City, Missouri. He specializes in web and mobile application testing, but loves all things security. He has been an amateur security enthusiast since childhood and was a regular 2600 attendee. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City.</p><p>In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He's given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and another at BlackHat USA 2017. He achieved the Offensive Security Certified Professional (OSCP) certification in 2018. CREST Practitioner Security Analyst (CPSA) in 2020. When he's not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden.</p><p>Matt's favorite types of exploits to find are business logic flaws that an automated scanner would miss. He enjoys asking and answering security-related questions to share knowledge and improve the security community overall. Matt takes the most pride in his reporting because he has the chance to clearly explain the issues to help customers improve their security posture.</p>"
+    }],
+    "course": {
+      "title": "Introduction to Web Application Penetration Testing",
+      "days": 1,
+      "scheduled": {
+        "day_one": true,
+        "day_two": false
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<ul><li>HTTP Basics, Burp Intro and Setup</li><li>Proxy Tab</li><li>Target Tab</li><li>Repeater Tab</li><li>Authentication</li><li>Decoder Tab</li><li>Comparer Tab</li><li>Intruder Tab</li><li>Fuzzing directories</li><li>Null Byte Injection</li><li>Burp Crawler (Spider)</li><li>Authorization</li><li>API Testing</li><li>Cross-Site Scripting (XSS)</li><li>Burp Scanner - Active & Passive</li><li>Additional topics based on audience request</li></ul>",
+        "short_form": "<p>Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.</p><div><div className='training-heading'>Objectives:</div><div className='training-text'><ul><li>Ability to perform basic manual and automated testing with Burp Suite.</li><li>Knowledge of common Burp Suite functionality</li><li>High-level ability to identify common web application vulnerabilities</li><li>High-level familiarization with application security concepts, methodologies, and common vulnerabilities</li></ul></div></div>"
+      },
+      "prerequisites": "<ul><li>Optional: Download Burp Suite (Free or Professional)</li><li>No technical knowledge or experience is required.</li><li>Potential attendees are welcome to reach out if they have questions about whether this class would be good for them.</li></ul>",
+      "equipment": "Attendees should bring a laptop with any operating system."
+    }
+  },
+  {
+    "id": "linux4n6",
+    "hide": true,
+    "instructors": [{
+      "name": "Hal Pomeranz",
+      "title": "",
+      "twitter_handle": "@hal_pomeranz",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "hal-headshot.jpg",
+      "bio": "Hal Pomeranz is an independent digital forensic investigator who has consulted on cases ranging from intellectual property theft, to employee sabotage, to organized cybercrime and malicious software infrastructures.  He has spent more than thirty years providing pragmatic Information Technology and Security solutions for some of the world's largest commercial, government, and academic institutions."
+    }],
+    "course": {
+      "title": "Introduction to Linux Forensics",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure.</p><p>As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experienced forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion and requires dedicated study and practice to become comfortable.</p><p>This two-day, hands-on course is a quick start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.</p>",
+        "short_form": "<p>Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure.</p><p>As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experienced forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion and requires dedicated study and practice to become comfortable.</p><p>This two-day, hands-on course is a quick start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.</p>"
+      },
+      "prerequisites": "<p>This course is an introduction to Linux forensics, but not an introduction to forensics. The course assumes at least some knowledge of digital forensic methods, such as evidence acquisition. This course is heavily command-line driven, so basic familiarity with the Linux command-line is helpful.</p>",
+      "equipment": "<ul><li>A computer with at least 150GB of free space and capable of running a 64-bit VMware virtual machine using 4GB of RAM</li><li>A BitTorrent client for downloading course materials (e.g., Transmission https://transmissionbt.com/download/)</li></ul>"
+    }
+  }
+]

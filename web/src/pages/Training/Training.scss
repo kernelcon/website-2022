@@ -1,0 +1,55 @@
+// .training {
+// .training-title {
+//   margin-bottom: 20px;
+//   display: flex;
+// }
+// .training-call-out {
+//   display: flex;
+//   font-size: 16px;
+//   padding-bottom: 20px;
+//   .note {
+//     margin-right: 10px;
+//   }
+// }
+.training {
+  .training-card {
+    margin-bottom: 20px;
+    padding-top: 100px; // hack for anchor scroll
+    margin-top: -100px; // hack for anchor scroll
+    .training-title {
+      background-color: skyblue;
+      color: #25282a;
+      font-size: 20px;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        width: inherit !important;
+      }
+    }
+    .training-presenter,
+    .training-format {
+      display: flex;
+      .training-heading {
+        width: 120px;
+      }
+    }
+    .training-desc,
+    .training-prereqs,
+    .training-equipment {
+      ul {
+        list-style-position: outside;
+        padding-left: 20px;
+      }
+      margin-bottom: 10px;
+    }
+    .training-desc {
+      margin: 10px 0px;
+    }
+    .training-heading {
+      font-weight: 700;
+    }
+  }
+}
