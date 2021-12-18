@@ -54,21 +54,37 @@ class Training extends Component {
               <span>{ele.course.days > 1 ? '$1,000' : '$500'}</span>
             </div>
           </a>
-          <div className='training-instructors'>
-            <div className='training-heading'>{ele.instructors.length > 1 ? 'Instructors' : 'Instructor'}:</div>
-            <div className='training-instructor-names'>{instructors}</div>
-          </div>
-          <div className='training-format'>
-            <div className='training-heading'>Format:</div>
-            <div>{ele.course.days} {ele.course.days > 1 ? 'days training' : 'day training'}</div>
-          </div>
-          <div className='training-format'>
-            <div className='training-heading'>{ele.course.days > 1 ? 'Dates:' : 'Date:'}</div>
-            <div>{ele.course.days > 1 ? `${dayOneTraining} and ${dayTwoTraining}, ${trainingYear}` : ele.day > 1 ? `${dayTwoTraining}, ${trainingYear}`: `${dayOneTraining}, ${trainingYear}`}</div>
-          </div>
-          <div className='training-format'>
-            <div className='training-heading'>{ele.course.days > 1 ? 'Times:' : 'Time:'}</div>
-            <div>{ele.course.days > 1 ? `${ele.course.time} each day` : ele.course.time}</div>
+          <div className='training-notes'>
+            <div className='training-notes-left'>
+              <div className='training-instructors'>
+                <div className='training-heading'>{ele.instructors.length > 1 ? 'Instructors' : 'Instructor'}:</div>
+                <div className='training-instructor-names'>{instructors}</div>
+              </div>
+              <div className='training-format'>
+                <div className='training-heading'>Format:</div>
+                <div>{ele.course.days} {ele.course.days > 1 ? 'days training' : 'day training'}</div>
+              </div>
+              <div className='training-format'>
+                <div className='training-heading'>{ele.course.days > 1 ? 'Dates:' : 'Date:'}</div>
+                <div>{ele.course.days > 1 ? `${dayOneTraining} and ${dayTwoTraining}, ${trainingYear}` : ele.day > 1 ? `${dayTwoTraining}, ${trainingYear}`: `${dayOneTraining}, ${trainingYear}`}</div>
+              </div>
+              <div className='training-format'>
+                <div className='training-heading'>{ele.course.days > 1 ? 'Times:' : 'Time:'}</div>
+                <div>{ele.course.days > 1 ? `${ele.course.time} each day` : ele.course.time}</div>
+              </div>
+            </div>
+            <div className='training-notes-right'>
+              <a
+                class="cybr-btn btn-bottom"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://reg.kernelcon.org/">
+                Register Now
+                <span aria-hidden class="cybr-btn__glitch">
+                  Register Now
+                </span>
+              </a>
+            </div>
           </div>
           <div className='training-desc' dangerouslySetInnerHTML={createMarkup(ele.course.description.short_form)} />
   				{ele.course.prerequisites && <div className='training-prereqs'>

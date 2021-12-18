@@ -1,16 +1,3 @@
-// .training {
-// .training-title {
-//   margin-bottom: 20px;
-//   display: flex;
-// }
-// .training-call-out {
-//   display: flex;
-//   font-size: 16px;
-//   padding-bottom: 20px;
-//   .note {
-//     margin-right: 10px;
-//   }
-// }
 .training {
   .training-card {
     padding-top: 100px; // hack for anchor scroll
@@ -28,11 +15,21 @@
         width: inherit !important;
       }
     }
-    .training-presenter,
-    .training-format {
+    .training-notes {
       display: flex;
-      .training-heading {
-        width: 120px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .training-notes-left {
+        .training-presenter,
+        .training-format {
+          display: flex;
+          .training-heading {
+            min-width: 120px;
+          }
+        }
+      }
+      .training-notes-right {
+        margin-top: 30px;
       }
     }
     .training-desc,
@@ -56,5 +53,11 @@
 .training-text {
   p {
     margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .training-notes-right {
+    margin: 15px 0px;
   }
 }
