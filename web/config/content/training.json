@@ -92,7 +92,7 @@
   },
   {
     "id": "linux4n6",
-    "hide": true,
+    "hide": false,
     "instructors": [{
       "name": "Hal Pomeranz",
       "title": "",
