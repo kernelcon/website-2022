@@ -117,5 +117,33 @@
       "prerequisites": "<p>This course is an introduction to Linux forensics, but not an introduction to forensics. The course assumes at least some knowledge of digital forensic methods, such as evidence acquisition. This course is heavily command-line driven, so basic familiarity with the Linux command-line is helpful.</p>",
       "equipment": "<ul><li>A computer with at least 150GB of free space and capable of running a 64-bit VMware virtual machine using 4GB of RAM</li><li>A BitTorrent client for downloading course materials (e.g., Transmission https://transmissionbt.com/download/)</li></ul>"
     }
+  },
+  {
+    "id": "appliedintel",
+    "hide": false,
+    "instructors": [{
+      "name": "Joe Gray",
+      "title": "",
+      "twitter_handle": "@C_3PJoe",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "joegray-headshot.jpg",
+      "bio": "Joe Gray, a veteran of the U.S. Navy Submarine Force, is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe is the Founder and Principal Instructor at The OSINTion in addition to the Founder and Lead Investigator at Transparent Intelligence Services. As a member of the Password Inspection Agency, Joe has consistently performed well in Capture the Flag events, specifically those involving OSINT. Examples include 2nd Place in the HackFest Quebec Missing Persons CTF and Winning the TraceLabs OSINT Search Party during DEFCON 28 (as a member of The Password Inspection Agency) and DEFCON 29 (as a member of The Federal Bureau of OH-SHINT). Independently, Joe placed 4th in the DerbyCon OSINT CTF and 3rd in the National Child Protection Task Force Missing Persons CTF. Joe has contributed material for a variety of platforms such as Forbes and Dark Reading in addition to his own platforms. Joe authored the OSINT tools DECEPTICON Bot and WikiLeaker in addition to the forthcoming book, Practical Social Engineering, due in Early 2022 via NoStarch Press."
+    }],
+    "course": {
+      "title": "Applied Intelligence, Zero to Hero",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>Motives for performing an Open Source Intelligence (OSINT) investigation vary from one party to another. Although you may be familiar with a specific offensive or defensive use case for OSINT, you may not consider the opposite use case. Additionally, there is an entire world of investigations outside of Information Security, of which many are not aware. This course leverages both offensive and defensive applications of OSINT, in addition to pure investigative techniques, to equip students with an analytic toolkit for investigating businesses. The goal is to apply the “red yarn” to connect the proverbial red dots of seemingly unrelated and disparate abstract data in any OSINT investigation.</p><p>This course will start you at ground zero and equip you with an understanding of the bigger picture of intelligence operations. This is to get you into the mindset of an investigator to be more meticulous and patient in your collection and analysis. From here, we will springboard into applied search engines for OSINT to help you find the data you seek to find, which is often the case of not in what you “ask” the search engine, but how you ask it.</p><p>After search engines, you will be immersed in Open Source Image Intelligence (IMINT) and you work through learning about the types of image metadata, reverse image searching, and Optical Character Recognition (OCR). You will conclude this module with a discussion of online video extraction for analysis in terms of tools and techniques to extract the video in addition to how you may find value in analyzing the video.</p><p>On day 2, you will learn about investigating businesses through their DNS records, social media, and public filings. You may already be familiar with some of the concepts in this module, but this module will help you develop analytic processes to more efficiently connect the proverbial dots. You will complete the day and the course with a capstone CTF event.</p>",
+        "short_form": "<p>This course will leverage the disciplines of OSINT, SOCMINT, IMINT, and Search Engine Intelligence, sometimes also known as Online Open Source Investigations (OOSI), Open Source Investigations (OSI), Publicly Accessible Information (PAI), Digital Investigations, or Social Media investigations in a manner that equips students with realistic techniques and scenarios to investigate businesses. This course could be applied to Red Team operators or penetration testers as well as Cyber Threat Intelligence, DFIR, or all-source Intelligence analysts. If you’re looking for a course on how to use several OSINT tools, this is not the course. This course will introduce you to sites and some tools but places more emphasis on the analysis methods and techniques – arming you with the ability to continue to operate independently of any tools or sites, so no worries if your favorite tool goes away or moves to a prohibitively expensive paid-only usage model. This course will satisfy 3 of the 6 courses required to attain a Black Badge from The OSINTion (https://www.theosintion.com/courses/black-badge/).</p>"
+      },
+      "prerequisites": "<p>Some exposure to OSINT, IMINT, or Intelligence in general is helpful but not required. The OSINTion will provide students with materials containing industry reports, literature, and frameworks in addition to the slides and handouts. This training is original.</p>",
+      "equipment": "<p>The main requirement is (mostly) unfiltered internet access. The entire class can be performed using only a browser, although the instructor will do command line demonstrations using the Trace Labs Kali flavor of Linux. Students wishing to follow along should have a Linux system, whether a virtual machine or bare metal. Trace Labs Kali will be discussed and can be downloaded from: https://www.tracelabs.org/initiatives/osint-vm </p>"
+    }
   }
 ]
