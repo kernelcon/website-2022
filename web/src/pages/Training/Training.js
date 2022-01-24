@@ -102,7 +102,6 @@ class Training extends Component {
     return (
       <div className='training'>
         <h3>Training</h3>
-        <div className='text-highlight'>More Training Courses Coming Soon!</div>
         {training}
       </div>
     );

@@ -145,5 +145,41 @@
       "prerequisites": "<p>Some exposure to OSINT, IMINT, or Intelligence in general is helpful but not required. The OSINTion will provide students with materials containing industry reports, literature, and frameworks in addition to the slides and handouts. This training is original.</p>",
       "equipment": "<p>The main requirement is (mostly) unfiltered internet access. The entire class can be performed using only a browser, although the instructor will do command line demonstrations using the Trace Labs Kali flavor of Linux. Students wishing to follow along should have a Linux system, whether a virtual machine or bare metal. Trace Labs Kali will be discussed and can be downloaded from: https://www.tracelabs.org/initiatives/osint-vm </p>"
     }
+  },
+  {
+    "id": "appliedpurpleteam",
+    "hide": false,
+    "instructors": [{
+      "name": "Kent Ickler",
+      "title": "",
+      "twitter_handle": "@krelkci",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Kent Ickler started his Information Technology career working for an Internet Service Provider supporting the MidWest’s broadband initiatives of the early 2000s. His interest in technology and business operations drove his career to working for multiple Fortune 500 companies and equipping their organizational leadership with business analytical data that would support their technology initiatives. With his continued interest in Business Operations, Kent completed his postgraduate education in Business Management. With an understanding of Information Technology, System Administration, Accounting, and Business Law, Kent has helped businesses leverage technology for competitive advantage while balancing the risks associated with today’s dynamic network environments.  Kent has been with Black Hills Information Security for three years in security and administration roles."
+    }, {
+      "name": "Jordan Drysdale",
+      "title": "",
+      "twitter_handle": "@rev10d",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Jordan was around for the inception of Napster and the explosion of P2P networks. This drove his fascination with network systems and led him toward a career in IT. Jordan’s first gig in the industry included supporting Latin American networking customers for Hewlett Packard’s network support division. After five years of support, engineering, training, and stress, Jordan became a wireless escalations team lead and multi-vendor certified problem solver. With kids in tow, Jordan headed back toward the Dakotas to be nearer extended family and friends where he learned Citrix, VMware, VDI, supported Cisco gear, implemented profile management solutions, deployed remote networks at scale, and ensured performance across infrastructure. Before becoming a penetration tester, Jordan supported multiple (50+) domains as part of an MSSP’s rock star team. Solutions included HP Networking, FortiGate/FortiManager/FortiWeb/FortiAnalyzer et al., Cisco ASA, HP DL/GL/ML, Dell, VMware, NetApp, and the list goes on. Since 2015, Jordan has been a penetration tester with the Black Hills InfoSec team."
+    }],
+    "course": {
+      "title": "Applied Purple Teaming",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>",
+        "short_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>"
+      },
+      "prerequisites": "<ul><li>Exposure to Active Directory</li><li>Access to an Azure Subscription for this lab environment.<ul><li>Signing up is free and includes a $200 credit for 30 days, however requires a credit card to activate.</li><li>https://azure.microsoft.com/en-us/free/</li><li>The class lab environment costs approximately $10/day to operate.</li></ul></li><li>Computer capable of RDP & SSH</li></ul>",
+      "equipment": "<ul><li>Laptop</li><li>Azure Portal Account with Deployed Lab Environment (Details will be emailed to students prior to class).</li><li>Access to GitHub.com (Details will be emailed to students prior to class).</li><li>Remote Desktop Protocol (RDP Client)</li></ul>"
+    }
   }
 ]
