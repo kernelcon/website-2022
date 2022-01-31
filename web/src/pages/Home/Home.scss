@@ -40,6 +40,13 @@ body.dark-mode {
       filter: invert(100%);
     }
   }
+  .keynote-speaker-name {
+    font-size: 28px;
+    font-family: $font-punk;
+    color: #eaf63c !important;
+    text-shadow: 2px 2px $dm-punk-highlight !important;
+    font-weight: 900;
+  }
 }
 
 .home-page {
@@ -140,7 +147,7 @@ body.dark-mode {
     /*flex: 1;*/
   }
   .order-button {
-    margin-top: 30px;
+    margin: 30px;
   }
   .reg-button {
     display: block;
@@ -199,6 +206,42 @@ body.dark-mode {
       margin-block-end: 0px !important;
       white-space: normal !important;
       font-size: 12px;
+    }
+  }
+  .keynote {
+    display: flex;
+    flex-direction: column;
+    .keynote-header {
+      .keynote-title {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: "Jura", "Montserrat", sans-serif;
+        font-weight: 700;
+        // color: $white;
+      }
+      .keynote-speaker {
+        .keynote-speaker-name {
+          font-size: 28px;
+          font-family: $font-punk;
+          color: $dm-punk-highlight;
+          text-shadow: 2px 2px #eaf63c;
+          font-weight: 900;
+        }
+        .keynote-speaker-info {
+          .keynote-image {
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 50%;
+            margin-left: 10px;
+            float: right;
+          }
+          .keynote-para {
+            font-family: $font-stack;
+            margin: 10px 0px;
+            text-align: justify;
+          }
+        }
+      }
     }
   }
   @media only screen and (max-width: 779px) {

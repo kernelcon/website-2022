@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import BlackLogo from "../../static/images/logos/kernelcon_black.png";
 import PunkMale from "../../static/images/punk/punk_male.png";
 import PunkFemale from "../../static/images/punk/punk_female.png";
 import Skyline from "../../static/images/punk/skyline.png";
@@ -8,6 +7,7 @@ import Training from "../../static/images/icons/training.png";
 import Arm from "../../static/images/icons/arm.png";
 import Brain from "../../static/images/icons/brain.png";
 import Fun from "../../static/images/icons/fun.png";
+import kingpin from "../../static/images/trainers/kingpin.png";
 import "./Home.scss";
 
 export default class Home extends Component {
@@ -120,15 +120,35 @@ export default class Home extends Component {
 
 				</div>
 				<div className="col right">
+          <div className='keynote'>
+            <div className='keynote-header'>
+              <div className='keynote-title'>
+                Keynote Speaker:
+              </div>
+              <div className='keynote-speaker'>
+                <div className='keynote-speaker-name'>
+                  Joe Grand (aka Kingpin)
+                </div>
+                <div className='keynote-speaker-info'>
+                  <img src={kingpin} className='keynote-image' alt="Joe Grand"/>
+
+                  <p className='keynote-para'>We all loved watching him <a className="text-highlight" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=AQpv_6Se6VM&list=PL9RA5HoG1guy7oz3m4Y0aHqsNumai2o8v&index=6">reverse engineer hardware components in Hack Live</a>. And now he's back as our 2022 Keynote Speaker... please welcome, Joe Grand!</p>
+                  <p className='keynote-para'>Joe Grand, also known as Kingpin, is a computer engineer,
+                  hardware hacker, teacher, advisor, daddy, honorary doctor, and
+                  proprietor of Grand Idea Studio.</p>
+                  <p className='keynote-para'>He was formerly a technological juvenile delinquent, member of
+                  legendary hacker group L0pht Heavy Industries, co-host of
+                  Discovery Channel's Prototype This, and DEFCON's original
+                  electronic badge designer. He has been creating, exploring, and
+                  manipulating electronic systems since the 1980s.</p>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
 					<center>
-						<img
-							class="img-responsive"
-              alt="future-is-now"
-							src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
-						/>
-						<p className="photo-credit">
-							The Future Is Now by Josan Gonzalez
-						</p>
 					<div className='order-button'>
 						<a
 							class="cybr-btn btn-bottom"
@@ -141,6 +161,14 @@ export default class Home extends Component {
 							</span>
 						</a>
 					</div>
+						<img
+							class="img-responsive"
+              alt="future-is-now"
+							src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
+						/>
+						<p className="photo-credit">
+							The Future Is Now by Josan Gonzalez
+						</p>
 					</center>
 
 				</div>

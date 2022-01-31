@@ -6,6 +6,9 @@ body.light-mode {
   img.con-logo-flip-flip {
     filter: invert(100%);
   }
+  .dark-mode-logo {
+    display: none !important;
+  }
 }
 
 body.dark-mode {
@@ -81,6 +84,9 @@ body.dark-mode {
   }
   img.spons-white-img {
     filter: invert(100%) brightness(2);
+  }
+  .light-mode-logo {
+    display: none !important;
   }
 }
 

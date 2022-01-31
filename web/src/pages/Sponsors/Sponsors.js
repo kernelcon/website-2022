@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import ubtlogo from "../../static/images/sponsors/ubt.png";
+import ContrastDarkMode from "../../static/images/sponsors/contrast-light-logo.png";
+import ContrastLightMode from "../../static/images/sponsors/contrast-dark-logo.png";
+import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
+import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
+import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.svg";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -128,34 +132,30 @@ export default class Sponsors extends Component {
                   </a>
                 </div>
               </div>
-              
-               <h3 className='gold'>Silver</h3> 
+              */}
 
               <div className='spons-block'>
-                <h3 className='gold spons-title'>Bronze</h3>
-                <a href="https://www.conagrabrands.com/"
+                <h3 className='gold spons-title'>Silver</h3>
+                <a href="https://www.contrastsecurity.com/"
                   target="_blank"
+                  className='dark-mode-logo'
                   rel='noopener noreferrer'>
-                  <img src={caglogo}
+                  <img src={ContrastLightMode}
                     className='spons-img other-spons'
-                    alt="ConAgra"/>
+                    alt="Contrast Security"/>
                 </a>
-                <a href="https://www.checkmarx.com/"
+                <a href="https://www.contrastsecurity.com/"
                   target="_blank"
+                  className='light-mode-logo'
                   rel='noopener noreferrer'>
-                  <img src={cxlogo}
+                  <img src={ContrastDarkMode}
                     className='spons-img other-spons'
-                    alt="Checkmarx"/>
-                </a>
-                <a href="https://www.netskope.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={netskopelogo}
-                    className='spons-img other-spons'
-                    alt="Netskope"/>
+                    alt="Contrast Security"/>
                 </a>
               </div>
 
+
+            {/*
               <div className='spons-block'>
                 <h4 className='gold spons-title'>Party Sponsor</h4>
                 <a href="https://www.nttsecurity.com/en-us"
@@ -178,26 +178,37 @@ export default class Sponsors extends Component {
                 </a>
               </div>
 
+              */}
+
+
               <div className='spons-block'>
                 <h4 className='gold spons-title'>Other Sponsors</h4>
                 <a href="https://toool.us/"
                   target="_blank"
+                  className='dark-mode-logo toool-logo'
                   rel='noopener noreferrer'>
-                  <img src={toool}
+                  <img src={ToooLDarkMode}
+                    className='spons-img other-spons'
+                    alt="TOOOL"/>
+                </a>
+                <a href="https://toool.us/"
+                  target="_blank"
+                  className='light-mode-logo toool-logo'
+                  rel='noopener noreferrer'>
+                  <img src={TooolLightMode}
                     className='spons-img other-spons'
                     alt="TOOOL"/>
                 </a>
                 <a href="https://nostarch.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
-                  <img src={nostarch}
+                  <img src={NoStarchPress}
                     className='spons-img other-spons'
                     alt="NoStarchPress"/>
                 </a>
                 <br />
               </div>
 
-              */}
 
 						{/* <div className='spons-block'>
                 <div className='foodbev-spons'>
