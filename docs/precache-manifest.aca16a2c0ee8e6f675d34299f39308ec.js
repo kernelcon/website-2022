@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "555fbc5910bf55cf1db85bc97ff3d13c",
+    "revision": "a1eafaefd90ab7badd698d6ad700a1c0",
     "url": "/index.html"
   },
   {
-    "revision": "36fe0a20ffda01b44e8e",
+    "revision": "71653f11171d6ede6ca8",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "53be8631c2372443af43",
-    "url": "/static/css/main.5d92ad64.chunk.css"
+    "revision": "d90f57e3f101ac4272bd",
+    "url": "/static/css/main.c474024f.chunk.css"
   },
   {
-    "revision": "36fe0a20ffda01b44e8e",
-    "url": "/static/js/2.57c095ae.chunk.js"
+    "revision": "71653f11171d6ede6ca8",
+    "url": "/static/js/2.68623c57.chunk.js"
   },
   {
-    "revision": "53be8631c2372443af43",
-    "url": "/static/js/main.77894db7.chunk.js"
+    "revision": "d90f57e3f101ac4272bd",
+    "url": "/static/js/main.00dc63a2.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42003a6e6a49ab1244a4c90915653c43",
     "url": "/static/media/brain.42003a6e.png"
+  },
+  {
+    "revision": "bf5de5bf131575d509bdc6498e2b2ca8",
+    "url": "/static/media/contrast-dark-logo.bf5de5bf.png"
+  },
+  {
+    "revision": "5adf619309f7635b81c07ac42250e52c",
+    "url": "/static/media/contrast-light-logo.5adf6193.png"
   },
   {
     "revision": "fadea8a0220f8fde47d7ea6f18242a79",
@@ -84,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jerry.e6f0fcb6.png"
   },
   {
+    "revision": "6d6abf406fea954a287efd7061b59172",
+    "url": "/static/media/joe_grand.6d6abf40.png"
+  },
+  {
     "revision": "be4476b89aa8d46bce196108e35c9326",
     "url": "/static/media/joegray-headshot.be4476b8.jpg"
   },
@@ -104,8 +116,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kernelcon_logo.94496763.svg"
   },
   {
+    "revision": "55a342e252968a9eedd716a3eeacafc1",
+    "url": "/static/media/kingpin.55a342e2.png"
+  },
+  {
     "revision": "fd515d0966abca13bc7dbced1f621646",
     "url": "/static/media/nate.fd515d09.png"
+  },
+  {
+    "revision": "b319d614e0a3b711dfa6b0b31d470e56",
+    "url": "/static/media/no-starch-logo.b319d614.png"
   },
   {
     "revision": "9695562fe488a3baa1aa50a24e90d275",
@@ -144,6 +164,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tim.a4532fa8.png"
   },
   {
+    "revision": "e4254a6dab23f6ec0a3e4a2b08f2378a",
+    "url": "/static/media/toool-dark-logo.e4254a6d.svg"
+  },
+  {
+    "revision": "f683ef004f410e759f0c7c23daf77b59",
+    "url": "/static/media/toool-light-logo.f683ef00.png"
+  },
+  {
     "revision": "7efa4cd4269688c9d4df1060c5775292",
     "url": "/static/media/training.7efa4cd4.png"
   },
@@ -154,10 +182,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f10413a03d8278401a25701eb08246ac",
     "url": "/static/media/tyler.f10413a0.png"
-  },
-  {
-    "revision": "96c9873f48d71158fe129783994dfa62",
-    "url": "/static/media/ubt.96c9873f.png"
   },
   {
     "revision": "6ace6087e75312bbaa02192665d544eb",
