@@ -32,8 +32,8 @@ export default class Home extends Component {
 			<div className="home-page">
 				<div className="centered-top">
 					<div className="font-punk">Kernelcon Punk</div>
-					<img src={PunkFemale} class="punk-img"  alt="punk-female"/>
-					<img src={PunkMale} class="punk-img" alt="punk-male"/>
+					<img src={PunkFemale} className="punk-img"  alt="punk-female"/>
+					<img src={PunkMale} className="punk-img" alt="punk-male"/>
 				</div>
 
 				<div className="col left">
@@ -151,18 +151,18 @@ export default class Home extends Component {
 					<center>
 					<div className='order-button'>
 						<a
-							class="cybr-btn btn-bottom"
+							className="cybr-btn btn-bottom"
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://reg.kernelcon.org/">
 							Register Now
-							<span aria-hidden class="cybr-btn__glitch">
+							<span aria-hidden className="cybr-btn__glitch">
 								Register Now
 							</span>
 						</a>
 					</div>
 						<img
-							class="img-responsive"
+							className="img-responsive"
               alt="future-is-now"
 							src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
 						/>

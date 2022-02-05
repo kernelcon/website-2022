@@ -175,11 +175,47 @@
       },
       "time": "8:00 AM - 5:00 PM, with one hour lunch break",
       "description": {
-        "long_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>",
-        "short_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>"
+        "long_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictitious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>",
+        "short_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictitious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>"
       },
       "prerequisites": "<ul><li>Exposure to Active Directory</li><li>Access to an Azure Subscription for this lab environment.<ul><li>Signing up is free and includes a $200 credit for 30 days, however requires a credit card to activate.</li><li>https://azure.microsoft.com/en-us/free/</li><li>The class lab environment costs approximately $10/day to operate.</li></ul></li><li>Computer capable of RDP & SSH</li></ul>",
       "equipment": "<ul><li>Laptop</li><li>Azure Portal Account with Deployed Lab Environment (Details will be emailed to students prior to class).</li><li>Access to GitHub.com (Details will be emailed to students prior to class).</li><li>Remote Desktop Protocol (RDP Client)</li></ul>"
+    }
+  },
+  {
+    "id": "k8sec",
+    "hide": false,
+    "instructors": [{
+      "name": "Andrew Martin",
+      "title": "",
+      "twitter_handle": "@sublimino",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Andrew has an incisive security engineering ethos gained building and destroying high-traffic web applications. Proficient in systems development, testing, and operations, he is comfortable profiling and securing every tier of a bare metal or cloud native system, and has battle-hardened experience delivering containerised solutions to enterprise and government. He is a co-founder at https://control-plane.io Andrew has presented at international conferences including KubeCon, Velocity, SANS, OWASP, DevOpsDays, Container Camp, IPExpo, and numerous other local events and meetups."
+    }, {
+      "name": "Lewis Denham",
+      "title": "",
+      "twitter_handle": "@denhamparry",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "<p>Lewis works at Control Plane as the Head of Training, orchestrating the ocean of containers with Kubernetes whilst defending them from piratical attacks (which is usually from himself).</p><p>He co-founded Cloud Native Wales, an initiative to help people learn Cloud Native technologies and establish a community to support each other. When he's not playing with tech, he's busy trying to be an adult or actively seeking a comfy chair to read a book or trying to find some snow to ski on.</p><p>Follow Lewis at, @denhamparry, @controlplaneio, and @cloudnativewal."
+    }],
+    "course": {
+      "title": "Kubernetes Security: Learn By Hacking",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "",
+        "short_form": "<div><p>Understand why many cloud native services have evolved quickly, and often miss vital security considerations, with Hacking Kubernetes, GKE CIS Benchmark, and SANS authors:</p><ul><li>Secure containerized applications and defend orchestration workloads.</li><li>Use real-world exploits to target key application deployment components.</li><li>Understand the risks involved in running cloud native infrastructure.</li><li>Explore vulnerabilities to cloud native deployments through authentication, pipeline, and supply chain exploits.</li><li>Exploit and then secure application deployments via Docker and Kubernetes.</li><li>Determine how vulnerabilities are exploited and how defences are designed.</li></ul></div>"
+      },
+      "prerequisites": "<ul><li>Linux command line experience.</li><li>A basic understanding of the difference between userspace and kernel space.</li><li>Willingness to learn about Linux, container, and Kubernetes security.</li></ul>",
+      "equipment": "<ul><li>A laptop with internet access and a browser.</li><li>Advanced users may wish to use their own SSH client or network tools.</li></ul>"
     }
   }
 ]
