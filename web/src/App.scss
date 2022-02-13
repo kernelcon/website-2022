@@ -56,7 +56,8 @@ body.dark-mode {
     filter: invert(100%);
   }
   img.navbar-logo,
-  img.con-logo-flip {
+  img.con-logo-flip,
+  img.logo-reverse {
     filter: invert(100%);
   }
   span.focus {
@@ -82,7 +83,8 @@ body.dark-mode {
   a.oc-twitter {
     color: #fff;
   }
-  img.spons-white-img {
+  img.spons-white-img,
+  img.logo-brighten {
     filter: invert(100%) brightness(2);
   }
   .light-mode-logo {
@@ -178,4 +180,20 @@ body.dark-mode {
 .page-box {
   background-color: white;
   min-height: calc(100vh - 50px);
+}
+
+@media (min-width: 200px) {
+  .keynote-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 779px) {
+  .keynote-section {
+    display: flex;
+    flex-direction: column;
+  }
 }

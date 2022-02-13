@@ -10,6 +10,8 @@ export default class CFP extends Component {
 				<div className="text-area">
 					<h3 className="title">Call for Papers</h3>
 
+          <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3>
+
 					<p className="tab-paragraph">
           The Kernelcon Crew is soliciting presentations for the fourth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 1-2, 2022.
 					</p>

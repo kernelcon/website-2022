@@ -21,6 +21,7 @@ import Venue from "./pages/Venue/Venue";
 import Register from "./pages/Register/Register";
 import Safety from "./pages/Safety/Safety";
 import Training from "./pages/Training/Training";
+import Agenda from "./pages/Agenda/Agenda";
 
 function App() {
 	return (
@@ -42,6 +43,7 @@ function App() {
 					<Route exact path="/register" component={Register} />
 					<Route exact path="/safety" component={Safety} />
 					<Route exact path="/training" component={Training} />
+          <Route exact path="/agenda" component={Agenda} />
 				</div>
 			</div>
 			<Footer />

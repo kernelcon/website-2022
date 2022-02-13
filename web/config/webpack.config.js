@@ -626,6 +626,8 @@ module.exports = function(webpackEnv) {
       faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line
       ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line
       trainingConfig: JSON.stringify(require('./content/training.json')), //eslint-disable-line
+      villageConfig: JSON.stringify(require('./content/villages.json')), //eslint-disable-line
+      competitionConfig: JSON.stringify(require('./content/competitions.json')), //eslint-disable-line
     },
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter

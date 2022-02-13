@@ -1,0 +1,47 @@
+.callout-area {
+  .callout-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    background-color: skyblue;
+    color: #25282a;
+  }
+  .callout-section {
+    padding: 15px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &>* {
+      flex: 1 250px 300px;
+    }
+    .callout-name-logo {
+      display: flex;
+      flex-direction: column;
+      max-width: 240px;
+      justify-content: flex-start;
+      margin-right: 40px;
+      .callout-author {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+      .callout-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .callout-img {
+          min-width: 130px;
+          max-height: 120px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .callout-description {
+      font-size: 14px;
+      line-height: 1.75;
+      margin-bottom: 20px;
+    }
+  }
+}

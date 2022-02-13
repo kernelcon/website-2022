@@ -55,7 +55,7 @@ export default class Venue extends Component {
 									target="_blank">
 									HERE
 								</a>
-								.{" "}
+								.{" "}  Please book by March 4th for our group rate.
 							</div>
 						</div>
 					</div>

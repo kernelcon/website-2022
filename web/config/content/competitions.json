@@ -1,0 +1,52 @@
+[{
+  "title": "Annual Kernelcon CTF",
+  "author": "Kernelcon",
+  "id": "ctf",
+  "hidden": false,
+  "logo": {
+    "image_name": "ctf.png",
+    "image_class": ""
+  },
+  "dates": [{
+      "day": "Friday, April 1st"
+    },
+    {
+      "day": "Saturday, April 2nd"
+    }
+  ],
+  "description": "Our Annual Kernelcon Capture the Flag event is back and better than ever, with all new challenges, prizes and a new, fun theme!  The competition this year is sure to be fierce with the winning team receiving our coveted <a class='text-highlight' href='/about#reciprocity'>Eternal Kernel badges</a>. CTF challenges to include web hacking, reversing, pwning, cryptography, and a whole lot more.  In fact, maybe we have already hidden some flags around the internet.  Do you have the team to beat this year?  If so, we will see you at Kernelcon CTF!"
+}, {
+  "title": "Intelligence Village CTF",
+  "author": "The OSINTion",
+  "id": "intelctf",
+  "hidden": false,
+  "logo": {
+    "image_name": "osintion.png",
+    "image_class": ""
+  },
+  "dates": [{
+      "day": "Friday, April 1st"
+    },
+    {
+      "day": "Saturday, April 2nd"
+    }
+  ],
+  "description": "Check out the Intelligence Village and its unique Capture the Flag (CTF) event.  Located in the Intelligence Village the competition will be come as you are with plenty of help along the way."
+}, {
+  "title": "WiFi Fox and Hound Event",
+  "author": "Kernelcon",
+  "id": "foxandhound",
+  "hidden": false,
+  "logo": {
+    "image_name": "wifi.png",
+    "image_class": ""
+  },
+  "dates": [{
+      "day": "Friday, April 1st"
+    },
+    {
+      "day": "Saturday, April 2nd"
+    }
+  ],
+  "description": "Have you ever wanted to crack your neighbors WiFi network? We all have at one point or another. Come on down to the CTF and try your hand at the WiFi Fox and Hound category where you can crack WiFi networks in a safe, consensual, and legal competition designed to test your abilities in WEP, WPA, and WPA2 cracking."
+}]
