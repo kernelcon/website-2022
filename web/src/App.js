@@ -22,8 +22,33 @@ import Register from "./pages/Register/Register";
 import Safety from "./pages/Safety/Safety";
 import Training from "./pages/Training/Training";
 import Agenda from "./pages/Agenda/Agenda";
+import audio1 from './static/audio/tmnt.mp3';
+import audio2 from './static/audio/punks-not-dead.mp3';
+import audio3 from './static/audio/jingly.mp3';
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
 function App() {
+  var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+  var current = 0;
+  var keyHandler = function (event) {
+    if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+      current = 0;
+      return;
+    }
+    current++;
+    if (pattern.length === current) {
+      current = 0;
+      var rand = getRandomInt(3);
+      var audioArray = [audio1, audio2, audio3];
+      let player = new Audio(audioArray[rand]);
+      player.play();
+    }
+  };
+  document.addEventListener('keydown', keyHandler, false);
+
 	return (
 		<Router>
 			<NavBar />

@@ -49,7 +49,7 @@ class Organizers extends Component {
       });
 
       return (
-        <div>
+        <div key={ele.idx}>
           <div className='tab-title'>
             {ele.heading}
           </div>
