@@ -9,6 +9,7 @@ import MediaQuery from 'react-responsive';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
 import kingpin from "../../static/images/trainers/kingpin.png";
+import jen from "../../static/images/trainers/jen.png";
 
 
 import villageConfig from 'villageConfig';
@@ -72,7 +73,7 @@ export default class Agenda extends Component {
         vertical={vert}>
         <TabList>
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
-          <Tab tabFor="keynotes">Keynote</Tab>
+          <Tab tabFor="keynotes">Keynotes</Tab>
           {/* <Tab tabFor="training">Training</Tab>
           <Tab tabFor="workshops">Workshops</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
@@ -87,10 +88,10 @@ export default class Agenda extends Component {
         </TabPanel> */}
         <TabPanel tabId="keynotes">
           <div className='text-area'>
-            <h3 className='title'>Keynote</h3>
+            <h3 className='title'>Keynotes</h3>
             <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Joe Grand</h4>
+                <h4 className='keynote-name'>Friday: Joe Grand</h4>
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
                     <a href='http://www.grandideastudio.com/' target="_blank" rel="noopener noreferrer">
@@ -130,30 +131,33 @@ export default class Agenda extends Component {
                   className='keynote-image'/>
                </div>
             </div>
-            {/* <div className='keynote-section'>
+            <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Sophia d'Antoine</h4>
+                <h4 className='keynote-name'>Saturday: Jen Easterly</h4>
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
-                    <a href='https://www.sophia.re' target="_blank" rel="noopener noreferrer">
-                      Hacker in Residence at NYU
+                    <a href='https://www.cisa.gov/jen-easterly' target="_blank" rel="noopener noreferrer">
+                      Director of CISA
                     </a>
                   </div>
                   <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
-                    <a href='https://twitter.com/Calaquendi44' target="_blank" rel="noopener noreferrer">
-                      @Calaquendi44
+                    <a href='https://twitter.com/CISAJen' target="_blank" rel="noopener noreferrer">
+                      @CISAJen
                     </a>
                   </div>
                 </div>
 
                 <div className='keynote-bio'>
-                  <p className='tab-paragraph'>Sophia is the founder of Margin Research, based in New York City, and the Hacker in Residence at NYU. Previously she has served at the NSA as well as a commercial security company. She is an alumnus of RPI where she taught Modern Binary Exploitation and helped run RPISEC, the university CTF team.</p> 
-                  <p className='tab-paragraph'>Sophia has spoken at over a dozen conferences worldwide on topics ranging from automated exploitation to information operations. Her current work focuses on finding novel solutions to unique security problems, software vulnerabilities, and information operations.</p>
-                  <p className='tab-paragraph'>She has co-authored policy papers on topics in offensive cyber including an <a href='https://www.lawfareblog.com/risks-huawei-risk-mitigation' className='text-highlight' target="_blank" rel="noopener noreferrer">Executive Order and a Lawfare article</a> on the risks associated with Huawei 5G. <a className='text-highlight' href='https://www.sophia.re/#pcs' target="_blank" rel="noopener noreferrer">A mostly complete listing of conference talks and publications.</a></p>
+                  <p className='tab-paragraph'>Jen Easterly is the Director of the Cybersecurity and Infrastructure Security Agency (CISA). Ms. Easterly was nominated by President Biden in April 2021 and unanimously confirmed by the Senate on July 12, 2021. As Director, Ms. Easterly leads CISA’s efforts to understand, manage, and reduce risk to the cyber and physical infrastructure Americans rely on every day.</p>
+                  <p className='tab-paragraph'>Before serving in her current role, Ms. Easterly was the head of Firm Resilience at Morgan Stanley, responsible for ensuring preparedness and response to business-disrupting operational incidents and risks to the Firm.</p>
+                  <p className='tab-paragraph'>Ms. Easterly has a long tradition of public service, to include two tours at the White House, most recently as Special Assistant to President Obama and Senior Director for Counterterrorism. She also served as the Deputy for Counterterrorism at the National Security Agency.</p>
+                  <p className='tab-paragraph'>A two-time recipient of the Bronze Star, Ms. Easterly retired from the U.S. Army after more than twenty years of service in intelligence and cyber operations, including tours of duty in Haiti, the Balkans, Iraq, and Afghanistan. Responsible for standing up the Army’s first cyber battalion, Ms. Easterly was also instrumental in the design and creation of United States Cyber Command.</p>
+                  <p className='tab-paragraph'>A distinguished graduate of the United States Military Academy at West Point, Ms. Easterly holds a master’s degree in Philosophy, Politics, and Economics from the University of Oxford, where she studied as a Rhodes Scholar. She is the recipient of the James W. Foley Legacy Foundation American Hostage Freedom Award and the Bradley W. Snyder Changing the Narrative Award.</p>
+                  <p className='tab-paragraph'>A member of the Council on Foreign Relations and a French-American Foundation Young Leader, Ms. Easterly is the past recipient of numerous fellowships, including the Aspen Finance Leaders Fellowship, the National Security Institute Visiting Fellowship, the New America Foundation Senior International Security Fellowship, the Council on Foreign Relations International Affairs Fellowship, and the Director, National Security Agency Fellowship.</p>
                 </div>
 
-                <div className='keynote-talk'>
+                {/* <div className='keynote-talk'>
                   <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
                   <div className='keynote-abstract'>
                     <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
@@ -161,16 +165,16 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div>
+                </div> */}
 
 
               </div>
               <div className='keynote-right'>
-                <img src={sophia}
-                  alt="Sophia d'Antoine"
+                <img src={jen}
+                  alt="Jen Easterly"
                   className='keynote-image'/>
               </div>
-            </div> */}
+            </div>
           </div>
         </TabPanel>
         {/* <TabPanel tabId="training" className="training">

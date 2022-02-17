@@ -187,6 +187,9 @@ body.dark-mode {
       // margin-left: -45px;
       // margin-bottom: -60px;
     }
+    .img-responsive {
+      width: 80%;
+    }
     .twitter-zone {
       width: 90%;
       border-radius: 5px;
@@ -211,6 +214,7 @@ body.dark-mode {
   .keynote {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     .keynote-header {
       .keynote-title {
         font-size: 16px;
@@ -237,6 +241,7 @@ body.dark-mode {
           }
           .keynote-para {
             font-family: $font-stack;
+            font-size: 14px;
             margin: 10px 0px;
             text-align: justify;
           }
