@@ -151,28 +151,6 @@ export default class Home extends Component {
               </div>
               <div className='keynote-speaker'>
                 <div className='keynote-speaker-name'>
-                  Jen Easterly
-                </div>
-                <div className='keynote-speaker-info'>
-                  <img src={jen} className='keynote-image' alt="Joe Grand"/>
-
-                  <p className='keynote-para'>Jen Easterly is the Director of the Cybersecurity and Infrastructure Security Agency (CISA). Ms. Easterly was nominated by President Biden in April 2021 and unanimously confirmed by the Senate on July 12, 2021. As Director, Ms. Easterly leads CISA’s efforts to understand, manage, and reduce risk to the cyber and physical infrastructure Americans rely on every day.</p>
-                  <p className='keynote-para'>Before serving in her current role, Ms. Easterly was the head of Firm Resilience at Morgan Stanley, responsible for ensuring preparedness and response to business-disrupting operational incidents and risks to the Firm.</p>
-                  <p className='keynote-para'>Ms. Easterly has a long tradition of public service, to include two tours at the White House, most recently as Special Assistant to President Obama and Senior Director for Counterterrorism. She also served as the Deputy for Counterterrorism at the National Security Agency.</p>
-                  <p className='keynote-para'>A two-time recipient of the Bronze Star, Ms. Easterly retired from the U.S. Army after more than twenty years of service in intelligence and cyber operations, including tours of duty in Haiti, the Balkans, Iraq, and Afghanistan. Responsible for standing up the Army’s first cyber battalion, Ms. Easterly was also instrumental in the design and creation of United States Cyber Command.</p>
-                  <p className='keynote-para'>A distinguished graduate of the United States Military Academy at West Point, Ms. Easterly holds a master’s degree in Philosophy, Politics, and Economics from the University of Oxford, where she studied as a Rhodes Scholar. She is the recipient of the James W. Foley Legacy Foundation American Hostage Freedom Award and the Bradley W. Snyder Changing the Narrative Award.</p>
-                  <p className='keynote-para'>A member of the Council on Foreign Relations and a French-American Foundation Young Leader, Ms. Easterly is the past recipient of numerous fellowships, including the Aspen Finance Leaders Fellowship, the National Security Institute Visiting Fellowship, the New America Foundation Senior International Security Fellowship, the Council on Foreign Relations International Affairs Fellowship, and the Director, National Security Agency Fellowship.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='keynote'>
-            <div className='keynote-header'>
-              <div className='keynote-title'>
-                Keynote Speaker:
-              </div>
-              <div className='keynote-speaker'>
-                <div className='keynote-speaker-name'>
                   Joe Grand (aka Kingpin)
                 </div>
                 <div className='keynote-speaker-info'>
@@ -187,6 +165,28 @@ export default class Home extends Component {
                   Discovery Channel's Prototype This, and DEFCON's original
                   electronic badge designer. He has been creating, exploring, and
                   manipulating electronic systems since the 1980s.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='keynote'>
+            <div className='keynote-header'>
+              <div className='keynote-title'>
+                Keynote Speaker:
+              </div>
+              <div className='keynote-speaker'>
+                <div className='keynote-speaker-name'>
+                  Jen Easterly
+                </div>
+                <div className='keynote-speaker-info'>
+                  <img src={jen} className='keynote-image' alt="Joe Grand"/>
+
+                  <p className='keynote-para'>Jen Easterly is the Director of the Cybersecurity and Infrastructure Security Agency (CISA). Ms. Easterly was nominated by President Biden in April 2021 and unanimously confirmed by the Senate on July 12, 2021. As Director, Ms. Easterly leads CISA’s efforts to understand, manage, and reduce risk to the cyber and physical infrastructure Americans rely on every day.</p>
+                  <p className='keynote-para'>Before serving in her current role, Ms. Easterly was the head of Firm Resilience at Morgan Stanley, responsible for ensuring preparedness and response to business-disrupting operational incidents and risks to the Firm.</p>
+                  <p className='keynote-para'>Ms. Easterly has a long tradition of public service, to include two tours at the White House, most recently as Special Assistant to President Obama and Senior Director for Counterterrorism. She also served as the Deputy for Counterterrorism at the National Security Agency.</p>
+                  <p className='keynote-para'>A two-time recipient of the Bronze Star, Ms. Easterly retired from the U.S. Army after more than twenty years of service in intelligence and cyber operations, including tours of duty in Haiti, the Balkans, Iraq, and Afghanistan. Responsible for standing up the Army’s first cyber battalion, Ms. Easterly was also instrumental in the design and creation of United States Cyber Command.</p>
+                  <p className='keynote-para'>A distinguished graduate of the United States Military Academy at West Point, Ms. Easterly holds a master’s degree in Philosophy, Politics, and Economics from the University of Oxford, where she studied as a Rhodes Scholar. She is the recipient of the James W. Foley Legacy Foundation American Hostage Freedom Award and the Bradley W. Snyder Changing the Narrative Award.</p>
+                  <p className='keynote-para'>A member of the Council on Foreign Relations and a French-American Foundation Young Leader, Ms. Easterly is the past recipient of numerous fellowships, including the Aspen Finance Leaders Fellowship, the National Security Institute Visiting Fellowship, the New America Foundation Senior International Security Fellowship, the Council on Foreign Relations International Affairs Fellowship, and the Director, National Security Agency Fellowship.</p>
                 </div>
               </div>
             </div>
