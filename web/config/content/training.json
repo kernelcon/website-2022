@@ -148,7 +148,7 @@
   },
   {
     "id": "appliedpurpleteam",
-    "hide": false,
+    "hide": true,
     "instructors": [{
       "name": "Kent Ickler",
       "title": "",

@@ -4,6 +4,7 @@ import ContrastLightMode from "../../static/images/sponsors/contrast-dark-logo.p
 import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.svg";
+import Fnbo from "../../static/images/sponsors/fnbo.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -151,6 +152,14 @@ export default class Sponsors extends Component {
                   <img src={ContrastDarkMode}
                     className='spons-img other-spons'
                     alt="Contrast Security"/>
+                </a>
+                <a href="https://fnbo.com/"
+                  target="_blank"
+                  className='sponsor-logo'
+                  rel='noopener noreferrer'>
+                  <img src={Fnbo}
+                    className='spons-img other-spons'
+                    alt="First National Bank of Omaha"/>
                 </a>
               </div>
 
