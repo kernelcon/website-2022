@@ -1,0 +1,695 @@
+[
+   {
+      "title": "Cryptor: A New Toolset for Writing Windows Based Self-Encrypting Malware",
+      "speaker": [
+         {
+            "name": "Jacob Mohrbutter",
+            "speaker_id": "JacobMohrbutter",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "jmohrbutter.png",
+            "bio": "Jacob Mohrbutter is a DC402 member and hacker in the Omaha metropolitan area. Jacob attends the University of Nebraska at Omaha as a dual major in computer science and information assurance. His interests include Malware and Reverse Engineering.\n"
+         }
+      ],
+      "talk_id": "CryptorANewToolsetforWritingWindowsBasedSelfEncryptingMalware",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "5",
+      "abstract": "Over the last year and a half, Jacob Mohrbutter has put much time into developing a new tool\r\ncalled Cryptor. This tool allows for the development of binaries that would present interesting\r\nand complex issues for Reverse Engineering. The main problem addressed with this tool is the\r\nstorage of symmetric keys; instead of attempting to hide the key in the binary, the resulting\r\nbinary will attempt to reach a C2 server for the relevant keying material. This talk will also cover\r\nheuristics that AV technology can use to detect encrypted samples, such as the sample\r\npresented in this toolset."
+   },
+   {
+      "title": "Learning to Speak ACARS Using ELK - Using SDR and ELK to Capture and Understand Aviation Data Links",
+      "speaker": [
+         {
+            "name": "Carl Schuett and Jesse Young ",
+            "speaker_id": "CarlSchuettandJesseYoung",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/carl-schuett-1a5a0b80/ and https://www.linkedin.com/in/jesse-young/",
+            "image": "",
+            "bio": "Jesse and Carl are Security Researchers for QED Secure Solutions. A small security firm that specializes in security research and assessments of embedded devices, critical infrastructure, and medical systems. Jesse has extensive cybersecurity experience both with QED as well as with the Air National Guard, Microsoft, and Kaiser Permanente. Carl joined QED after retiring from the Air Force and has experience in aviation and industrial control system cybersecurity.\n"
+         }
+      ],
+      "talk_id": "LearningtoSpeakACARSUsingELKUsingSDRandELKtoCaptureandUnderstandAviationDataLinks",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "This presentation demonstrates the use of the open-source Elasticsearch-Logstash-Kibana (ELK) technology stack as a data analysis platform for raw Aircraft Communications and Reporting System (ACARS) data captured via software-defined-radio (SDR). The ELK Stack is intended as a log analysis tool capable of ingesting structured data from unknown sources and deriving fields from the structured data for system monitoring, system health, visualizations, and other functions. ELK is routinely used to ingest, index, and display (and natively recognizes) data from common IT utilities such as web servers, security audit logs, etc. For example, security operations teams regularly use the ELK stack to centralize monitoring and perform hunt operations on networks they defend. Here, we demonstrate how to leverage the ELK stack\u2019s capabilities to ingest data that has nothing to do with common IT utilities \u2013 in particular, raw aircraft communications data captured via SDR. Using a system of relatively low-cost components, open-source software, and cloud computing, we will demonstrate how we captured raw ACARS data across multiple locations, structured it for transport, and pushed it through an ingestion pipeline for analysis and display on our own AWS-hosted infrastructure for the purpose of trend analysis, reverse engineering, and keyword search."
+   },
+   {
+      "title": "Detecting Brand impersonation with Computer Vision and DNSRazzle",
+      "speaker": [
+         {
+            "name": "Skip Cruse",
+            "speaker_id": "SkipCruse",
+            "company": "",
+            "twitter": "@securityshrimp",
+            "github": "",
+            "linkedin": "https://linkedin.com/in/skipcruse",
+            "image": "",
+            "bio": "Skip Cruse is the global lead for Red Teaming and Adversary Simulation at Baxter Healthcare. He discovered a knack for computers at an early age but has always enjoyed learning how things work -- whether it is a computer, an engine, or a simple machine. This curiosity naturally drew him to a love of learning how systems work through infiltration. As a hobbyist hacker, he has utilized these specialized skills in the community by joining groups such as the Pan American Information Network, and as a founding member of the resurgence of the w00w00 cybersecurity think tank. He has since found a professional niche in the offensive security field for the past 4 years.\n"
+         }
+      ],
+      "talk_id": "DetectingBrandimpersonationwithComputerVisionandDNSRazzle",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "3.5",
+      "abstract": "Brand impersonation and BEC are complicated problems with no easy solution. There are\r\nnumerous companies that claim to have the end all be all solution, but none had all of the\r\nfeatures we at Baxter wanted. Last November this problem was dropped in my lap. I\r\ndeveloped DNSRazzle to help us find brand impersonation, typo-squatting, and homoglyph\r\ndomain names, in real time against an ever evolving adversary. This talk will show how to\r\nuse DNSRazzle and computer vision to detect adversaries."
+   },
+   {
+      "title": "Art of Mastering the successful Mergers and Acquisitions through Cybersecurity due-diligence",
+      "speaker": [
+         {
+            "name": "Reet Kaur ",
+            "speaker_id": "ReetKaur",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Reet Kaur is a Chief Information Security Officer (CISO) at the largest higher-ed institute in Portland,\nOregon, where she leads a team responsible for all aspects of College`s Information Security Program to\nenable the business in providing education to more than 85,000 students at several locations in the\nPortland Metro Area. Reet is a highly enthusiastic Cybersecurity leader who has supported organizations\nin the strategic planning and development of security programs to meet requirements for establishing,\nimplementing, monitoring, and maintaining a security posture.\nReet has 20+ years of experience working as a leader in IT and information Security in Fortune 100 and\n500 companies like Nike Inc., AECOM, Fidelity and Canadian Imperial Bank of Commence (CIBC). She\nholds a Master's degree in Engineering from University of Waterloo, Canada. She is a (ISC)2 Certified\nInformation Systems Security Professional (CISSP), ISACA Certified in Risk and Information Systems\nControl (CRISC), Certified Information Security Manager (CISM), PMI Project Management Professional\n(PMP).\n"
+         }
+      ],
+      "talk_id": "ArtofMasteringthesuccessfulMergersandAcquisitionsthroughCybersecurityduediligence",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "3",
+      "abstract": "Mergers, buy-outs, divestitures: These are just a few of the ways in which companies can\r\ntransform literally overnight. Today acquisitions are on the rise, as leaders are looking for growth after the pandemic slowdown, and as new business models emerge based on the shift in consumer demands and mindset. This restructuring of organizations while buying or merging with another company can be cost-effective as they can reduce the costs of developing business activities that will complement a company\u2019s strengths. It can be a good investment to achieve its strategic long term goals for an organization while increasing the supply-chain pricing power and also eliminating the possible business competitors. While these moves often help a company remain competitive, if it is not done right it can make or break an organization.Weakened cybersecurity hygiene throughout the last year means that these M&A transactions elevate the risk of cybersecurity incidents. M&A can be a breeding battle ground for cyberattacks and data breaches. With the passage of the GDPR and the CCPA, and with more data privacy laws in the works, cybersecurity, and data privacy have become crucial elements of pre-M&A due diligence. Thorough due diligence that includes a focus on cybersecurity will help reduce regrets later in the deal lifecycle.\u201d Today\u2019s M&A plans need to include cybersecurity at several strategic and tactical points, to address growing scrutiny from regulators and other evolving cybersecurity risks.This track covers lessons from the recent M&A transactions that never got off the ground or whose deal value was severely undermined by data security issues and ways acquiring organizations can avoid these failures by thoroughly analyzing the security flaws of the company to be able to negotiate or walk away from the deal instead of regretting later."
+   },
+   {
+      "title": "Knowing What Risks Matter -- And Don\u2019t -- In Your Open Source",
+      "speaker": [
+         {
+            "name": "David Lindner",
+            "speaker_id": "DavidLindner",
+            "company": "",
+            "twitter": "@golfhackerdave",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "David is an experienced application security professional with over 20\nyears in cybersecurity. In addition to serving as the chief\ninformation security officer, David leads the Contrast Labs team that\nis focused on analyzing threat intelligence to help enterprise clients\ndevelop more proactive approaches to their application security\nprograms. Throughout his career, David has worked within multiple\ndisciplines in the security field\u2014from application development, to\nnetwork architecture design and support, to IT security and\nconsulting, to security training, to application security. Over the\npast decade, David has specialized in all things related to mobile\napplications and securing them. He has worked with many clients across\nindustry sectors, including financial, government, automobile,\nhealthcare, and retail. David is an active participant in numerous bug\nbounty programs.\n"
+         }
+      ],
+      "talk_id": "KnowingWhatRisksMatterAndDontInYourOpenSource",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "As digital transformation accelerates, software developers face\r\nincreasing pressure to speed up their work, and open-source software\r\nhelps them meet aggressive timelines by dropping standardized code\r\ninto an application. But cyber criminals are targeting more attacks on\r\nthe software supply chain, exploiting software vulnerabilities that\r\noccur in production. As a result, organizations must prioritize\r\nprotecting the open-source code in their applications. Attend this\r\nsession to learn about the findings from the telemetry of thousands of\r\nreal-world applications revealing trends of library usage,\r\nvulnerabilities, and best practices. You will learn about surprising\r\nfindings such as:\r\n* Less than 10% of code in the typical application is open-source code\r\nactually used by the software.\r\n* Legacy software composition analysis (SCA) tools have a false\r\npositive rate of up to 69%.\r\n* The average library uses a version that is 2.5 years old, increasing\r\nrisk and promising future headaches.\r\n* High-risk licenses are present in 69% of Java applications and 33%\r\nof Node applications.\r\nIn a world of accelerating development and frequent exploitation of\r\nvulnerabilities, protecting applications containing open-source\r\nlibraries and frameworks requires a different approach. Organizations\r\nneed a comprehensive picture of active and inactive libraries and\r\nclasses, library age, vulnerabilities, and licensing issues. Such\r\nobservability enables an organization to address the riskiest issues\u2014\r\nand not waste time with vulnerabilities that pose no risk."
+   },
+   {
+      "title": "Hey! Your database got pwned",
+      "speaker": [
+         {
+            "name": "Sarit Yerushalmi and Ofir Shaty",
+            "speaker_id": "SaritYerushalmiandOfirShaty",
+            "company": "",
+            "twitter": "@sarity85 and @Nu11p01Nt",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/sarit-yerushalmi-yarkoni-541619135/ and http://www.linkedin.com/in/ofir-shaty-25856a77",
+            "image": "sarit yerushalmi.jpg and ofir shaty.png",
+            "bio": "Sarit Yerushalmi\nSecurity researcher at Imperva for the last 10 years\nExperienced with security research in the areas of web application,\ncloud and API\nDeveloper at heart\nB.Sc. in Computer Science\nhttps://www.linkedin.com/in/sarit-yerushalmi-yarkoni-541619135/\n\nOfir Shaty\nSecurity Researcher at Imperva for the last 6 years\nExperienced with security research in the areas of cloud, database and\nweb application\nB.A in Computer Science\nwww.linkedin.com/in/ofir-shaty-25856a77\n"
+         }
+      ],
+      "talk_id": "HeyYourdatabasegotpwned",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "A data breach is an organization's worst nightmare.\r\n\r\nYour databases can be used as a pivot to infiltrate the organization or may be the target to exfiltrate sensitive data.\r\n\r\nIn this talk we will explore different exploitation techniques used by attackers to attack databases. \r\n\r\nWe will dive into practical real life examples captured by our honeypots around the world and present advanced detection approach to identify attacks such as:\r\nransom and crypto mining campaigns, malware deployment, distributed brute-force attacks, evasion techniques and slow & low exfiltration"
+   },
+   {
+      "title": "The Tale of Sh*tty NAC",
+      "speaker": [
+         {
+            "name": "Megan Benoit",
+            "speaker_id": "MeganBenoit",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "upon request",
+            "bio": "Megan Benoit has spent most of the last 20 years building\nvulnerability management and incident response programs, architecting\nand deploying security solutions, and telling management she\u2019s a\nsecurity engineer, not a miracle worker. Megan currently works as a\nSenior Network Security Engineer for NFM and has worked for the DoD,\nas well as the healthcare and retail industries. Her hobbies include\npushing corporate dress code limits, catching pokemon, and holding her\nbreath while she shops for groceries.\n"
+         }
+      ],
+      "talk_id": "TheTaleofShttyNAC",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "How do you hack a NAC without giving your networking team a heart attack?  We\u2019re going to go through a real-life use case where our intrepid security engineer was presented with the need to detect rogue systems on the wired network in a short period of time, and used existing tools and technologies to put together something that fit the bill and didn\u2019t break the bank."
+   },
+   {
+      "title": "Breaking into Cloud Wallets: Findings from 3 years spent Hacking Crypto Web Apps",
+      "speaker": [
+         {
+            "name": "Sam Curry",
+            "speaker_id": "SamCurry",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Sam Curry is the founder of Palisade, LLC, a security consultancy specialized in securing blockchain based web applications. Prior to Palisade, he worked as a full time bug bounty hunter for 4 years, a security analyst at HackerOne, and a security consultant at TrustFoundry. Sam runs a blog at samcurry.net discussing web security research and bug bounty findings.\n"
+         }
+      ],
+      "talk_id": "BreakingintoCloudWalletsFindingsfrom3yearsspentHackingCryptoWebApps",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "In 2018, after being invited to an HackerOne program, a friend and I realized that there was nearly 1 billion dollars sitting behind an Apache web server. This led us down a rabbit hole exploring the security of cryptocurrency exchanges, KYC platforms, monetary providers, brokerages, NFT platforms, smart contracts, and the hundred other services all built to support the nearly 35 trillion dollars tied up in cryptocurrency. We began hacking on the bug bounty programs for these services and, after working with a large number of entities, discovered that there were traditional vulnerabilities, novel techniques, and lots of room for interesting research against this newer environment. This talk explores the nearly 3 years of stories hacking cryptocurrency websites and our outlook for the future of cryptocurrency security from the perspective of traditional security consultants and bug bounty hunters."
+   },
+   {
+      "title": "It\u2019s a hard SOC life: Lessons from building security programs from scratch",
+      "speaker": [
+         {
+            "name": "John DiMartino",
+            "speaker_id": "JohnDiMartino",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "John\u2019s career has spanned 18 years in information security. He\u2019s worked in consulting, law enforcement, government, and the private sector. He\u2019s had a hand in building three security programs and is passionate about improving security for everyone. When he isn\u2019t at work or tinkering in his home lab John can be found on his motorcycle, building Lego sets, or drinking quality whiskey.\n"
+         }
+      ],
+      "talk_id": "ItsahardSOClifeLessonsfrombuildingsecurityprogramsfromscratch",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "1",
+      "abstract": "From the smallest company to the largest enterprise, security programs are growing in size and complexity. Security teams are being asked to help their companies navigate increasingly challenging environments and, more importantly, being recognized as a competitive advantage. In the face of unprecedented challenges and opportunities, how can security programs compliment their organizations? During this talk you will get suggestions, hard-learned lessons, and a starting point to build sustainable and effective security programs that will benefit your company and your teams."
+   },
+   {
+      "title": "Finding the Source: A tale of recreating fpipe and hiring overseas",
+      "speaker": [
+         {
+            "name": "Mike Kunz",
+            "speaker_id": "MikeKunz",
+            "company": "",
+            "twitter": "@mkunzsec",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Mike is a past winner of the Kernelcon CTF and holds a Eternal\nKernel badge. He is an UNO alumni.\n"
+         }
+      ],
+      "talk_id": "FindingtheSourceAtaleofrecreatingfpipeandhiringoverseas",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "The tool fpipe was simple 10kB windows console application written by Robin Keir that could redirect network traffic from one port from one computer to another. You can find it's usage in many early hacker books. As a hacker, I find fpipe's beauty is truly in its simplicity, with fpipe you don't have to download a 5mB golang binary, you don't have to bring along a cygwin library for socat, you don't have to rely upon programming languages being on the host, there's no configuration, you just download this very small executable and run it from a command line. The fpipe program has been around since the early 2000's and it's source code never saw the light of day. Thanks to modern decompilers like ghidra the task of reverse engineering how it works has become a more manageable task. With pseudocode in hand I hired a team of developers around the world to rebuild what was lost. In this talk you will learn about cost, detailed interactions, and lessons learned. You will leave the talk with a better understanding of the freelance developer community and perhaps even the source code to fpipe."
+   },
+   {
+      "title": "Let's rethink enumeration",
+      "speaker": [
+         {
+            "name": "Dan Tentler",
+            "speaker_id": "DanTentler",
+            "company": "",
+            "twitter": "@viss ",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Dan Tentler is the Executive Founder and CTO of Phobos Group, a\nboutique information security services and products company. Having\nbeen on both red and blue teams, Dan brings a wealth of defensive and\nadversarial knowledge to security landscape 2022 produces for us all.\nDan has spent time at Twitter, British Telecom, Websense, Anonymizer,\nIntuit and Sempra Energy, to name a few and has a strong background in\nsystems, networking, architecture and wireless networks, translating\nto strengths in lateral movement, data exfiltration, hiding from the\nblue team, physical security and a variety of other redteam\ntechniques. Outside of work, Dan cooking, FPV drones and making hot\nsauce.\n"
+         }
+      ],
+      "talk_id": "Letsrethinkenumeration",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "3",
+      "abstract": "When you think \"enumeration\", you probably think \"nmap, dns brute force, maybe shodan\", right? What if I told you there's a way to get to the same ends without nearly as much scanning and touching the perimeter of the org you want info on? In this talk I'll cover some clever enumeration techniques that will tell you more about the org you're interested in, and go beyond simple host and ip discovery. We can learn a bit about who they are, how they operate, and what assumptions are safe to make about them based on the findings like \"do they put stuff that isnt production ready online\", and \"are they posting secrets somewhere public\"?"
+   },
+   {
+      "title": "NetflOSINT: taking an often-overlooked data source and operationalizing it",
+      "speaker": [
+         {
+            "name": "Joe Gray",
+            "speaker_id": "JoeGray",
+            "company": "",
+            "twitter": "@C_3PJoe",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/joegrayinfosec/",
+            "image": "JoeGrayHeadshot.jpg",
+            "bio": "Joe Gray, a veteran of the U.S. Navy Submarine Force, is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge.\nAs a member of the Password Inspection Agency, Joe has consistently performed well in Capture the Flag events, specifically those involving OSINT. Examples include Winning the TraceLabs OSINT Search Party during DEFCON 28 (as a member of The Password Inspection Agency) and DEFCON 29 (as a member of The Federal Bureau of OH-SHINT).\nJoe\u2019s book, Practical Social Engineering, is due in mid 2022 via NoStarch Press.\n"
+         }
+      ],
+      "talk_id": "NetflOSINTtakinganoftenoverlookeddatasourceandoperationalizingit",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "When we think Network Forensics, we often immediately gravitate toward packet captures (PCAPs) and logs from routing devices. There is no disputing the importance and value in either, but this leaves another source frequently overlooked \u2013 enter Netflow. Many devices natively generate Netflow or IPFIX, but do we really analyze the data?\r\n\r\nMany may be aware, but what if you were told that there are tools to extract Netflow data FROM PCAPs? This provides a means of more efficient statistic and in-depth analysis using a variety of methods with smaller files to help gain context in what to query or follow in PCAP streams.\r\n\r\nThis presentation will include demonstrations in Microsoft Excel, ELK, and Jupyter notebooks to allow a simple jumping point for integration into other aspects of an investigation using OSINT vectors."
+   },
+   {
+      "title": "Knock knock, identifying assets in the cloud",
+      "speaker": [
+         {
+            "name": "Ben Sadeghipour",
+            "speaker_id": "BenSadeghipour",
+            "company": "",
+            "twitter": "@NahamSec",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "NahamSec currently works as the Head of Hacked Education at HackerOne by day, and a hacker by night. He has helped identify and exploit over 600 security vulnerabilities across 100+ of web and mobile applications for companies such as Yahoo, Google, Airbnb, Snapchat, The US Department of Defense, Yelp, and more. He also cofounded Bug Bounty Forum, a community of 500+ active hackers sharing ideas and their experiences.  He also streams live hacking on Twitch, and creates educational content about hacking on YouTube.\n"
+         }
+      ],
+      "talk_id": "Knockknockidentifyingassetsinthecloud",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "Identifying and enumerating assets has become incredibly easy thanks to all the tools that have been released in the past few years, but being the first to a new target can be the difference between a P1 and a Duplicate! This talk will cover how we were able to monitor, fingerprint, and catalog cloud assets at a rate of over 200 thousand hosts a second in an attempt to find bounty targets and the bugs within them before anyone else."
+   },
+   {
+      "title": "Securing cloud-native workloads, an introduction.",
+      "speaker": [
+         {
+            "name": "Gabe Schuyler ",
+            "speaker_id": "GabeSchuyler",
+            "company": "",
+            "twitter": "@gabe_sky",
+            "github": "",
+            "linkedin": "",
+            "image": "Schuyler.jpg",
+            "bio": "Gabe is a seasoned cloud security practitioner with years of experience in all of\nthe major clouds. He works as a solutions engineer at wiz.io, and prior worked as a\nweb application specialist at Palo Alto Networks. Seven years at PuppetLabs gave him\nan appreciation for devops, which is clear in his automated approach to cloud\nsecurity. Off the clock, he enjoys wireless hacking, lockpicking (poorly), and\nencouraging the use of technology for positive social change.\n"
+         }
+      ],
+      "talk_id": "Securingcloudnativeworkloadsanintroduction",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "So, you've finished your (rushed by lockdown) lift-and-shift to the cloud, and now your developers are adopting cloud-native workloads such as containers, serverless functions, storage buckets, and databases as a service.  These new technologies introduce new attack vectors, and must be defended in unique ways.\r\n\r\n\tYou're not \"just running on someone else's servers\" when workloads come and go in seconds.  How do you secure a function when the communication layer is opaque to you?  Can you govern container use well enough to protect it, but without slowing down developers and the business?  Heck, do you even know what's out there?\r\n\r\n\tThis session will provide you with enough knowledge to begin securing the your most important assets in the cloud.  Sure, cloud-native workloads can seem mysterious, but once you know the differences (and hidden pitfalls) of cloud-native workloads, you'll be in good shape to start defending them."
+   },
+   {
+      "title": "Threats lurking beneath the subsurface: Understanding and abusing Windows Subsystem for Linux (WSL)",
+      "speaker": [
+         {
+            "name": "Daniel Adamitis",
+            "speaker_id": "DanielAdamitis",
+            "company": "",
+            "twitter": "@dadamitis",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/daniel-a-44198047/",
+            "image": "Adamitis_headshot.jpg",
+            "bio": "Daniel Adamitis is a Principal Information Security Engineer at Lumen Technologies responsible for advanced actor tracking and threat intelligence. He previously performed threat analysis and reporting on nation-state campaigns while at Cisco Talos, before joining Lumen\u2019s Black Lotus Labs. In his spare time, he enjoys cooking and running with his dog.\n"
+         }
+      ],
+      "talk_id": "ThreatslurkingbeneaththesubsurfaceUnderstandingandabusingWindowsSubsystemforLinuxWSL",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "In April 2016, Microsoft shocked the PC world when it announced the Windows Subsystem for Linux (WSL). WSL is a supplemental feature that runs a Linux image in a near-native environment on Windows, allowing for terminal functionality without the over-head of a virtual machine. While this new functionality was welcomed by developers, it also introduced a new attack surface threat actors can \u2013 and do \u2013 target. Black Lotus Labs recently identified several malicious files that were compiled in the Linux binary format ELF which utilized native windows APIs. Over the past several months, Black Lotus Labs has identified numerous \u201cstagers\u201d - i.e. lightweight scripts that load more robust agents into memory - keyloggers, and in some cases fully functional remote access trojans. The novelty of using an ELF loader designed for the WSL environment gave the technique a detection rate nearly, or in some cases a, zero for sample found on Virustotal. Suggesting that while this technique may be niche, as it requires WSL to be pre-installed by an admin, it can provide threat actors a blind spot to operate while evading some EDR products.\r\n\r\n \r\n\r\nThis talk will briefly introduce WSL, then focus on the samples Black Lotus Labs observed abusing this feature in the wild, and how we analyzed these malicious files."
+   },
+   {
+      "title": "Warbiking Omaha",
+      "speaker": [
+         {
+            "name": "Gus Gorman",
+            "speaker_id": "GusGorman",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Local grey hat hobbyist hacker who enjoys bicycling, urban exploring, and\nscavenger hunts\n"
+         }
+      ],
+      "talk_id": "WarbikingOmaha",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "Analysis of wifi security in Omaha. On a quest for the low hanging wireless fruits of 402, I present my results from using a human powered bicycle and Raspberry Pi wifi scanner. With the help of open source tools, Wigle app, & AWS, we will geolocate vulnerable networks and show how easily they can be exploited. Some of these networks will include IoT devices, such as display signs and thermostats"
+   },
+   {
+      "title": "Improving Cloud Incident Response without throwing shade",
+      "speaker": [
+         {
+            "name": "James Dietle",
+            "speaker_id": "JamesDietle",
+            "company": "",
+            "twitter": "@jamesdietle",
+            "github": "",
+            "linkedin": "",
+            "image": "jamesdietle.jpg",
+            "bio": "\u201cGrowing up\u201d James led Navy Red Teams to test Navy warships and later built SOCs for\nlarge companies. As an AWS Senior Security Consultant, he helps customers on their\njourney to a safe and secure cloud.\n"
+         }
+      ],
+      "talk_id": "ImprovingCloudIncidentResponsewithoutthrowingshade",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "When it comes to incident response, your infrastructure may be in the cloud, but your head doesn\u2019t have to be. I\u2019ll walk through practical ways to improve your Incident Response and provide you with exercises you can test throughout the talk, Saturday Night, and throughout the conference. We will cover discussions about logs, frameworks, and tools so the next time there is an incident you can Rise Above."
+   },
+   {
+      "title": "DMARC \u2013 Don't Let Phishers Punk Your Email Domain",
+      "speaker": [
+         {
+            "name": "Matthew K. Miller",
+            "speaker_id": "MatthewK.Miller",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "millermatthewkheadshot20210907.jpg",
+            "bio": "Matt is a Senior Information Security Engineer at First National Bank of Omaha. He is the SME for email security for FNBO. Hobbies include poker and genealogy. I can find birth parents!\n"
+         }
+      ],
+      "talk_id": "DMARCDontLetPhishersPunkYourEmailDomain",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "4",
+      "abstract": "DMARC can be difficult to set up, with its exacting syntax added on to the fact that many people don't understand what DMARC can really accomplish for their organization. Without DMARC on your email domain, malicious actors can send phishing emails, appearing to be sent from your email domain, claiming to be you, to anyone they want to, including your own customers, and you'll have no idea it's happening. Implementing DMARC incorrectly could result in your legitimate emails being bit-binned.  However, with DMARC correctly implemented on your domain, you can prevent these phishing emails from being delivered to their intended victims and you'll know that it's happening and where they are originating."
+   },
+   {
+      "title": "Protecting Your Cloud Environment from the Netrunners",
+      "speaker": [
+         {
+            "name": "Ryan Hollis ",
+            "speaker_id": "RyanHollis",
+            "company": "",
+            "twitter": "@ryanhollis_",
+            "github": "",
+            "linkedin": "",
+            "image": "ryanh.png",
+            "bio": "Ryan is a Cloud Security Engineer for Orca Security. He is active in VetSec, a group of military veterans in cyber security. In addition to participating in CTFs, you can find Ryan riding his mountain bike, lost in VR, or enjoying a nice IPA in his hometown of Austin, TX.\n"
+         }
+      ],
+      "talk_id": "ProtectingYourCloudEnvironmentfromtheNetrunners",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "Have you ever found yourself questioning, \"what is my attack surface in the cloud?\" What are the top security risks that I need to watch out for in this new domain? No need to fret, this talk will answer these questions by focusing on the Security Aspects of Cloud Computing with a CyberPunk theme! At the end of this talk, attendees will leave knowing the most important areas to focus on to create a high standard of cloud hygiene and security for their environments. Applicable to AWS, Azure, and GCP."
+   },
+   {
+      "title": "Secure OT incorporation, bringing the OT and IT environments together",
+      "speaker": [
+         {
+            "name": "Harrison Koll ",
+            "speaker_id": "HarrisonKoll",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "I am a recent graduate from UNO's Cybersecurity program. I started my IT career programming building automation systems. This included network management of these systems, which led to many conversations surrounding how to protect an OT/IOT environment. Upon graduating I got a job working at Conagra in a Security Operations Center (SOC). And my duties include hardening the OT environment of Conagra and keeping it secure.\n"
+         }
+      ],
+      "talk_id": "SecureOTincorporationbringingtheOTandITenvironmentstogether",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "Operational Technology (OT) networks and their systems are challenging to implement into corporate networks because a failure can result in a major increase in network-wide vulnerabilities. In this presentation I will explain some of the components of OT networks. I will also give examples of the more ubiquitous components of OT networks such as Supervisory Control and Data Acquisition (SCADA) systems, Programmable logic controllers (PLCs), Human-Machine Interfaces (HMIs), and Remote Terminal Units (RTUs). I will explain what SCADA systems are used for in an OT network. And how and how they can control physical devices such as actuators, air handling equipment, and robotics. I will also discuss why an OT network is more vulnerable than a typical IT network, and how to implement an OT network into a corporate network safely. I will discuss how to properly segment an OT network, so it is safe from an existing IT network, different network architectures for combined OT/IT networks, secure network protocols for OT networks, tools to exploit OT, and how to train employees and improve upon governance of OT networks. This will also include some of the challenges you can expect to face from trying to bring these two networks together."
+   },
+   {
+      "title": "Night Time APT - How I Was Nearly Folded In Half",
+      "speaker": [
+         {
+            "name": "Matt Virus ",
+            "speaker_id": "MattVirus",
+            "company": "",
+            "twitter": "@themattvirus",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Matt Virus (real name) is an engineer @ Cisco (10+ years) , an above-average husband and father of 2, a farmer, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects. No fear of burned fingers, desks set on fire, or escape of the magic smoke here. Former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware. Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Founder of hackspace.io, Fueled by monster energy...\n"
+         }
+      ],
+      "talk_id": "NightTimeAPTHowIWasNearlyFoldedInHalf",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "1",
+      "abstract": "A random wlan SSID appears with great signal strength and strange characteristics.  It takes years of (on and off) work to track down.  This is a story of tribulation and victory\u2026over the greatest mystery of all:  WTF is that wifi signal?"
+   },
+   {
+      "title": "Pain in the Appx",
+      "speaker": [
+         {
+            "name": "Nick Beede and Jack Mott",
+            "speaker_id": "NickBeedeandJackMott",
+            "company": "",
+            "twitter": "@nbd33 / @malwareforme",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Jack is a Senior Security Analyst who enjoys punching miscreants and having fun while doing it.\nNick is a UNO alum and founding member of NULLify that now works at Microsoft with Jack and enjoys spotting and stomping threat actors.\n"
+         }
+      ],
+      "talk_id": "PainintheAppx",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "4",
+      "abstract": "Windows application package files (.APPX) are the installation system used to install Universal Windows Platform apps. Similar to other installer types, such as MSI files, APPX files are created to provide the simple distribution and installation of software . However, these have recently been abused by what we track as an emerging and financially motivated cybercriminal group distributing BazaarLoader/Emotet malware. In this presentation, we will show how we identified and tracked this activity, take a dive into malware analysis of the observed campaigns, discuss the infection chain, and explain how this led to the ms-appinstaller HTML protocol handler being removed. We will finish by exploring network and file based detection opportunities for defenders."
+   },
+   {
+      "title": "Keeping a cool head in the eye of the storm, my experience with Incident Response leadership.",
+      "speaker": [
+         {
+            "name": "Benjamin Spencer ",
+            "speaker_id": "BenjaminSpencer",
+            "company": "",
+            "twitter": "NO",
+            "github": "NO",
+            "linkedin": "NO",
+            "image": "spencer.jpg",
+            "bio": "Hi, I am Ben Spencer. Currently, I am the manager for the SOC and IR team over at Kiewit. I have worked as the lead Forensic investigator for North America at Truesec, as well as an incident responder for CSG.  I started in IT about 8 years ago, with cyber security being my focus for the past 4. The vast majority of my experience in cyber has been centered around Incident response, and I have been fortunate enough to respond to all kinds of incident. I\u2019ve responded to everything from small, pii exposures, to large APT incidents that took months of investigation.\n"
+         }
+      ],
+      "talk_id": "KeepingacoolheadintheeyeofthestormmyexperiencewithIncidentResponseleadership",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "This presentation is intended to go through my past experience with leading incident response teams during major incidents. I will walk through several of the past incidents I have worked and lead, and discuss some of the common mistakes of incident response leadership, as well as the things people should be doing when they are executing an incident response leadership role. A large portion of the presentation will focus on communication skills, how to organize a team, and how to make sure that everyone is pushing in a single direction. Other aspects of the talk will discuss the issues that arise during most incident responses, ranging from burnout and resource mismanagement to orchestrating a project with no set timeline."
+   },
+   {
+      "title": "Research The Advanced Bot Landscape",
+      "speaker": [
+         {
+            "name": "Yohann Sillam ",
+            "speaker_id": "YohannSillam",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Yohann Sillam is a researcher from Imperva's threat research group. He continuously monitors cyber security attacks detected in the wild, publishes blog articles about hidden ones and finds innovative ways to tackle them. He has more than 3 years of experience in cyber security, especially in malware analysis.\n"
+         }
+      ],
+      "talk_id": "ResearchTheAdvancedBotLandscape",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "Bad bots traffic represents around a quarter of Internet traffic today and is predicted to increase. This traffic includes website content scanning, stolen credit card checking, denial of service, inventory...\r\n\r\nIn this talk, we describe how as a security company we tackle this variety of threats, how we started our research, the challenges we faced and the solutions we provided.\r\n\r\nThis talk includes an overview of the general trend in terms of popular bot programming languages, software development frameworks. Then, practical examples will be taken from the most prevalent bots from the OWASP top 10 automated threats. The general architecture of those bots will be displayed. The main components explained before drilling down to the key features they include to remain undetected. How do they evade captcha systems ? How do they avoid fingerprinting ? From the na\u00efve approaches we will introduce you to the most stealthy features."
+   },
+   {
+      "title": "Project N.I.N.J.A.T.U.R.T.L.E.S.",
+      "speaker": [
+         {
+            "name": "Benjamin McDaniel ",
+            "speaker_id": "BenjaminMcDaniel",
+            "company": "",
+            "twitter": "@SN1CK3T",
+            "github": "",
+            "linkedin": "",
+            "image": "mcdaniel.png",
+            "bio": "Ben is a freshman computer engineering student at Rose-Hulman Institute of Technology\n"
+         }
+      ],
+      "talk_id": "ProjectNINJATURTLES",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "Let's stop some ransomware attacks! In this presentation, you'll hear our process from start to finish: planning, designing, and implementing an automatic adversary cyber killchain identification system, dubbed \"Project N.I.N.J.A.T.U.R.T.L.E.S.\". This presentation will go through attack mapping, using the MITRE ATT&CK framework, monitoring a test system with tools from the Windows SysInternals suite, and finally showcase what a *semi* finished product looks like in action."
+   },
+   {
+      "title": "Credential Stuffing and Account Generators - Cracked Accounts for the Masses",
+      "speaker": [
+         {
+            "name": "Jake Foiles ",
+            "speaker_id": "JakeFoiles",
+            "company": "",
+            "twitter": "@FBIOmaha",
+            "github": "",
+            "linkedin": "",
+            "image": "FBI logo",
+            "bio": "Special Agent Jake Foiles has been assigned to the FBI Omaha Cyber Squad since 2015.  SA Foiles previously worked in the IT sector for seven years as a network/systems engineer.\n"
+         }
+      ],
+      "talk_id": "CredentialStuffingandAccountGeneratorsCrackedAccountsfortheMasses",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2.5",
+      "abstract": "Credential stuffing tools allow cyber criminals to quickly and easily crack large numbers of online account credentials. Websites described as \"account generators\" sell access to these stolen credentials giving almost anyone access to hacked online accounts. Learn about the FBI's takedown of one of these websites and what you can do to defend against credential stuffing."
+   },
+   {
+      "title": "The Hand That Feeds - How to Misuse Kubernetes",
+      "speaker": [
+         {
+            "name": "Lewis Denham-Parry",
+            "speaker_id": "LewisDenham-Parry",
+            "company": "",
+            "twitter": "@denhamparry",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Lewis works at Control Plane as the Head of Training, orchestrating the ocean of containers with Kubernetes whilst defending them from piratical attacks (which is usually from himself).  He co-founded Cloud Native Wales, an initiative to help people learn Cloud Native technologies and establish a community to support each other. When he's not playing with tech, he's busy trying to be an adult or actively seeking a comfy chair to read a book or trying to find some snow to ski on.\nFollow Lewis at, @denhamparry, @controlplaneio, and @cloudnativewal.\n"
+         }
+      ],
+      "talk_id": "TheHandThatFeedsHowtoMisuseKubernetes",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "We usually trust the hand that feeds, but what happens when we can't? How do we run applications when there is little to no trust?\r\n\r\n\r\nIn this session, we're going to start by taking a look at attack paths in and around Kubernetes, acting as a Red Team. We'll take advantage of an OWASP vulnerability within a Supply Chain attack to give us an entry point. From there, together we'll explore how an attacker can take further control of the cluster via lateral and vertical movements.\r\n\r\n\r\nOnce we have your attention from seeing how this could be someone's worst day, we'll look at how we can patch this attack up as a Blue Team. We\u2019ll see how Kubernetes can mitigate some of this disaster, and what practices we should put in place to further strengthen and defend our compute.\r\n\r\n\r\nFrom attending this session, you'll leave with a Purple Team understanding of core concepts within Kubernetes, that defence is strengthened with depth, and how we can defend from Script Kiddies to Nation States."
+   },
+   {
+      "title": "Hacking Kubernetes: Live Demo Marathon",
+      "speaker": [
+         {
+            "name": "Andrew Martin ",
+            "speaker_id": "AndrewMartin",
+            "company": "",
+            "twitter": "@sublimino",
+            "github": "",
+            "linkedin": "",
+            "image": "andrew-400x400.jpg",
+            "bio": "Andrew has an incisive security engineering ethos gained building and destroying high-traffic web applications. Proficient in systems development, testing, and operations, he is at his happiest profiling and securing every tier of a cloud native system, and has battle- hardened experience delivering containerised solutions to enterprise and government. He is CEO at https://control-plane.io\n"
+         }
+      ],
+      "talk_id": "HackingKubernetesLiveDemoMarathon",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "4.5",
+      "abstract": "In a live evocation of the recent O'Reilly title Hacking Kubernetes (Martin, Hausenblas, 2021), this ultimate guide to threat-driven Kubernetes defence threat models and details how to attack and defend your precious clusters from nefarious adversaries.\r\n\r\n\r\nThis broad and detailed appraisal of end-to-end cluster security teaches you how to attack and defend against a range of historical and current CVEs, misconfigurations, and advanced threats:\r\n\r\n\r\nSee the historical relevance of CVEs and demonstrations of attacks against your containers, pods, supply chain, network, storage, policy, and wider organisation\r\n\r\nUnderstand when to use next-generation runtimes like gVisor, firecracker, and Kata Containers\r\n\r\nDelve into workload identity and advanced runtime hardening\r\n\r\nConsider the trust boundaries in soft- and hard-multitenant systems to appraise and limit the effects of compromise\r\n\r\nLearn to navigate the choppy waters of advanced Kubernetes security"
+   },
+   {
+      "title": "You\u2019re Just Not My Type(state) - Turning Vulnerabilities into Compilation Errors With Rust",
+      "speaker": [
+         {
+            "name": "Nathanial Lattimer",
+            "speaker_id": "NathanialLattimer",
+            "company": "",
+            "twitter": "@d0nutptr",
+            "github": "",
+            "linkedin": "",
+            "image": "lattimer.jpeg",
+            "bio": "Currently a Senior Security Engineer at a FinTech company in the Bay Area, Nathanial spends his time building high performance reconnaissance tooling in Rust, hacking companies through their bug bounty programs, and deep-diving application security in his Twitch streams and blog posts.\n"
+         }
+      ],
+      "talk_id": "YoureJustNotMyTypestateTurningVulnerabilitiesintoCompilationErrorsWithRust",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "3",
+      "abstract": "It would be easier to build secure software if you couldn\u2019t write the vulnerabilities in the first place. At least, that\u2019s the idea with typestates - an approach to making dangerous code inexpressible. In this talk, we\u2019ll explore what typestates are, how to solve security problems with them, and explore examples of how they\u2019re making software, today, safer."
+   },
+   {
+      "title": "Old Attacks Are New Again - NFTs, Rugpulls, and Cryptophishing",
+      "speaker": [
+         {
+            "name": "Heather Lawrence",
+            "speaker_id": "HeatherLawrence",
+            "company": "",
+            "twitter": "@infosecanon",
+            "github": "",
+            "linkedin": "",
+            "image": "upon request",
+            "bio": "TBA\n"
+         }
+      ],
+      "talk_id": "OldAttacksAreNewAgainNFTsRugpullsandCryptophishing",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "3",
+      "abstract": "Old attacks are new again! Surely you have heard by now that non-fungible tokens (NFTs) are sweeping the world by storm. DappRadar, as reported by Reuters, estimated NFT sales volume totalled $24.9 billion in 2021. At the crossroads of new technologies and vast sums of capital there exists a ripe target for scams and phishing, despite all the lessons the infosec community has learned. This talk opens with a brief coverage of generic blockchain concepts and NFTs before exploring how scammers have leveraged this new space to part users from their hard earned cash. Attendees leave this talk with pointers on how to protect yourself and your loved ones."
+   },
+   {
+      "title": "All Juiced Up",
+      "speaker": [
+         {
+            "name": "Nate Wood",
+            "speaker_id": "NateWood",
+            "company": "",
+            "twitter": "@woodnsec",
+            "github": "",
+            "linkedin": "",
+            "image": "woodnsec.jpg",
+            "bio": "Nate is a father, husband, and passionate infosec professional. Sr. Cloud Security Engineer at FNTS.\n"
+         }
+      ],
+      "talk_id": "AllJuicedUp",
+      "pdf": "",
+      "video": "",
+      "length": "20",
+      "technical": "2",
+      "abstract": "Ever wanted to make your own replacement battery or repair power tools? How about a DIY power wall? Recycling batteries can lead to all sorts of fun projects to revitalize products or build new ones. This talk will discuss basic battery theory and review how to build your own battery pack."
+   },
+   {
+      "title": "the root password was klondike",
+      "speaker": [
+         {
+            "name": "Anthony Kava",
+            "speaker_id": "AnthonyKava",
+            "company": "",
+            "twitter": "@anthonykava",
+            "github": "",
+            "linkedin": "",
+            "image": "uniform-powerglove-512x512sat-brighter.jpg",
+            "bio": "Anthony Kava, a/k/a karver, started, like many of us, begging, borrowing, and (allegedly) stealing access to global networks that made a 40 column display seem like a magical portal. He successfully avoided prosecution as a minor to stumble into a career of digital forensics, cyber crime investigation, and cybersecurity scuffles.  He's a card-carrying member of EFF working in law enforcement, mentors students to use their hacking skills for good, and enjoys long walks on the dark web.\n"
+         }
+      ],
+      "talk_id": "therootpasswordwasklondike",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "What was the hacking scene like for eLiTe (script) kids in Omaha in the era of the film *Hackers*? Let's take a trip back to the mid-90s when we rollerbladed everywhere, and three-way handshakes were loud.  A time when the web was new, and the 'Net was just about to graduate from its friendly, trusting, academic beginnings to the hellscape we enjoy today (and which pays our bills).  We won't pwn a Gibson, but we'll relive hax0ring Unix boxen, a NetWare server, and maybe even some VAXen.  Nostalgia brought to you at 9600 bps thanks to the statute of limitations!"
+   },
+   {
+      "title": "How to Get Invited to the Party: DevOps + Security: Putting the Fun in Fundamental",
+      "speaker": [
+         {
+            "name": "Joseph Wilson ",
+            "speaker_id": "JosephWilson",
+            "company": "",
+            "twitter": "",
+            "github": "",
+            "linkedin": "",
+            "image": "",
+            "bio": "Joseph Wilson is a computer security expert whose career included five years as the Chief of a major Department of Defense (DoD) Network Operations and Defense Center (NOC) before entering the private sector. He also served as the security architect, strategist, and Manager of Security Operations for a Fortune 250 food company prior to joining CSG International. Joe now serves as the Chief Information Security Officer and is responsible for protecting customer as well as company assets for CSG International 24/7. He lives in Omaha, Nebraska with his wife and three kids.\nJoseph graduated with a B. A. from Simpson College and holds a M.S. in Management Information Systems with an Information Assurance concentration from the University of Nebraska Omaha.\n"
+         }
+      ],
+      "talk_id": "HowtoGetInvitedtothePartyDevOpsSecurityPuttingtheFuninFundamental",
+      "pdf": "",
+      "video": "",
+      "length": "60",
+      "technical": "2",
+      "abstract": "One of the main challenges in Cyber Security is that attackers always have more money, time, and resources. Additionally, attackers need to find one small pinhole into an environment, but as Security professionals we need to find and defend every pinhole / chunk / massive crater that exists in the dam of our processes / technology / people. How do we overcome these challenges and how do we \u201cwin\u201d the Security war or even compete in the skirmishes that are fought every day? Please join me in understanding how we can leverage DevOps for a greater Security force to be reckoned with and how we can get back to placing the \u201cFun\u201d in Fundamental."
+   }
+]
