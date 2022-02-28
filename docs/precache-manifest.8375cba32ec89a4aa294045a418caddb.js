@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2628d184e5f1b4869e7e645555ca5b36",
+    "revision": "0ddc1d14a843dc751aa9cd58f27fb95d",
     "url": "/index.html"
   },
   {
-    "revision": "8a0e4f4f63d7f4e53f20",
+    "revision": "1d49452a6ee272cc68b8",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "fcca6b0f47597b707e8e",
-    "url": "/static/css/main.b8d0ce56.chunk.css"
+    "revision": "155fbc1f2d893ad98649",
+    "url": "/static/css/main.1c329acb.chunk.css"
   },
   {
-    "revision": "8a0e4f4f63d7f4e53f20",
-    "url": "/static/js/2.477fc419.chunk.js"
+    "revision": "1d49452a6ee272cc68b8",
+    "url": "/static/js/2.23ccb1c9.chunk.js"
   },
   {
-    "revision": "fcca6b0f47597b707e8e",
-    "url": "/static/js/main.7ded0593.chunk.js"
+    "revision": "155fbc1f2d893ad98649",
+    "url": "/static/js/main.a6be8b5f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,12 +40,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adam.4a58b306.png"
   },
   {
+    "revision": "ed269accbf6fade33d84252cad1e53bb",
+    "url": "/static/media/appgate-dark-logo.ed269acc.png"
+  },
+  {
+    "revision": "3d302af684715001c1d1a566b6809bb3",
+    "url": "/static/media/appgate-light-logo.3d302af6.png"
+  },
+  {
     "revision": "a9e48eb65e241fc1cb7693aa21943004",
     "url": "/static/media/arm.a9e48eb6.png"
   },
   {
     "revision": "42003a6e6a49ab1244a4c90915653c43",
     "url": "/static/media/brain.42003a6e.png"
+  },
+  {
+    "revision": "ecf18ce5fb10025a59272801e92b4c06",
+    "url": "/static/media/checkpoint-dark-logo.ecf18ce5.png"
   },
   {
     "revision": "bf5de5bf131575d509bdc6498e2b2ca8",
