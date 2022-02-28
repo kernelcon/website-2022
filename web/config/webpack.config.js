@@ -622,6 +622,7 @@ module.exports = function(webpackEnv) {
       child_process: 'empty',
     },
     externals: {
+      agendaConfig: JSON.stringify(require('./content/agenda.json')), //eslint-disable-line
       dateConfig: JSON.stringify(require('./content/dates.json')), //eslint-disable-line
       faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line
       ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line

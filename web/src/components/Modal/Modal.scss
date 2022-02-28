@@ -1,55 +1,90 @@
-/*@import '../../static/styles/base';*/
-
+@import '../../static/styles/base/base';
 .backdrop {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 50px;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 50px;
+  z-index: 100;
 }
 
 .modal-container {
+  background-color: #fff;
+  max-width: 560px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+  .modal-header {
+    border-top: 6px solid $dm-highlight;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
-    max-width: 560px;
-    min-height: 300px;
-    margin: 0 auto;
-    padding: 0px;
-    overflow: hidden;
-    .modal-header {
-        border-top: 6px solid rgb(64, 154, 191);
-        border-bottom: 1px solid rgb(227, 227, 227);
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #fff;
-        padding: 0px 20px;
-        position: relative;
+    padding: 0px 20px;
+    position: relative;
+  }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .modal-description-heading {
+    font-size: 16px;
+  }
+  .modal-description {
+    font-size: 14px;
+  }
+  .modal-title {
+    color: #111;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+  }
+  .modal-close {
+    color: $dm-highlight;
+    font-size: 30px;
+    margin-top: -5px;
+    &:hover {
+      cursor: pointer;
+      color: #111;
     }
-    .modal-content {
-        display: flex;
-        justify-content: center;
+  }
+  .modal-headline {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    .modal-headine-percentage {
+      display: flex;
+      flex-direction: row;
     }
-    .modal-title {
-        color: #111;
-        font-family: Montserrat, sans-serif;
-        font-size: 18px;
+    .tech-label {
+      margin-left: 0px;
+      padding-left: 5px;
     }
-    .modal-close {
-        color: rgb(64, 154, 191);
-        font-size: 30px;
-        margin-top: -5px;
-        &:hover {
-            cursor: pointer;
-            color: #111;
-        }
-    }
+  }
+  .modal-time,
+  .modal-authors {
+    font-family: $font-punk;
+    color: $dm-highlight;
+  }
 }
 
 .volunteer-modal {
-    height: auto;
+  height: auto;
+}
+
+body.dark-mode {
+  .modal-container,
+  .modal-header,
+  .modal-title {
+    background-color: #25282a !important;
+    color: rgb(227, 227, 227) !important;
+  }
 }

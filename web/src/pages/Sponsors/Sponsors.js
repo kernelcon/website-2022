@@ -5,6 +5,9 @@ import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.svg";
 import Fnbo from "../../static/images/sponsors/fnbo.png";
+import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
+import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
+import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -164,6 +167,28 @@ export default class Sponsors extends Component {
               </div>
 
 
+
+              <div className='spons-block'>
+                <h4 className='bronze spons-title'>Bronze</h4>
+                <a href="https://www.appgate.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='light-mode-logo'>
+                      <img src={AppGateDark}
+                        className='spons-img other-spons'
+                        alt="AppGate"/>
+                    </a>
+                    <a href="https://www.appgate.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-mode-logo'>
+                      <img src={AppGateLight}
+                        className='spons-img other-spons'
+                        alt="AppGate"/>
+                    </a>
+              </div>
+
+
             {/*
               <div className='spons-block'>
                 <h4 className='gold spons-title'>Party Sponsor</h4>
@@ -176,19 +201,20 @@ export default class Sponsors extends Component {
                 </a>
               </div>
 
-              <div className='spons-block'>
-                <h4 className='gold spons-title'>CTF Sponsor</h4>
-                <a href="https://www.securesky.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={secureskylogo}
-                    className='spons-img other-spons'
-                    alt="Secure Sky"/>
-                </a>
-              </div>
 
               */}
 
+
+              <div className='spons-block'>
+                <h4 className='ctf-sponsor spons-title'>CTF Sponsor</h4>
+                <a href="https://www.checkpoint.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={CheckPoint}
+                    className='spons-img other-spons'
+                    alt="Check Point"/>
+                </a>
+              </div>
 
               <div className='spons-block'>
                 <h4 className='gold spons-title'>Other Sponsors</h4>
@@ -219,33 +245,42 @@ export default class Sponsors extends Component {
               </div>
 
 
-						{/* <div className='spons-block'>
+						<div className='spons-block'>
                 <div className='foodbev-spons'>
                 
                   <div className='single-foodbev-spons'>
                     <h6 className='text-highlight spons-title'>Coffee</h6>
-                    <a href="https://www.ubt.com/"
+                    <a href="https://www.appgate.com/"
                       target="_blank"
-                      rel='noopener noreferrer'>
-                      <img src={ubtlogo}
-                        className='spons-img fdbev-spons spons-white-img'
-                        alt="Union Bank & Trust"/>
+                      rel='noopener noreferrer'
+                      className='light-mode-logo'>
+                      <img src={AppGateDark}
+                        className='spons-img fdbev-spons'
+                        alt="AppGate"/>
+                    </a>
+                    <a href="https://www.appgate.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-mode-logo'>
+                      <img src={AppGateLight}
+                        className='spons-img fdbev-spons'
+                        alt="AppGate"/>
                     </a>
                   </div>
 
                   <div className='single-foodbev-spons'>
                     <h6 className='text-highlight spons-title'>Popcorn</h6>
-                    <a href="https://www.ubt.com/"
+                    <a href="https://www.checkpoint.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
-                      <img src={ubtlogo}
-                        className='spons-img fdbev-spons spons-white-img'
-                        alt="Union Bank & Trust"/>
+                      <img src={CheckPoint}
+                        className='spons-img fdbev-spons'
+                        alt="Check Point"/>
                     </a>
                   </div>
 
                 </div>
-              </div> */}
+              </div>
 					</div>
 				</div>
 			</div>

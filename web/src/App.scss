@@ -150,6 +150,9 @@ body.dark-mode {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-color: #ddd;
   }
+  .tabs [id^="tab"]:checked+label:after {
+    border-bottom-color: #1b2938;
+  }
 }
 
 .dark-mode-toggle {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 
-// import TalksSchedule from './TalksSchedule';
+import TalksSchedule from './TalksSchedule';
 // import ConSchedule from './ConSchedule';
 // import TrainingSubmissions from './TrainingSubmission';
 // import Workshops from './Workshops';
@@ -72,7 +72,7 @@ export default class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          {/* <Tab tabFor="schedule">Schedule</Tab> */}
+          <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
           {/* <Tab tabFor="training">Training</Tab>
           <Tab tabFor="workshops">Workshops</Tab> */}
@@ -80,12 +80,11 @@ export default class Agenda extends Component {
           <Tab tabFor="competitions">Competitions</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
-        {/* <TabPanel tabId="schedule">
+        <TabPanel tabId="schedule">
           <div className='text-area'>
           	<TalksSchedule />
-            <h3>Coming Soon...</h3>
           </div>
-        </TabPanel> */}
+        </TabPanel>
         <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
