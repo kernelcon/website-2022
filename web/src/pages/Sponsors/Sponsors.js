@@ -158,15 +158,12 @@ export default class Sponsors extends Component {
                 </a>
                 <a href="https://fnbo.com/"
                   target="_blank"
-                  className='sponsor-logo'
                   rel='noopener noreferrer'>
                   <img src={Fnbo}
                     className='spons-img other-spons'
                     alt="First National Bank of Omaha"/>
                 </a>
               </div>
-
-
 
               <div className='spons-block'>
                 <h4 className='bronze spons-title'>Bronze</h4>
@@ -206,7 +203,7 @@ export default class Sponsors extends Component {
 
 
               <div className='spons-block'>
-                <h4 className='ctf-sponsor spons-title'>CTF Sponsor</h4>
+                <h4 className='ctf-spons spons-title'>CTF Sponsor</h4>
                 <a href="https://www.checkpoint.com/"
                   target="_blank"
                   rel='noopener noreferrer'>

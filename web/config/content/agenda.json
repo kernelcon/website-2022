@@ -19,7 +19,7 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "Kernelcon Crew",
+      "name": "",
       "speakerId": "",
       "company": "",
       "twitter": "",
@@ -55,7 +55,7 @@
     "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "Keynote: Joe Grand",
-    "talkDescription": "",
+    "talkDescription": "TBD",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -76,8 +76,8 @@
     "time": "1000",
     "minutes": "15",
     "roomIndex": [0, 1],
-    "talkTitle": "Break.  Chris Eagle Book Signing",
-    "talkDescription": "",
+    "talkTitle": "Break. (Room Config Change)",
+    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -85,7 +85,7 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "Chris Eagle",
+      "name": "",
       "speakerId": "",
       "company": "",
       "twitter": "",
@@ -250,8 +250,8 @@
     "time": "1200",
     "minutes": "60",
     "roomIndex": [0, 1],
-    "talkTitle": "Lunch Break",
-    "talkDescription": "",
+    "talkTitle": "Lunch Break (On your own)",
+    "talkDescription": "Go grab some lunch from one of the many local restaurants in the Old Market, order something from a food truck, have something delivered, or eat at the hotel restaurant.  This hour is for you!",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -309,7 +309,7 @@
       "twitter": "@golfhackerdave",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/dlindner",
-      "image": "",
+      "image": "DavidLindner.jpg",
       "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer, David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field - from application development, to network architecture design and support, to IT security and consulting, to security training, to application security. Over the past decade, David has specialized in all things related to mobile applications and securing them. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs."
     }]
   }, {
@@ -360,8 +360,8 @@
     "time": "1500",
     "minutes": "20",
     "roomIndex": [0, 1],
-    "talkTitle": "Break. Book Signing with Andrew Martin",
-    "talkDescription": "",
+    "talkTitle": "Break.",
+    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -508,7 +508,7 @@
       "github": "",
       "linkedIn": "",
       "image": "woodnsec.jpg",
-      "bio": "Nate is a father, husband, and passionate infosec professional. Sr. Cloud Security Engineer at FNTS."
+      "bio": "Nate Wood is a passionate cyber security professional at FNTS as a Sr. Cloud Security Engineer. He enjoys contributing to information security projects such as the CTF platform redctf. Nate is an active member of his local security community as a member of the DEF CON 402 group and a organizing committee member for Kernelcon (a Midwest security conference). His hobbies include 3d printing, camping, and cycling. Kernelcon 2022 is his first time as a conference speaker."
     }]
   }, {
     "time": "1620",
@@ -535,31 +535,53 @@
   }, {
     "time": "1700",
     "minutes": "60",
-    "roomIndex": [0, 1],
-    "talkTitle": "CISO Panel",
-    "talkDescription": "",
-    "talkTechLevel": "",
-    "talkId": "",
+    "roomIndex": [0],
+    "talkTitle": "DMARC - Don't Let the Phishers Punk Your Email Domain",
+    "talkDescription": "DMARC can be difficult to set up, with its exacting syntax added on to the fact that many people don't understand what DMARC can really accomplish for their organization. Without DMARC on your email domain, malicious actors can send phishing emails, appearing to be sent from your email domain, claiming to be you, to anyone they want to, including your own customers, and you'll have no idea it's happening. Implementing DMARC incorrectly could result in your legitimate emails being bit-binned.  However, with DMARC correctly implemented on your domain, you can prevent these phishing emails from being delivered to their intended victims and you'll know that it's happening and where they are originating.",
+    "talkTechLevel": "4",
+    "talkId": "dmarc",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "",
-      "speakerId": "",
+      "name": "Matthew K. Miller",
+      "speakerId": "MatthewMiller",
       "company": "",
       "twitter": "",
       "github": "",
       "linkedIn": "",
-      "image": "",
-      "bio": ""
+      "image": "millermatthewkheadshot20210907.jpg",
+      "bio": "Matt is a Senior Information Security Engineer at First National Bank of Omaha. He is the SME for email security for FNBO. Hobbies include poker and genealogy. I can find birth parents!"
+    }]
+  }, {
+    "time": "1700",
+    "minutes": "60",
+    "roomIndex": [1],
+    "talkTitle": "Cryptor: A New Toolset for Writing Windows Based Self-Encrypting Malware",
+    "talkDescription": "Over the last year and a half, Jacob Mohrbutter has put much time into developing a new tool called Cryptor. This tool allows for the development of binaries that would present interesting and complex issues for Reverse Engineering. The main problem addressed with this tool is the storage of symmetric keys; instead of attempting to hide the key in the binary, the resulting binary will attempt to reach a C2 server for the relevant keying material. This talk will also cover heuristics that AV technology can use to detect encrypted samples, such as the sample presented in this toolset.",
+    "talkTechLevel": "5",
+    "talkId": "cryptor",
+    "postCon": {
+      "pdfLink": "",
+      "videoLink": ""
+    },
+    "authors": [{
+      "name": "Jacob Mohrbutter",
+      "speakerId": "JacobMohrbutter",
+      "company": "",
+      "twitter": "",
+      "github": "",
+      "linkedIn": "",
+      "image": "jmohrbutter.png",
+      "bio": "Jacob Mohrbutter is a DC402 member and hacker in the Omaha metropolitan area. Jacob attends the University of Nebraska at Omaha as a dual major in computer science and information assurance. His interests include Malware and Reverse Engineering."
     }]
   }, {
     "time": "1800",
     "minutes": "60",
     "roomIndex": [0, 1],
-    "talkTitle": "Dinner Break",
-    "talkDescription": "",
+    "talkTitle": "CISO Panel",
+    "talkDescription": "Panel TBD. This panel will be open to audience partiicpation.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -581,7 +603,7 @@
     "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "Kernel Panic Party",
-    "talkDescription": "",
+    "talkDescription": "Stick around for the Kernel Panic Party! Free drinks, food, and fun!",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -620,7 +642,7 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "Kernelcon Crew",
+      "name": "",
       "speakerId": "",
       "company": "",
       "twitter": "",
@@ -677,8 +699,8 @@
     "time": "1000",
     "minutes": "15",
     "roomIndex": [0, 1],
-    "talkTitle": "Break. (Room Switch)",
-    "talkDescription": "",
+    "talkTitle": "Break. (Room Config Change)",
+    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -686,7 +708,7 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "Kernelcon",
+      "name": "",
       "speakerId": "",
       "company": "",
       "twitter": "",
@@ -831,8 +853,8 @@
     "time": "1200",
     "minutes": "60",
     "roomIndex": [0, 1],
-    "talkTitle": "Lunch Break",
-    "talkDescription": "",
+    "talkTitle": "Lunch Break (On your own)",
+    "talkDescription": "Go grab some lunch from one of the many local restaurants in the Old Market, order something from a food truck, have something delivered, or eat at the hotel restaurant.  This hour is for you!",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -950,8 +972,8 @@
     "time": "1500",
     "minutes": "20",
     "roomIndex": [0, 1],
-    "talkTitle": "Break. Book Signing with James Dietle",
-    "talkDescription": "",
+    "talkTitle": "Break.",
+    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -1059,53 +1081,9 @@
   }, {
     "time": "1720",
     "minutes": "60",
-    "roomIndex": [0],
-    "talkTitle": "DMARC - Don't Let the Phishers Punk Your Email Domain",
-    "talkDescription": "DMARC can be difficult to set up, with its exacting syntax added on to the fact that many people don't understand what DMARC can really accomplish for their organization. Without DMARC on your email domain, malicious actors can send phishing emails, appearing to be sent from your email domain, claiming to be you, to anyone they want to, including your own customers, and you'll have no idea it's happening. Implementing DMARC incorrectly could result in your legitimate emails being bit-binned.  However, with DMARC correctly implemented on your domain, you can prevent these phishing emails from being delivered to their intended victims and you'll know that it's happening and where they are originating.",
-    "talkTechLevel": "4",
-    "talkId": "dmarc",
-    "postCon": {
-      "pdfLink": "",
-      "videoLink": ""
-    },
-    "authors": [{
-      "name": "Matthew K. Miller",
-      "speakerId": "MatthewMiller",
-      "company": "",
-      "twitter": "",
-      "github": "",
-      "linkedIn": "",
-      "image": "millermatthewkheadshot20210907.jpg",
-      "bio": "Matt is a Senior Information Security Engineer at First National Bank of Omaha. He is the SME for email security for FNBO. Hobbies include poker and genealogy. I can find birth parents!"
-    }]
-  }, {
-    "time": "1720",
-    "minutes": "60",
-    "roomIndex": [1],
-    "talkTitle": "Cryptor: A New Toolset for Writing Windows Based Self-Encrypting Malware",
-    "talkDescription": "Over the last year and a half, Jacob Mohrbutter has put much time into developing a new tool called Cryptor. This tool allows for the development of binaries that would present interesting and complex issues for Reverse Engineering. The main problem addressed with this tool is the storage of symmetric keys; instead of attempting to hide the key in the binary, the resulting binary will attempt to reach a C2 server for the relevant keying material. This talk will also cover heuristics that AV technology can use to detect encrypted samples, such as the sample presented in this toolset.",
-    "talkTechLevel": "5",
-    "talkId": "cryptor",
-    "postCon": {
-      "pdfLink": "",
-      "videoLink": ""
-    },
-    "authors": [{
-      "name": "Jacob Mohrbutter",
-      "speakerId": "JacobMohrbutter",
-      "company": "",
-      "twitter": "",
-      "github": "",
-      "linkedIn": "",
-      "image": "jmohrbutter.png",
-      "bio": "Jacob Mohrbutter is a DC402 member and hacker in the Omaha metropolitan area. Jacob attends the University of Nebraska at Omaha as a dual major in computer science and information assurance. His interests include Malware and Reverse Engineering."
-    }]
-  }, {
-    "time": "1820",
-    "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "Closing Ceremonies and Awards / Own the Con",
-    "talkDescription": "",
+    "talkDescription": "Join the Kernelcon Crew as they review the Con and award our coveted Eternal Kernel winners.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -1113,7 +1091,7 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "",
+      "name": "Kernelcon Crew",
       "speakerId": "",
       "company": "",
       "twitter": "",
