@@ -208,6 +208,7 @@
     "roomIndex": [0],
     "talkTitle": "Old Attacks Are New Again: NFTs, Rugpulls, and Cryptophishing",
     "talkDescription": "Old attacks are new again! Surely you have heard by now that non-fungible tokens (NFTs) are sweeping the world by storm. DappRadar, as reported by Reuters, estimated NFT sales volume totalled $24.9 billion in 2021. At the crossroads of new technologies and vast sums of capital there exists a ripe target for scams and phishing, despite all the lessons the infosec community has learned. This talk opens with a brief coverage of generic blockchain concepts and NFTs before exploring how scammers have leveraged this new space to part users from their hard earned cash. Attendees leave this talk with pointers on how to protect yourself and your loved ones.",
+    "talkMinDesc": "@infosecanon | Old Attacks Are New Again - NFTs, Rugpulls, and Cryptophishing",
     "talkTechLevel": "3",
     "talkId": "nfts",
     "postCon": {
@@ -230,6 +231,7 @@
     "roomIndex": [1],
     "talkTitle": "Secure OT Incorporation: Bringing the OT and IT Environments Together",
     "talkDescription": "Operational Technology (OT) networks and their systems are challenging to implement into corporate networks because a failure can result in a major increase in network-wide vulnerabilities. In this presentation I will explain some of the components of OT networks. I will also give examples of the more ubiquitous components of OT networks such as Supervisory Control and Data Acquisition (SCADA) systems, Programmable logic controllers (PLCs), Human-Machine Interfaces (HMIs), and Remote Terminal Units (RTUs). I will explain what SCADA systems are used for in an OT network. And how and how they can control physical devices such as actuators, air handling equipment, and robotics. I will also discuss why an OT network is more vulnerable than a typical IT network, and how to implement an OT network into a corporate network safely. I will discuss how to properly segment an OT network, so it is safe from an existing IT network, different network architectures for combined OT/IT networks, secure network protocols for OT networks, tools to exploit OT, and how to train employees and improve upon governance of OT networks. This will also include some of the challenges you can expect to face from trying to bring these two networks together.",
+    "talkMinDesc": "Harrison Koll | Secure OT incorporation, bringing the OT and IT environments together",
     "talkTechLevel": "2",
     "talkId": "otandit",
     "postCon": {
@@ -274,6 +276,7 @@
     "roomIndex": [0],
     "talkTitle": "The root password was klondike",
     "talkDescription": "What was the hacking scene like for eLiTe (script) kids in Omaha in the era of the film *Hackers*? Let's take a trip back to the mid-90s when we rollerbladed everywhere, and three-way handshakes were loud.  A time when the web was new, and the 'Net was just about to graduate from its friendly, trusting, academic beginnings to the hellscape we enjoy today (and which pays our bills).  We won't pwn a Gibson, but we'll relive hax0ring Unix boxen, a NetWare server, and maybe even some VAXen.  Nostalgia brought to you at 9600 bps thanks to the statute of limitations!",
+    "talkMinDesc": "@anthonykava | the root password was *klondike*: a ReTrO-spective of hacking in the mid-1990s",
     "talkTechLevel": "2",
     "talkId": "klondike",
     "postCon": {
@@ -296,6 +299,7 @@
     "roomIndex": [1],
     "talkTitle": "Knowing What Risks Matter -- And Don't -- In Your Open Source",
     "talkDescription": "As digital transformation accelerates, software developers face increasing pressure to speed up their work, and open-source software helps them meet aggressive timelines by dropping standardized code into an application. But cyber criminals are targeting more attacks on the software supply chain, exploiting software vulnerabilities that occur in production. As a result, organizations must prioritize protecting the open-source code in their applications. Attend this session to learn about the findings from the telemetry of thousands of real-world applications revealing trends of library usage, vulnerabilities, and best practices. You will learn about surprising findings such as: * Less than 10% of code in the typical application is open-source code actually used by the software. * Legacy software composition analysis (SCA) tools have a false positive rate of up to 69%. * The average library uses a version that is 2.5 years old, increasing risk and promising future headaches. * High-risk licenses are present in 69% of Java applications and 33% of Node applications. In a world of accelerating development and frequent exploitation of vulnerabilities, protecting applications containing open-source libraries and frameworks requires a different approach. Organizations need a comprehensive picture of active and inactive libraries and classes, library age, vulnerabilities, and licensing issues. Such observability enables an organization to address the riskiest issues - and not waste time with vulnerabilities that pose no risk.",
+    "talkMinDesc": "David Lindner | Knowing What Risks Matter -- And Don’t -- In Your Open Source",
     "talkTechLevel": "3",
     "talkId": "risksmatter",
     "postCon": {
@@ -318,6 +322,7 @@
     "roomIndex": [0],
     "talkTitle": "Hacking Kubernetes: Live Demo Marathon",
     "talkDescription": "In a live evocation of the recent O'Reilly title Hacking Kubernetes (Martin, Hausenblas, 2021), this ultimate guide to threat-driven Kubernetes defence threat models and details how to attack and defend your precious clusters from nefarious adversaries. This broad and detailed appraisal of end-to-end cluster security teaches you how to attack and defend against a range of historical and current CVEs, misconfigurations, and advanced threats: See the historical relevance of CVEs and demonstrations of attacks against your containers, pods, supply chain, network, storage, policy, and wider organisation. Understand when to use next-generation runtimes like gVisor, firecracker, and Kata Containers. Delve into workload identity and advanced runtime hardening. Consider the trust boundaries in soft- and hard-multitenant systems to appraise and limit the effects of compromise. Learn to navigate the choppy waters of advanced Kubernetes security.",
+    "talkMinDesc": "Andrew Martin | Kubernetes Security: Learn by Hacking",
     "talkTechLevel": "4.5",
     "talkId": "demomarathon",
     "postCon": {
@@ -340,6 +345,7 @@
     "roomIndex": [1],
     "talkTitle": "Threats lurking beneath the subsurface: Understanding and abusing Windows Subsystem for Linux (WSL)",
     "talkDescription": "In April 2016, Microsoft shocked the PC world when it announced the Windows Subsystem for Linux (WSL). WSL is a supplemental feature that runs a Linux image in a near-native environment on Windows, allowing for terminal functionality without the over-head of a virtual machine. While this new functionality was welcomed by developers, it also introduced a new attack surface threat actors can ( and do ) target. Black Lotus Labs recently identified several malicious files that were compiled in the Linux binary format ELF which utilized native windows APIs. Over the past several months, Black Lotus Labs has identified numerous \"stagers\" - i.e. lightweight scripts that load more robust agents into memory - keyloggers, and in some cases fully functional remote access trojans. The novelty of using an ELF loader designed for the WSL environment gave the technique a detection rate nearly, or in some cases a, zero for sample found on Virustotal. Suggesting that while this technique may be niche, as it requires WSL to be pre-installed by an admin, it can provide threat actors a blind spot to operate while evading some EDR products. This talk will briefly introduce WSL, then focus on the samples Black Lotus Labs observed abusing this feature in the wild, and how we analyzed these malicious files.",
+    "talkMinDesc": "Danny Adamitis | Threats lurking beneath the subsurface, understand and abusing the Windows subsystem for Linux",
     "talkTechLevel": "2",
     "talkId": "abusingwsl",
     "postCon": {
@@ -450,6 +456,7 @@
     "roomIndex": [1],
     "talkTitle": "Keeping a cool head in the eye of the storm, my experience with Incident Response leadership",
     "talkDescription": "This presentation is intended to go through my past experience with leading incident response teams during major incidents. I will walk through several of the past incidents I have worked and lead, and discuss some of the common mistakes of incident response leadership, as well as the things people should be doing when they are executing an incident response leadership role. A large portion of the presentation will focus on communication skills, how to organize a team, and how to make sure that everyone is pushing in a single direction. Other aspects of the talk will discuss the issues that arise during most incident responses, ranging from burnout and resource mismanagement to orchestrating a project with no set timeline.",
+    "talkMinDesc": "Benjamin Spencer| Keeping a cool head in the eye of the storm, my experience with Incident Response leadership.",
     "talkTechLevel": "2",
     "talkId": "cool-head-ben",
     "postCon": {
@@ -516,6 +523,7 @@
     "roomIndex": [1],
     "talkTitle": "Detecting Brand Impersonation with Computer Vision and DNSRazzle",
     "talkDescription": "Brand impersonation and BEC are complicated problems with no easy solution. There are numerous companies that claim to have the end all be all solution, but none had all of the features we at Baxter wanted. Last November this problem was dropped in my lap. I developed DNSRazzle to help us find brand impersonation, typo-squatting, and homoglyph domain names, in real time against an ever evolving adversary. This talk will show how to use DNSRazzle and computer vision to detect adversaries.",
+    "talkMinDesc": "Skip Cruse | Detecting brand impersonation with computer vision and DNSRazzle",
     "talkTechLevel": "3.5",
     "talkId": "dnsrazzle",
     "postCon": {
@@ -560,6 +568,7 @@
     "roomIndex": [1],
     "talkTitle": "Cryptor: A New Toolset for Writing Windows Based Self-Encrypting Malware",
     "talkDescription": "Over the last year and a half, Jacob Mohrbutter has put much time into developing a new tool called Cryptor. This tool allows for the development of binaries that would present interesting and complex issues for Reverse Engineering. The main problem addressed with this tool is the storage of symmetric keys; instead of attempting to hide the key in the binary, the resulting binary will attempt to reach a C2 server for the relevant keying material. This talk will also cover heuristics that AV technology can use to detect encrypted samples, such as the sample presented in this toolset.",
+    "talkMinDesc": "Jacob Mohrbutter | Cryptor: A New Toolset for Writing Windows Based Self-Encrypting Malware",
     "talkTechLevel": "5",
     "talkId": "cryptor",
     "postCon": {
@@ -723,6 +732,7 @@
     "roomIndex": [0],
     "talkTitle": "The Hand That Feeds: How to Misuse Kubernetes",
     "talkDescription": "We usually trust the hand that feeds, but what happens when we can't? How do we run applications when there is little to no trust?\r\n\r\n\r\nIn this session, we're going to start by taking a look at attack paths in and around Kubernetes, acting as a Red Team. We'll take advantage of an OWASP vulnerability within a Supply Chain attack to give us an entry point. From there, together we'll explore how an attacker can take further control of the cluster via lateral and vertical movements.\r\n\r\n\r\nOnce we have your attention from seeing how this could be someone's worst day, we'll look at how we can patch this attack up as a Blue Team. We\u2019ll see how Kubernetes can mitigate some of this disaster, and what practices we should put in place to further strengthen and defend our compute.\r\n\r\n\r\nFrom attending this session, you'll leave with a Purple Team understanding of core concepts within Kubernetes, that defence is strengthened with depth, and how we can defend from Script Kiddies to Nation States.",
+    "talkMinDesc": "Lewis Denham-Parry | The Hand That Feeds - How to Misuse Kubernetes",
     "talkTechLevel": "3",
     "talkId": "misuse-kubernetes",
     "postCon": {
@@ -811,6 +821,7 @@
     "roomIndex": [0],
     "talkTitle": "Protecting Your Cloud Environment from the Netrunners",
     "talkDescription": "Have you ever found yourself questioning, \"what is my attack surface in the cloud?\" What are the top security risks that I need to watch out for in this new domain? No need to fret, this talk will answer these questions by focusing on the Security Aspects of Cloud Computing with a CyberPunk theme! At the end of this talk, attendees will leave knowing the most important areas to focus on to create a high standard of cloud hygiene and security for their environments. Applicable to AWS, Azure, and GCP.",
+    "talkMinDesc": "Ryan Hollis | Protecting Your Cloud Environment from the Netrunners",
     "talkTechLevel": "2",
     "talkId": "netrunners",
     "postCon": {
@@ -899,6 +910,7 @@
     "roomIndex": [1],
     "talkTitle": "Securing Cloud-Native Workloads, an Introduction",
     "talkDescription": "So, you've finished your (rushed by lockdown) lift-and-shift to the cloud, and now your developers are adopting cloud-native workloads such as containers, serverless functions, storage buckets, and databases as a service.  These new technologies introduce new attack vectors, and must be defended in unique ways. You're not \"just running on someone else's servers\" when workloads come and go in seconds.  How do you secure a function when the communication layer is opaque to you?  Can you govern container use well enough to protect it, but without slowing down developers and the business?  Heck, do you even know what's out there? This session will provide you with enough knowledge to begin securing the your most important assets in the cloud.  Sure, cloud-native workloads can seem mysterious, but once you know the differences (and hidden pitfalls) of cloud-native workloads, you'll be in good shape to start defending them.",
+    "talkMinDesc": "Gabe Schuyler | Securing cloud-native workloads, an introduction.",
     "talkTechLevel": "3",
     "talkId": "cloud-native-workloads",
     "postCon": {
@@ -952,6 +964,7 @@
     "roomIndex": [1],
     "talkTitle": "Improving Cloud Incident Response without Throwing Shade",
     "talkDescription": "When it comes to incident response, your infrastructure may be in the cloud, but your head doesn't have to be. I'll walk through practical ways to improve your Incident Response and provide you with exercises you can test throughout the talk, Saturday Night, and throughout the conference. We will cover discussions about logs, frameworks, and tools so the next time there is an incident you can Rise Above.",
+    "talkMinDesc": "James Dietle | Cloud IR - No Shade",
     "talkTechLevel": "2",
     "talkId": "cloud-incident-response",
     "postCon": {
