@@ -26,7 +26,8 @@
       "github": "",
       "linkedIn": "",
       "image": "",
-      "bio": ""
+      "bio": "",
+      "hidden": true
     }]
   }, {
     "time": "0850",
@@ -44,11 +45,13 @@
       "name": "Kernelcon Crew",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "0900",
@@ -66,6 +69,7 @@
       "name": "Joe Grand",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -88,11 +92,13 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "1015",
@@ -114,7 +120,8 @@
       "github": "",
       "linkedIn": "",
       "image": "",
-      "bio": "Sam Curry is the founder of Palisade, LLC, a security consultancy specialized in securing blockchain based web applications. Prior to Palisade, he worked as a full time bug bounty hunter for 4 years, a security analyst at HackerOne, and a security consultant at TrustFoundry. Sam runs a blog at samcurry.net discussing web security research and bug bounty findings.\n"
+      "bio": "Sam Curry is the founder of Palisade, LLC, a security consultancy specialized in securing blockchain based web applications. Prior to Palisade, he worked as a full time bug bounty hunter for 4 years, a security analyst at HackerOne, and a security consultant at TrustFoundry. Sam runs a blog at samcurry.net discussing web security research and bug bounty findings.\n",
+      "hidden": false
     }]
   }, {
     "time": "1015",
@@ -136,7 +143,8 @@
         "github": "",
         "linkedIn": "https://www.linkedin.com/in/carl-schuett-1a5a0b80/",
         "image": "",
-        "bio": "Jesse and Carl are Security Researchers for QED Secure Solutions. A small security firm that specializes in security research and assessments of embedded devices, critical infrastructure, and medical systems. Jesse has extensive cybersecurity experience both with QED as well as with the Air National Guard, Microsoft, and Kaiser Permanente. Carl joined QED after retiring from the Air Force and has experience in aviation and industrial control system cybersecurity.\n"
+        "bio": "Jesse and Carl are Security Researchers for QED Secure Solutions. A small security firm that specializes in security research and assessments of embedded devices, critical infrastructure, and medical systems. Jesse has extensive cybersecurity experience both with QED as well as with the Air National Guard, Microsoft, and Kaiser Permanente. Carl joined QED after retiring from the Air Force and has experience in aviation and industrial control system cybersecurity.\n",
+        "hidden": false
       },
       {
         "name": "Jesse Young",
@@ -146,7 +154,8 @@
         "github": "",
         "linkedIn": "https://www.linkedin.com/in/jesse-young/",
         "image": "",
-        "bio": "Jesse and Carl are Security Researchers for QED Secure Solutions. A small security firm that specializes in security research and assessments of embedded devices, critical infrastructure, and medical systems. Jesse has extensive cybersecurity experience both with QED as well as with the Air National Guard, Microsoft, and Kaiser Permanente. Carl joined QED after retiring from the Air Force and has experience in aviation and industrial control system cybersecurity.\n"
+        "bio": "Jesse and Carl are Security Researchers for QED Secure Solutions. A small security firm that specializes in security research and assessments of embedded devices, critical infrastructure, and medical systems. Jesse has extensive cybersecurity experience both with QED as well as with the Air National Guard, Microsoft, and Kaiser Permanente. Carl joined QED after retiring from the Air Force and has experience in aviation and industrial control system cybersecurity.\n",
+        "hidden": false
       }
     ]
   }, {
@@ -169,7 +178,8 @@
       "github": "",
       "linkedIn": "",
       "image": "",
-      "bio": "Mike is a past winner of the Kernelcon CTF and holds a Eternal Kernel badge. He is an UNO alumni."
+      "bio": "Mike is a past winner of the Kernelcon CTF and holds a Eternal Kernel badge. He is an UNO alumni.",
+      "hidden": false
     }]
   }, {
     "time": "1115",
@@ -187,6 +197,7 @@
       "name": "Sarit Yerushalmi",
       "speakerId": "SaritYerushalmi",
       "company": "",
+      "hidden": false,
       "twitter": "@sarity85",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/sarit-yerushalmi-yarkoni-541619135/",
@@ -196,6 +207,7 @@
       "name": "Ofir Shaty",
       "speakerId": "OfirShaty",
       "company": "",
+      "hidden": false,
       "twitter": "@Nu11p01Nt",
       "github": "",
       "linkedIn": "http://www.linkedin.com/in/ofir-shaty-25856a77",
@@ -219,6 +231,7 @@
       "name": "Heather Lawrence",
       "speakerId": "HeatherLawrence",
       "company": "",
+      "hidden": false,
       "twitter": "@infosecanon",
       "github": "",
       "linkedIn": "",
@@ -242,6 +255,7 @@
       "name": "Harrison Koll",
       "speakerId": "HarrisonKoll",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -264,11 +278,13 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "1300",
@@ -287,6 +303,7 @@
       "name": "Anthony Kava",
       "speakerId": "AnthonyKava",
       "company": "",
+      "hidden": false,
       "twitter": "@anthonykava",
       "github": "",
       "linkedIn": "",
@@ -310,10 +327,11 @@
       "name": "David Lindner",
       "speakerId": "DavidLindner",
       "company": "Contrast Security",
+      "hidden": false,
       "twitter": "@golfhackerdave",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/dlindner",
-      "image": "DavidLindner.jpg",
+      "image": "DavidLindner.png",
       "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer, David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field - from application development, to network architecture design and support, to IT security and consulting, to security training, to application security. Over the past decade, David has specialized in all things related to mobile applications and securing them. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs."
     }]
   }, {
@@ -333,6 +351,7 @@
       "name": "Andrew Martin",
       "speakerId": "AndrewMartin",
       "company": "",
+      "hidden": false,
       "twitter": "@sublimino",
       "github": "",
       "linkedIn": "",
@@ -356,6 +375,7 @@
       "name": "Daniel Adamitis",
       "speakerId": "DanielAdamitis",
       "company": "",
+      "hidden": false,
       "twitter": "@dadamiti",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/daniel-a-44198047/",
@@ -378,11 +398,13 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "1520",
@@ -400,6 +422,7 @@
       "name": "Jake Foiles",
       "speakerId": "JakeFoiles",
       "company": "",
+      "hidden": false,
       "twitter": "@FBIOmaha",
       "github": "",
       "linkedIn": "",
@@ -422,6 +445,7 @@
       "name": "Benjamin McDaniel",
       "speakerId": "BenjaminMcDaniel",
       "company": "",
+      "hidden": false,
       "twitter": "@SN1CK3T",
       "github": "",
       "linkedIn": "",
@@ -444,6 +468,7 @@
       "name": "Matt Virus",
       "speakerId": "MattVirus",
       "company": "",
+      "hidden": false,
       "twitter": "@themattvirus",
       "github": "",
       "linkedIn": "",
@@ -467,6 +492,7 @@
       "name": "Benjamin Spencer",
       "speakerId": "BenjaminSpencer",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -489,6 +515,7 @@
       "name": "Gus Gorman",
       "speakerId": "GusGorman",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -511,6 +538,7 @@
       "name": "Nate Wood",
       "speakerId": "NateWood",
       "company": "",
+      "hidden": false,
       "twitter": "@woodnsec",
       "github": "",
       "linkedIn": "",
@@ -534,6 +562,7 @@
       "name": "Skip Cruse",
       "speakerId": "SkipCruse",
       "company": "",
+      "hidden": false,
       "twitter": "@securityshrimp",
       "github": "",
       "linkedIn": "https://linkedin.com/in/skipcruse",
@@ -556,10 +585,11 @@
       "name": "Matthew K. Miller",
       "speakerId": "MatthewMiller",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
-      "image": "millermatthewkheadshot20210907.jpg",
+      "image": "millermatthewkheadshot20210907.png",
       "bio": "Matt is a Senior Information Security Engineer at First National Bank of Omaha. He is the SME for email security for FNBO. Hobbies include poker and genealogy. I can find birth parents!"
     }]
   }, {
@@ -579,6 +609,7 @@
       "name": "Jacob Mohrbutter",
       "speakerId": "JacobMohrbutter",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -601,6 +632,7 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -623,6 +655,7 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -654,6 +687,7 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -676,6 +710,7 @@
       "name": "Kernelcon Crew",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -698,11 +733,13 @@
       "name": "Jen Easterly",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "1000",
@@ -720,11 +757,13 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
       "bio": ""
+
     }]
   }, {
     "time": "1015",
@@ -743,6 +782,7 @@
       "name": "Lewis Denham-Parry",
       "speakerId": "LewisDenhamParry",
       "company": "",
+      "hidden": false,
       "twitter": "@denhamparry",
       "github": "",
       "linkedIn": "",
@@ -765,6 +805,7 @@
       "name": "Joe Gray",
       "speakerId": "JoeGray",
       "company": "",
+      "hidden": false,
       "twitter": "@C_3PJoe",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/joegrayinfosec/",
@@ -787,6 +828,7 @@
       "name": "Dan Tentler",
       "speakerId": "DanTentler",
       "company": "",
+      "hidden": false,
       "twitter": "@viss",
       "github": "",
       "linkedIn": "",
@@ -809,6 +851,7 @@
       "name": "Reet Kaur",
       "speakerId": "ReetKaur",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -832,6 +875,7 @@
       "name": "Ryan Hollis",
       "speakerId": "RyanHollis",
       "company": "",
+      "hidden": false,
       "twitter": "@ryanhollis_",
       "github": "",
       "linkedIn": "",
@@ -854,6 +898,7 @@
       "name": "Yohann Sillam",
       "speakerId": "YohannSillam",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -876,6 +921,7 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -898,6 +944,7 @@
       "name": "Nathanial Lattimer",
       "speakerId": "NathanialLattimer",
       "company": "",
+      "hidden": false,
       "twitter": "@d0nutptr",
       "github": "",
       "linkedIn": "",
@@ -921,6 +968,7 @@
       "name": "Gabe Schuyler",
       "speakerId": "GabeSchuyler",
       "company": "",
+      "hidden": false,
       "twitter": "@gabe_sky",
       "github": "",
       "linkedIn": "",
@@ -943,6 +991,7 @@
       "name": "Nick Beede",
       "speakerId": "NickBeede",
       "company": "",
+      "hidden": false,
       "twitter": "@nbd33",
       "github": "",
       "linkedIn": "",
@@ -952,6 +1001,7 @@
       "name": "Jack Mott",
       "speakerId": "JackMott",
       "company": "",
+      "hidden": false,
       "twitter": "@malwareforme",
       "github": "",
       "linkedIn": "",
@@ -975,10 +1025,11 @@
       "name": "James Dietle",
       "speakerId": "JamesDietle",
       "company": "",
+      "hidden": false,
       "twitter": "@jamesdietle",
       "github": "",
       "linkedIn": "",
-      "image": "jamesdietle.jpg",
+      "image": "jamesdietle.png",
       "bio": "Growing up, James led Navy Red Teams to test Navy warships and later built SOCs for large companies. As an AWS Senior Security Consultant, he helps customers on their journey to a safe and secure cloud."
     }]
   }, {
@@ -997,6 +1048,7 @@
       "name": "",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -1019,6 +1071,7 @@
       "name": "Megan Benoit",
       "speakerId": "MeganBenoit",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -1041,6 +1094,7 @@
       "name": "John DiMartino",
       "speakerId": "JohnDiMartino",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/jpdimartino",
@@ -1063,6 +1117,7 @@
       "name": "Ben Sadeghipour",
       "speakerId": "BenSadeghipour",
       "company": "",
+      "hidden": false,
       "twitter": "@NahamSec",
       "github": "",
       "linkedIn": "",
@@ -1085,6 +1140,7 @@
       "name": "Joseph Wilson",
       "speakerId": "JosephWilson",
       "company": "",
+      "hidden": false,
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -1107,6 +1163,7 @@
       "name": "Kernelcon Crew",
       "speakerId": "",
       "company": "",
+      "hidden": true,
       "twitter": "",
       "github": "",
       "linkedIn": "",

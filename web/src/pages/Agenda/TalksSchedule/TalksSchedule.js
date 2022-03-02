@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Modal from '../../components/Modal/Modal';
-import Donut from '../../components/Charts/Donut';
+import Modal from '../../../components/Modal/Modal';
+import Donut from '../../../components/Charts/Donut';
 import './TalksSchedule.scss';
 
 import config from 'agendaConfig';
-
 
 export default class TalksSchedule extends Component {
   static displayName = 'TalksSchedule';

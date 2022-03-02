@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 
-import TalksSchedule from './TalksSchedule';
+import TalksSchedule from './TalksSchedule/TalksSchedule';
+import Speakers from './Speakers/Speakers';
 // import ConSchedule from './ConSchedule';
 // import TrainingSubmissions from './TrainingSubmission';
 // import Workshops from './Workshops';
@@ -74,8 +75,8 @@ export default class Agenda extends Component {
         <TabList>
           <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
-          {/* <Tab tabFor="training">Training</Tab>
-          <Tab tabFor="workshops">Workshops</Tab> */}
+          <Tab tabFor="speakers">Speakers</Tab>
+          {/*<Tab tabFor="workshops">Workshops</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
@@ -176,13 +177,12 @@ export default class Agenda extends Component {
             </div>
           </div>
         </TabPanel>
-        {/* <TabPanel tabId="training" className="training">
+        <TabPanel tabId="speakers" className="speakers">
           <div className='text-area'>
-            <h3 className='title'>Training -<div className='sold-out'>SOLD OUT - we'll bring back more next year!</div></h3>
-            <div className='training-call-out'><b className='note'>Note:</b><em>Conference admission included with every training class!  If you've already registered and want to add a training class, please contact registration@kernelcon.org.</em></div>
-            <TrainingSubmissions />
+            <h3 className='title'>Speakers</h3>
+            <Speakers />
           </div>
-        </TabPanel> */}
+        </TabPanel>
 
 
         <TabPanel tabId="villages">
