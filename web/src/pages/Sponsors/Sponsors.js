@@ -8,6 +8,7 @@ import Fnbo from "../../static/images/sponsors/fnbo.png";
 import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
 import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
 import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
+import RedCanary from "../../static/images/sponsors/red_canary.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -163,6 +164,13 @@ export default class Sponsors extends Component {
                     className='spons-img other-spons'
                     alt="First National Bank of Omaha"/>
                 </a>
+                <a href="https://redcanary.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={RedCanary}
+                    className='spons-img other-spons'
+                    alt="Red Canary"/>
+                </a>
               </div>
 
               <div className='spons-block'>
@@ -273,6 +281,13 @@ export default class Sponsors extends Component {
                       <img src={CheckPoint}
                         className='spons-img fdbev-spons'
                         alt="Check Point"/>
+                    </a>
+                    <a href="https://redcanary.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={RedCanary}
+                        className='spons-img fdbev-spons'
+                        alt="Red Canary"/>
                     </a>
                   </div>
 
