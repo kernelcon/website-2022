@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebc73f026a228f0b4cf6b1d710f1b59e",
+    "revision": "5cb4b078db9a12de90aa4336c3b9f9b8",
     "url": "/index.html"
   },
   {
-    "revision": "e4a75a9c6661e5f6b6bf",
+    "revision": "985f3bd630b2457c27eb",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "5c6f5298a59a86084ba5",
+    "revision": "f35e6e38dc59fd96513b",
     "url": "/static/css/main.a2ad98d3.chunk.css"
   },
   {
-    "revision": "e4a75a9c6661e5f6b6bf",
-    "url": "/static/js/2.6a3c6007.chunk.js"
+    "revision": "985f3bd630b2457c27eb",
+    "url": "/static/js/2.8fce4274.chunk.js"
   },
   {
-    "revision": "5c6f5298a59a86084ba5",
-    "url": "/static/js/main.4c72d8f2.chunk.js"
+    "revision": "f35e6e38dc59fd96513b",
+    "url": "/static/js/main.788cec6f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3da34fdb2fb6ac7c9c641f03a4102ca0",
     "url": "/static/media/9.3da34fdb.png"
+  },
+  {
+    "revision": "294c1ba0cf0163f0f8d38093f4fafab5",
+    "url": "/static/media/AWS_color.294c1ba0.bmp"
   },
   {
     "revision": "c00244b642c4a83c48bbe84b7849e2ac",
@@ -342,6 +346,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3104375c669b30576012b08263f63a47",
     "url": "/static/media/punks-not-dead.3104375c.mp3"
+  },
+  {
+    "revision": "9755eca9ef2b1aedb3ba206807abfc54",
+    "url": "/static/media/red_canary.9755eca9.png"
   },
   {
     "revision": "65bfeabe8d2d4e37eefe7ea8d652863d",
