@@ -695,8 +695,8 @@
       "bio": ""
     }]
   }, {
-    "time": "0850",
-    "minutes": "10",
+    "time": "0840",
+    "minutes": "5",
     "roomIndex": [0, 1],
     "talkTitle": "Opening Remarks",
     "talkDescription": "We kick off our 2022 Conference with a few words from the Kernelcon Organizers.",
@@ -718,8 +718,8 @@
       "bio": ""
     }]
   }, {
-    "time": "0900",
-    "minutes": "60",
+    "time": "0845",
+    "minutes": "75",
     "roomIndex": [0, 1],
     "talkTitle": "Keynote: Jen Easterly (Fireside Chat + Q&A)",
     "talkDescription": "",
