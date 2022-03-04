@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef3505bb5394a72e83cb13f6c48e8d9a",
+    "revision": "84262e63eaf0c4b5f8f644deac3bef68",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "fef407d1254e64a6fc94",
+    "revision": "5461337cf6f55e981b92",
     "url": "/static/css/main.0b8097fe.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2ff4f18c.chunk.js"
   },
   {
-    "revision": "fef407d1254e64a6fc94",
-    "url": "/static/js/main.27400366.chunk.js"
+    "revision": "5461337cf6f55e981b92",
+    "url": "/static/js/main.c74dc977.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -168,12 +168,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/checkpoint-dark-logo.ecf18ce5.png"
   },
   {
-    "revision": "bf5de5bf131575d509bdc6498e2b2ca8",
-    "url": "/static/media/contrast-dark-logo.bf5de5bf.png"
+    "revision": "ecc96d47eb8938368fbd6d8b531890c4",
+    "url": "/static/media/contrast-dark-logo.ecc96d47.png"
   },
   {
-    "revision": "5adf619309f7635b81c07ac42250e52c",
-    "url": "/static/media/contrast-light-logo.5adf6193.png"
+    "revision": "709e5298e3e5de66c75001ffd1266a29",
+    "url": "/static/media/contrast-light-logo.709e5298.png"
   },
   {
     "revision": "09329a80cde255e3b75082beeca74c21",
