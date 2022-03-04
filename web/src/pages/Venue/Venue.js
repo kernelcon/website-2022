@@ -46,11 +46,11 @@ export default class Venue extends Component {
 						<div className="venue-hotel">
 							<div className="venue-text">
 								We have a room block reserved at the conference
-								hotel from Mar 29 to Apr 3 at a rate of
+								hotel from Mar 31 to Apr 3 at a rate of
 								$149/night. Book directly with the hotel{" "}
 								<a
 									className="text-highlight"
-									href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hilton.com%2Fen%2Fbook%2Freservation%2Fdeeplink%2F%3F%26ctyhocn%3DOMADTES%26groupCode%3DCESKCA%26arrival%3D20220329%26departure%3D20220403%26cid%3DOM%2CWW%2CHILTONLINK%2Cen%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=04%7C01%7Cfelicia.vann%40atriumhospitality.com%7C5099baec00c040cba43208d8f90ab428%7C2a940736346f4580951607fd1e7cc52d%7C0%7C0%7C637533171660458186%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=A%2FEbhsn2c6Wec1SF1O4WerJvbetp3b4BTl5594ykB38%3D&reserved=0"
+									href="https://www.hilton.com/en/book/reservation/deeplink/?&ctyhocn=OMADTES&groupCode=CESKCA&arrival=20220331&departure=20220403&cid=OM,WW,HILTONLINK,en,DirectLink&fromId=HILTONLINKDIRECT&data=04|01|felicia.vann@atriumhospitality.com|5099baec00c040cba43208d8f90ab428|2a940736346f4580951607fd1e7cc52d|0|0|637533171660458186|Unknown|TWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0=|1000&sdata=A/Ebhsn2c6Wec1SF1O4WerJvbetp3b4BTl5594ykB38=&reserved=0"
 									rel="noopener noreferrer"
 									target="_blank">
 									HERE
