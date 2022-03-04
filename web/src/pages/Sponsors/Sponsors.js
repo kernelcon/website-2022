@@ -9,6 +9,8 @@ import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
 import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
 import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
 import RedCanary from "../../static/images/sponsors/red_canary.png";
+import AWSDark from "../../static/images/sponsors/AWS_black.png";
+import AWSLight from "../../static/images/sponsors/AWS-color.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -110,37 +112,30 @@ export default class Sponsors extends Component {
                     alt="ENDGAME"/>
                 </a>
               </div>
-
-              <div className='spons-block'>
-                <h3 className='gold spons-title'>Gold</h3>
-                <a href="https://www.secureworks.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={swlogo}
-                    className='spons-img gold-spons'
-                    alt="Secure Works"/>
-                </a>
-                <div className='two-line'>
-                  <a href="https://fnbo.com/"
-                    target="_blank"
-                    rel='noopener noreferrer'>
-                    <img src={fnbo}
-                      className='spons-img half-gold-spons'
-                      alt="First National Bank"/>
-                  </a>
-                  <a href="https://www.fnts.com/"
-                    target="_blank"
-                    rel='noopener noreferrer'>
-                    <img src={fnts}
-                      className='spons-img half-gold-spons'
-                      alt="First National Technology Solutions"/>
-                  </a>
-                </div>
-              </div>
               */}
 
               <div className='spons-block'>
-                <h3 className='gold spons-title'>Silver</h3>
+                <h2 className='gold spons-title'>Gold</h2>
+                <a href="https://aws.amazon.com/"
+                  target="_blank"
+                  className='light-mode-logo'
+                  rel='noopener noreferrer'>
+                  <img src={AWSLight}
+                    className='spons-img other-spons'
+                    alt="AWS"/>
+                </a>
+                <a href="https://aws.amazon.com/"
+                  target="_blank"
+                  className='dark-mode-logo'
+                  rel='noopener noreferrer'>
+                  <img src={AWSDark}
+                    className='spons-img other-spons'
+                    alt="AWS"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h3 className='silver spons-title'>Silver</h3>
                 <a href="https://www.contrastsecurity.com/"
                   target="_blank"
                   className='dark-mode-logo'

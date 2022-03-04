@@ -173,12 +173,12 @@
     "authors": [{
       "name": "Mike Kunz",
       "speakerId": "MikeKunz",
-      "company": "",
+      "company": "Contrast Security",
       "twitter": "@mkunzsec",
       "github": "",
       "linkedIn": "",
-      "image": "",
-      "bio": "Mike is a past winner of the Kernelcon CTF and holds a Eternal Kernel badge. He is an UNO alumni.",
+      "image": "mikekunz.png",
+      "bio": "Mike is a Senior Security Researcher for the Contrast Security Labs team. Prior to Contrast he worked 7 years for an FFRDC helping the government sector make more informed decisions. He is a past winner of the Kernelcon CTF and is an UNO alumni.",
       "hidden": false
     }]
   }, {
