@@ -194,25 +194,15 @@
       "videoLink": ""
     },
     "authors": [{
-      "name": "Sarit Yerushalmi",
-      "speakerId": "SaritYerushalmi",
-      "company": "",
+      "name": "Islam Heralla",
+      "speakerId": "IslamHeralla",
+      "company": "Imperva",
       "hidden": false,
-      "twitter": "@sarity85",
+      "twitter": "",
       "github": "",
-      "linkedIn": "https://www.linkedin.com/in/sarit-yerushalmi-yarkoni-541619135/",
-      "image": "sarit yerushalmi.jpg",
-      "bio": "Sarit Yerushalmi is a Security Researcher at Imperva for the last 10 years. Experienced with security research in the areas of web application, cloud and API Developer at heart. B.Sc. in Computer Science."
-    }, {
-      "name": "Ofir Shaty",
-      "speakerId": "OfirShaty",
-      "company": "",
-      "hidden": false,
-      "twitter": "@Nu11p01Nt",
-      "github": "",
-      "linkedIn": "http://www.linkedin.com/in/ofir-shaty-25856a77",
+      "linkedIn": "https://www.linkedin.com/in/islam-heralla-17213626/",
       "image": "",
-      "bio": "Ofir Shaty is a Security Researcher at Imperva for the last 6 years. Experienced with security research in the areas of cloud, database and web applications. B.A in Computer Science."
+      "bio": " Islam is a computer security expert , Graduated from University at the age of 16 - holds a B.Sc in Computer Science and Mathematics. Experienced with security research in the areas of cloud and database. 17 years of experience in multidisciplinary software development with a proven track record."
     }]
   }, {
     "time": "1135",
