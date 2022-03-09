@@ -51,7 +51,6 @@ export default class Agenda extends Component {
   }
 
   componentDidMount() {
-    console.log('this.state', this.state);
     this.setState({...this.state});
     // const goToClass = this.state.goToClass;
 

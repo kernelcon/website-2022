@@ -10,7 +10,7 @@ class Modal extends Component {
     show: PropTypes.bool,
     children: PropTypes.node,
     title: PropTypes.string,
-    modalContentStyle: PropTypes.node,
+    modalContentStyle: PropTypes.object,
     height: PropTypes.string,
     width: PropTypes.string,
     class: PropTypes.string

@@ -30,7 +30,6 @@ class Individuals extends Component {
   };
   // require(`../../../static/images/speakers/${img}`)
   getImage(img) {
-    console.log(`../../../static/images/speakers/${img}`);
     const imgSrc =  img ? require(`../../../static/images/${img}`) : 'https://via.placeholder.com/150';
     return imgSrc;
   }

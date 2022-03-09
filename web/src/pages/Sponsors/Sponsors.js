@@ -11,6 +11,7 @@ import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
 import RedCanary from "../../static/images/sponsors/red_canary.png";
 import AWSDark from "../../static/images/sponsors/AWS_black.png";
 import AWSLight from "../../static/images/sponsors/AWS-color.png";
+import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -283,6 +284,13 @@ export default class Sponsors extends Component {
                       <img src={RedCanary}
                         className='spons-img fdbev-spons'
                         alt="Red Canary"/>
+                    </a>
+                    <a href="https://www.netsecuris.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={Netsecuris}
+                        className='spons-img fdbev-spons'
+                        alt="Netsecuris"/>
                     </a>
                   </div>
 

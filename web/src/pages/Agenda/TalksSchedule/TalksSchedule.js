@@ -57,7 +57,7 @@ export default class TalksSchedule extends Component {
 
     const scheduleTabs = config.map((ele, index) => {
       return (
-        <li>
+        <li key={index}>
           <input type='radio'
             onChange={() => {this.toggleScheduleDate(index)}}
             name='schedule-tabs'
@@ -81,7 +81,7 @@ export default class TalksSchedule extends Component {
 
     const trackHeaders = currentDay.roomsInfo.map((ele, index) => {
       return (
-        <div className='track' style={{gridColumn: index+1, gridRow: 1}}>{ele.roomName}</div>
+        <div key={index} className='track' style={{gridColumn: index+1, gridRow: 1}}>{ele.roomName}</div>
       );
     });
 
@@ -100,12 +100,19 @@ export default class TalksSchedule extends Component {
         rows+= 2;
       }
       
+      const authors = ele.authors.map((author, index) => {
+        const hyphen = index === 0 && author.name ? ' - ' : '';
+        return (
+          `${hyphen}${author.name}`
+        )
+      });
+
       return (
         <a style={{gridColumn: gridColumn, gridRow: gridRow}}
-          onClick={this.popModal(ele.talkTitle, ele.talkDescription, ele.talkTechLevel, ele.authors, ele.time)}>
+          key={index} onClick={this.popModal(ele.talkTitle, ele.talkDescription, ele.talkTechLevel, ele.authors, ele.time)}>
           <div className='box'>
             <span className='talk-time'>{ele.time}</span>
-            <span className={`${ele.minutes >= 42 ? "truncate-overflow-4 truncate-overflow" : "truncate-overflow-1 truncate-overflow"}`}>{ele.talkTitle}</span>
+            <span className={`${ele.minutes >= 42 ? "truncate-overflow-4 truncate-overflow" : "truncate-overflow-1 truncate-overflow"}`}>{`${ele.talkTitle}${authors}`}</span>
           </div>
         </a>
       );
