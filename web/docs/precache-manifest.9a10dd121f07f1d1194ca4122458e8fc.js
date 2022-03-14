@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c31401c449781d18b63f180acbcf09e1",
+    "revision": "21472f5ff50ca401b1beafce12352154",
     "url": "/index.html"
   },
   {
-    "revision": "f6d6142ffce97f81e54f",
+    "revision": "109aa086528db4a9dbe2",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "020e00590fac04a796c9",
-    "url": "/static/css/main.fe09e0f3.chunk.css"
+    "revision": "f8c9530061273b9fb357",
+    "url": "/static/css/main.a016f135.chunk.css"
   },
   {
-    "revision": "f6d6142ffce97f81e54f",
-    "url": "/static/js/2.fd939b2f.chunk.js"
+    "revision": "109aa086528db4a9dbe2",
+    "url": "/static/js/2.70080498.chunk.js"
   },
   {
-    "revision": "020e00590fac04a796c9",
-    "url": "/static/js/main.9af7445f.chunk.js"
+    "revision": "f8c9530061273b9fb357",
+    "url": "/static/js/main.5e8e6acf.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -170,6 +170,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecf18ce5fb10025a59272801e92b4c06",
     "url": "/static/media/checkpoint-dark-logo.ecf18ce5.png"
+  },
+  {
+    "revision": "d34ddaa1222a0b45ebe1a80b9c2edd9c",
+    "url": "/static/media/conagra-dark-logo.d34ddaa1.png"
+  },
+  {
+    "revision": "f26415d786fbeddd859ad9009685bf79",
+    "url": "/static/media/conagra-light-logo.f26415d7.webp"
   },
   {
     "revision": "bf5de5bf131575d509bdc6498e2b2ca8",

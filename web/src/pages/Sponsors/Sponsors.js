@@ -12,6 +12,7 @@ import RedCanary from "../../static/images/sponsors/red_canary.png";
 import AWSDark from "../../static/images/sponsors/AWS_black.png";
 import AWSLight from "../../static/images/sponsors/AWS-color.png";
 import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
+import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -132,6 +133,22 @@ export default class Sponsors extends Component {
                   <img src={AWSDark}
                     className='spons-img other-spons'
                     alt="AWS"/>
+                </a>
+                <a href="https://www.conagrabrands.com/"
+                  target="_blank"
+                  className='dark-mode-logo'
+                  rel='noopener noreferrer'>
+                  <img src={ConAgraLight}
+                    className='spons-img other-spons'
+                    alt="Conagra"/>
+                </a>
+                <a href="https://www.conagrabrands.com/"
+                  target="_blank"
+                  className='all-dark light-mode-logo'
+                  rel='noopener noreferrer'>
+                  <img src={ConAgraLight}
+                    className='spons-img other-spons'
+                    alt="Conagra"/>
                 </a>
               </div>
 
