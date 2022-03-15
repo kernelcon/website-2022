@@ -516,24 +516,24 @@
     "time": "1600",
     "minutes": "20",
     "roomIndex": [1],
-    "talkTitle": "All Juiced Up",
-    "talkDescription": "Ever wanted to make your own replacement battery or repair power tools? How about a DIY power wall? Recycling batteries can lead to all sorts of fun projects to revitalize products or build new ones. This talk will discuss basic battery theory and review how to build your own battery pack.",
+    "talkTitle": "Research the Advanced Bot Landscape",
+    "talkDescription": "Bad bots traffic represents around a quarter of Internet traffic today and is predicted to increase. This traffic includes website content scanning, stolen credit card checking, denial of service, inventory... In this talk, we describe how as a security company we tackle this variety of threats, how we started our research, the challenges we faced and the solutions we provided. This talk includes an overview of the general trend in terms of popular bot programming languages, software development frameworks. Then, practical examples will be taken from the most prevalent bots from the OWASP top 10 automated threats. The general architecture of those bots will be displayed. The main components explained before drilling down to the key features they include to remain undetected. How do they evade captcha systems? How do they avoid fingerprinting? From the naive approaches we will introduce you to the most stealthy features.",
     "talkTechLevel": "2",
-    "talkId": "juiced-up",
+    "talkId": "advanced-bot-landscape",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Nate Wood",
-      "speakerId": "NateWood",
+      "name": "Yohann Sillam",
+      "speakerId": "YohannSillam",
       "company": "",
       "hidden": false,
-      "twitter": "@woodnsec",
+      "twitter": "",
       "github": "",
       "linkedIn": "",
-      "image": "woodnsec.jpg",
-      "bio": "Nate Wood is a passionate cyber security professional at FNTS as a Sr. Cloud Security Engineer. He enjoys contributing to information security projects such as the CTF platform redctf. Nate is an active member of his local security community as a member of the DEF CON 402 group and a organizing committee member for Kernelcon (a Midwest security conference). His hobbies include 3d printing, camping, and cycling. Kernelcon 2022 is his first time as a conference speaker."
+      "image": "",
+      "bio": "Yohann Sillam is a researcher from Imperva's threat research group. He continuously monitors cyber security attacks detected in the wild, publishes blog articles about hidden ones and finds innovative ways to tackle them. He has more than 3 years of experience in cyber security, especially in malware analysis."
     }]
   }, {
     "time": "1620",
@@ -876,24 +876,24 @@
     "time": "1135",
     "minutes": "20",
     "roomIndex": [1],
-    "talkTitle": "Research the Advanced Bot Landscape",
-    "talkDescription": "Bad bots traffic represents around a quarter of Internet traffic today and is predicted to increase. This traffic includes website content scanning, stolen credit card checking, denial of service, inventory... In this talk, we describe how as a security company we tackle this variety of threats, how we started our research, the challenges we faced and the solutions we provided. This talk includes an overview of the general trend in terms of popular bot programming languages, software development frameworks. Then, practical examples will be taken from the most prevalent bots from the OWASP top 10 automated threats. The general architecture of those bots will be displayed. The main components explained before drilling down to the key features they include to remain undetected. How do they evade captcha systems? How do they avoid fingerprinting? From the naive approaches we will introduce you to the most stealthy features.",
+    "talkTitle": "All Juiced Up",
+    "talkDescription": "Ever wanted to make your own replacement battery or repair power tools? How about a DIY power wall? Recycling batteries can lead to all sorts of fun projects to revitalize products or build new ones. This talk will discuss basic battery theory and review how to build your own battery pack.",
     "talkTechLevel": "2",
-    "talkId": "advanced-bot-landscape",
+    "talkId": "juiced-up",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Yohann Sillam",
-      "speakerId": "YohannSillam",
+      "name": "Nate Wood",
+      "speakerId": "NateWood",
       "company": "",
       "hidden": false,
-      "twitter": "",
+      "twitter": "@woodnsec",
       "github": "",
       "linkedIn": "",
-      "image": "",
-      "bio": "Yohann Sillam is a researcher from Imperva's threat research group. He continuously monitors cyber security attacks detected in the wild, publishes blog articles about hidden ones and finds innovative ways to tackle them. He has more than 3 years of experience in cyber security, especially in malware analysis."
+      "image": "woodnsec.jpg",
+      "bio": "Nate Wood is a passionate cyber security professional at FNTS as a Sr. Cloud Security Engineer. He enjoys contributing to information security projects such as the CTF platform redctf. Nate is an active member of his local security community as a member of the DEF CON 402 group and a organizing committee member for Kernelcon (a Midwest security conference). His hobbies include 3d printing, camping, and cycling. Kernelcon 2022 is his first time as a conference speaker."
     }]
   }, {
     "time": "1200",
