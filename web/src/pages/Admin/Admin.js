@@ -7,7 +7,7 @@ export default class Admin extends Component {
   render() {
     return (
       <h1 className='admin'>
-        Admin
+        Egg #3 - Nice find.
       </h1>
     );
   }

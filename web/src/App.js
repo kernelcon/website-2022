@@ -45,6 +45,7 @@ function App() {
       var audioArray = [audio1, audio2, audio3];
       let player = new Audio(audioArray[rand]);
       player.play();
+      alert('Egg #2: Well done, someone is a fan of old video games.')
     }
   };
   document.addEventListener('keydown', keyHandler, false);
