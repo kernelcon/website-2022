@@ -1,0 +1,42 @@
+[{
+    "title": "Whose Slide Is It Anyway?",
+    "author": "",
+    "id": "whos-slide",
+    "hidden": false,
+    "logo": {
+      "image_name": "whose.png",
+      "image_class": ""
+    },
+    "dates": [{
+      "day": "Friday, April 1st"
+    }],
+    "description": "<p>Enjoy improvisation? Then this is the event for you! Tempt the fates and hop on stage to present some... interesting slide decks, slight unseen. Our slide decks are not exclusive to technology, they can and will be about anything. This hilarious event separates the corn germ from the slurry as Kernelcon staff and the audience judge the presentation. Sign ups will occur right before the event.</p>"
+  }, {
+    "title": "Opening Act: Antoinette Stevens",
+    "author": "",
+    "id": "antoinette",
+    "hidden": false,
+    "logo": {
+      "image_name": "antoinette.jpeg",
+      "image_class": ""
+    },
+    "dates": [{
+      "day": "Friday, April 1st"
+    }],
+    "description": "Antoinette Stevens started comedy just under two years ago in Des Moines. She's performed in cities all across the midwest and is a member of Black Iowa Streams, a collective of Black comedians in Iowa. As a writer, Antoinette is an external contributor for Raygun, has won awards with the 48 Hour Film Festival in Minneapolis and Madison, and was also accepted to the DAF, in partnership with The Onion, Writer's Workshop. She also runs an instagram account called Bite Sized Fictions and posts micro-fiction stories with 100 words or less."
+  },
+  {
+    "title": "Headliner: Dante Powell",
+    "author": "",
+    "id": "dante",
+    "hidden": false,
+    "logo": {
+      "image_name": "dante.webp",
+      "image_class": ""
+    },
+    "dates": [{
+      "day": "Friday, April 1st"
+    }],
+    "description": "<p>Dante Powell is a comedian from Bernice, Louisiana. Dante currently lives and performs out of Des Moines, IA and travels the country working comedy clubs, theaters, and festivals. His debut comedy album 'The Squirrels Get Fat' was produced by Grammy Award winning Stand Up! Records and is available on any platform you use to purchase albums.</p><p>Dante runs the gamut from opening for major acts like Godfrey, Gary Gulman, Rory Scovel, Mike Epps, Chris Porter, and Pauly Shore to headlining club weekends (Comedy Corner Underground, Blue Room Comedy Club, Penguins Comedy Club) and one off shows.</p><p>Dante brings a unique perspective founded on his life experience to story-telling and joke writing. His comedy is incredibly clever and takes on everything from the common to the mundane in a way that draws in audiences from all walks of life and allows them to connect with him.</p>"
+  }
+]

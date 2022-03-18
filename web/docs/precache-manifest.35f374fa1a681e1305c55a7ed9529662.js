@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa49ccb7f34f235a10ed0a2226de189e",
+    "revision": "b80e9357afbc41fe9568dea702a59be3",
     "url": "/index.html"
   },
   {
-    "revision": "be0d20e97e319c0098f8",
+    "revision": "41f7017e0de29f503d50",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "3a15bdf832a1cd6e7c83",
-    "url": "/static/css/main.86933b88.chunk.css"
+    "revision": "17ce2ba1c39df53fd5dc",
+    "url": "/static/css/main.fa25ed6f.chunk.css"
   },
   {
-    "revision": "be0d20e97e319c0098f8",
-    "url": "/static/js/2.90522b5d.chunk.js"
+    "revision": "41f7017e0de29f503d50",
+    "url": "/static/js/2.7abcb15a.chunk.js"
   },
   {
-    "revision": "3a15bdf832a1cd6e7c83",
-    "url": "/static/js/main.053c2e47.chunk.js"
+    "revision": "17ce2ba1c39df53fd5dc",
+    "url": "/static/js/main.eb818f92.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -152,6 +152,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/andrew-400x400.4360e99f.jpg"
   },
   {
+    "revision": "9fabba7e2041e49d9919f523b619cb63",
+    "url": "/static/media/antoinette.9fabba7e.jpeg"
+  },
+  {
     "revision": "ed269accbf6fade33d84252cad1e53bb",
     "url": "/static/media/appgate-dark-logo.ed269acc.png"
   },
@@ -194,6 +198,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fadea8a0220f8fde47d7ea6f18242a79",
     "url": "/static/media/dan.fadea8a0.png"
+  },
+  {
+    "revision": "4418838924e3befd0dd3ec70a7b6a05a",
+    "url": "/static/media/dante.44188389.jpeg"
+  },
+  {
+    "revision": "906b0448504d38c3bb8884f80cf360f8",
+    "url": "/static/media/dante.906b0448.webp"
   },
   {
     "revision": "215e472fd08adacab55869584161668f",
@@ -462,6 +474,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6ace6087e75312bbaa02192665d544eb",
     "url": "/static/media/wacey.6ace6087.gif"
+  },
+  {
+    "revision": "e972da41209983149a0560dbbbd5204e",
+    "url": "/static/media/whose.e972da41.png"
   },
   {
     "revision": "700b6d0b1e3a528df8b6e229a13e14e0",

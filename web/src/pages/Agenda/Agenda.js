@@ -15,6 +15,7 @@ import jen from "../../static/images/trainers/jen.png";
 
 import villageConfig from 'villageConfig';
 import competitionConfig from 'competitionConfig';
+import entertainmentConfig from 'entertainmentConfig';
 
 import './Agenda.scss';
 
@@ -75,9 +76,9 @@ export default class Agenda extends Component {
           <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
-          {/*<Tab tabFor="workshops">Workshops</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
+          <Tab tabFor="entertainment">Entertainment</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
         <TabPanel tabId="schedule">
@@ -196,6 +197,15 @@ export default class Agenda extends Component {
           <div className='text-area'>
 
             <CallOuts title='Competitions' config={competitionConfig} />
+
+          </div>
+        </TabPanel>
+
+
+        <TabPanel tabId="entertainment">
+          <div className='text-area'>
+
+            <CallOuts title='Entertainment' config={entertainmentConfig} />
 
           </div>
         </TabPanel>

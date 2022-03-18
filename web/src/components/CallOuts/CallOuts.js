@@ -31,7 +31,7 @@ class CallOuts extends Component {
               <div className='callout-title'>{ele.title}</div>
           <div className='callout-section'>
             <div className='callout-name-logo'>
-              <div className='callout-author'>{`From ${ele.author}`}</div>
+              {ele.author && <div className='callout-author'>{`From ${ele.author}`}</div>}
               <div className='callout-logo'>
                 <img className={`callout-img ${ele.logo.image_class}`} src={image} alt={ele.title} />
               </div>
