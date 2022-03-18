@@ -13,6 +13,8 @@ import AWSDark from "../../static/images/sponsors/AWS_black.png";
 import AWSLight from "../../static/images/sponsors/AWS-color.png";
 import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
 import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
+import Protiviti from "../../static/images/sponsors/protiviti.png";
+import ZScaler from "../../static/images/sponsors/zscaler.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -224,13 +226,27 @@ export default class Sponsors extends Component {
 
 
               <div className='spons-block'>
-                <h4 className='ctf-spons spons-title'>CTF Sponsor</h4>
+                <h4 className='ctf-spons spons-title'>CTF Sponsors</h4>
                 <a href="https://www.checkpoint.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
                   <img src={CheckPoint}
                     className='spons-img other-spons'
                     alt="Check Point"/>
+                </a>
+                <a href="https://www.protiviti.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={Protiviti}
+                    className='all-bright dark-mode-logo spons-img other-spons'
+                    alt="Protiviti"/>
+                </a>
+                <a href="https://www.protiviti.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={Protiviti}
+                    className='light-mode-logo spons-img other-spons'
+                    alt="Protiviti"/>
                 </a>
               </div>
 
@@ -283,6 +299,13 @@ export default class Sponsors extends Component {
                       <img src={AppGateLight}
                         className='spons-img fdbev-spons'
                         alt="AppGate"/>
+                    </a>
+                    <a href="https://www.zscaler.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={ZScaler}
+                        className='spons-img fdbev-spons'
+                        alt="zscaler"/>
                     </a>
                   </div>
 
