@@ -111,7 +111,7 @@ export default class Home extends Component {
                       Fun Activities
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      Join us at out raging party / social event Kernel Panic party.
+                      Join us at out raging party / social event Kernel Panic party.  We have an hour of comedy, Whose Slide Is It Anyways, and an open bar!
                     </div>
                   </div>
                 </div>

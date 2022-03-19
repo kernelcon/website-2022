@@ -17,16 +17,9 @@
     {
       "id": 3,
       "name": "Dan Browder",
-      "title": "Village Chair & God of Popcorn",
+      "title": "Village Chair, Graphics, & God of Popcorn",
       "image": "popcorn.png",
       "twitter": "popcornhax"
-    },
-    {
-      "id": 4,
-      "name": "David Stotts",
-      "title": "Social Chair & Meme Lord",
-      "image": "stotts.png",
-      "twitter": "_kernelcon_"
     },
     {
       "id": 5,
@@ -45,7 +38,7 @@
     {
       "id": 7,
       "name": "Jason Lehr",
-      "title": "Training Chair",
+      "title": "Entertainment & Training Chair",
       "image": "jason.png",
       "twitter": "__JCL__"
     },

@@ -90,7 +90,7 @@
   },
   {
     "title": "Mental Health and Wellness Village",
-    "author": " Mental Health Hackers",
+    "author": "Mental Health Hackers",
     "id": "mhhvillage",
     "hidden": false,
     "logo": {
@@ -105,5 +105,23 @@
       }
     ],
     "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
+  },
+  {
+    "title": "Wild West Hackin' Fest Labs",
+    "author": "WWHF",
+    "id": "wwhf",
+    "hidden": false,
+    "logo": {
+      "image_name": "wwhf.svg",
+      "image_class": "logo-brighten"
+    },
+    "dates": [{
+        "day": "Friday, April 1st"
+      },
+      {
+        "day": "Saturday, April 2nd"
+      }
+    ],
+    "description": "<p><b>RFID Attacks:</b> Radio Frequency Identification card cloning and hacking. This lab features a door access control system where attendees can use various techniques to clone/duplicate and hack their way into the 'building'.</p><p><b>Mouse/Keyboard Jacking:</b> If you ever wanted to see and do an attack against a wireless keyboard or mouse, this is the lab for you.</p><p><b>Bluetooth Low Energy Lab:</b> Get your hands ready to walk through some Bluetooth hacking. Introduction to common tools used to hack Bluetooth.</p><p><b>Remote-Ding-Dong-Ditch:</b> Probably dating myself but remember the good ole days of ringing your friend's doorbell and running off? Well in this lab we will demonstrate how to conduct research, capture a wireless doorbell signal, analyze it, and replay it. Essentially bringing back an old past time with improved tactics drive by ding-dong-ditching.</p><p><b>Key FOB Attack Lab:</b> Using Software Defined Radio (SDR) you will get the chance to take what you learned with the Remote-Ding-Dong-Ditch lab and apply it to attacking a key fob. This includes how to attack a dynamic code that is changing with every press of the button as opposed to the static signal of the wireless doorbell lab.</p>"
   }
 ]
