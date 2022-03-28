@@ -15,6 +15,7 @@ import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
 import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
 import Protiviti from "../../static/images/sponsors/protiviti.png";
 import ZScaler from "../../static/images/sponsors/zscaler.png";
+import BairdHolm from "../../static/images/sponsors/bairdholm.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -205,6 +206,18 @@ export default class Sponsors extends Component {
                       <img src={AppGateLight}
                         className='spons-img other-spons'
                         alt="AppGate"/>
+                    </a>
+              </div>
+
+              <div className='spons-block'>
+                <h5 className='tin spons-title'>Tin</h5>
+                <a href="https://www.bairdholm.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className=''>
+                      <img src={BairdHolm}
+                        className='spons-img other-spons'
+                        alt="Biard Holm"/>
                     </a>
               </div>
 
