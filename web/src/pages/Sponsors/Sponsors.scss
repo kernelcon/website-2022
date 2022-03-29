@@ -115,5 +115,22 @@
 }
 
 .all-bright {
-  filter: brightness(100);
+  filter: invert(1) grayscale(1) brightness(1000);
+}
+
+.sub-party-spons {
+  max-width: calc(8vh + 8vw) !important;
+  max-height: calc(7vh + 2vw) !important;
+  margin: 20px;
+}
+
+.sub-party-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gp-logo {
+  margin-bottom: 0px !important;
 }

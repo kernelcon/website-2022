@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "754d7a23eac3779cb94808caf5887ffc",
+    "revision": "292b7ee9d46ed3d94d477a0700ce29af",
     "url": "/index.html"
   },
   {
-    "revision": "2bd89921a664398a6d4e",
+    "revision": "b65ee3296988f99e15f8",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "6bd1689dc3b28236e4fa",
-    "url": "/static/css/main.3e4de8e4.chunk.css"
+    "revision": "2a266c0426901362d93a",
+    "url": "/static/css/main.58828d85.chunk.css"
   },
   {
-    "revision": "2bd89921a664398a6d4e",
-    "url": "/static/js/2.ef9bed9a.chunk.js"
+    "revision": "b65ee3296988f99e15f8",
+    "url": "/static/js/2.c8253682.chunk.js"
   },
   {
-    "revision": "6bd1689dc3b28236e4fa",
-    "url": "/static/js/main.eb59733c.chunk.js"
+    "revision": "2a266c0426901362d93a",
+    "url": "/static/js/main.c36a1a22.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Adamitis_headshot.c00244b6.jpg"
   },
   {
+    "revision": "950373437e54e0eb1adf406c80eb1ba8",
+    "url": "/static/media/Axonius.95037343.png"
+  },
+  {
     "revision": "657eb5f596ae2ed9a20092c8af1fec20",
     "url": "/static/media/DavidLindner.657eb5f5.jpg"
   },
@@ -180,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/checkpoint-dark-logo.ecf18ce5.png"
   },
   {
+    "revision": "ef3639ec5466b44b22c55c2c65e4766c",
+    "url": "/static/media/code42.ef3639ec.png"
+  },
+  {
     "revision": "d34ddaa1222a0b45ebe1a80b9c2edd9c",
     "url": "/static/media/conagra-dark-logo.d34ddaa1.png"
   },
@@ -234,6 +242,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "752409777a1c9e49e8e3dfc99153045d",
     "url": "/static/media/grrcon.75240977.png"
+  },
+  {
+    "revision": "dc40a1623d440ba644b3302700e5d280",
+    "url": "/static/media/guidepoint_black.dc40a162.png"
+  },
+  {
+    "revision": "8cb00ec5c2cb5742a08cd6d1e40c4e77",
+    "url": "/static/media/guidepoint_white.8cb00ec5.png"
   },
   {
     "revision": "a5d40bc9f989bf35b23d7e8a2cb83d7f",
@@ -486,6 +502,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "700b6d0b1e3a528df8b6e229a13e14e0",
     "url": "/static/media/wifi.700b6d0b.png"
+  },
+  {
+    "revision": "ba8532b64b4726298075e21490d8d0d9",
+    "url": "/static/media/wiz.ba8532b6.png"
   },
   {
     "revision": "28a2dbce97011ce5db45e5471cbccf38",

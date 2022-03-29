@@ -16,6 +16,11 @@ import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
 import Protiviti from "../../static/images/sponsors/protiviti.png";
 import ZScaler from "../../static/images/sponsors/zscaler.png";
 import BairdHolm from "../../static/images/sponsors/bairdholm.png";
+import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
+import Tanium from "../../static/images/sponsors/Tanium.png";
+import Axonius from "../../static/images/sponsors/Axonius.png";
+import Wiz from "../../static/images/sponsors/wiz.png";
+import Code42 from "../../static/images/sponsors/code42.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -222,20 +227,103 @@ export default class Sponsors extends Component {
               </div>
 
 
-            {/*
+            
               <div className='spons-block'>
-                <h4 className='gold spons-title'>Party Sponsor</h4>
-                <a href="https://www.nttsecurity.com/en-us"
+                <h4 className='ctf-spons spons-title'>Party Sponsors</h4>
+                <div className='gp-logo'>
+                <a href="https://www.guidepointsecurity.com/"
                   target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={nttlogo}
+                  rel='noopener noreferrer'
+                  className='all-bright dark-mode-logo'>
+                  <img src={GuidepointDark}
                     className='spons-img other-spons'
-                    alt="NTT Security"/>
+                    alt="Guidepoint Security"/>
                 </a>
+                <a href="https://www.guidepointsecurity.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-mode-logo'>
+                  <img src={GuidepointDark}
+                    className='spons-img other-spons'
+                    alt="Guidepoint Security"/>
+                </a>
+                </div>
+                <div className='sub-party-logos'>
+                <span className='sub-party-logos'>
+                <a href="https://www.axonius.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='all-bright dark-mode-logo'>
+                  <img src={Axonius}
+                    className='spons-img sub-party-spons'
+                    alt="Axonius"/>
+                </a>
+                <a href="https://www.axonius.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-mode-logo'>
+                  <img src={Axonius}
+                    className='spons-img sub-party-spons'
+                    alt="Axonius"/>
+                </a>
+
+                <a href="https://www.code42.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='all-bright dark-mode-logo'>
+                  <img src={Code42}
+                    className='spons-img sub-party-spons'
+                    alt="Code42"/>
+                </a>
+                <a href="https://www.code42.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-mode-logo'>
+                  <img src={Code42}
+                    className='spons-img sub-party-spons'
+                    alt="Code42"/>
+                </a>
+</span>
+<span className='sub-party-logos'>
+                <a href="https://www.tanium.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='all-bright dark-mode-logo'>
+                  <img src={Tanium}
+                    className='spons-img sub-party-spons'
+                    alt="Tanium"/>
+                </a>
+                <a href="https://www.tanium.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-mode-logo'>
+                  <img src={Tanium}
+                    className='spons-img sub-party-spons'
+                    alt="Tanium"/>
+                </a>
+
+                <a href="https://www.wiz.io/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='all-bright dark-mode-logo'>
+                  <img src={Wiz}
+                    className='spons-img sub-party-spons'
+                    alt="Wiz"/>
+                </a>
+                <a href="https://www.wiz.io/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-mode-logo'>
+                  <img src={Wiz}
+                    className='spons-img sub-party-spons'
+                    alt="Wiz"/>
+                </a>
+</span>
+                </div>
               </div>
 
 
-              */}
+              
 
 
               <div className='spons-block'>
