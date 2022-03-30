@@ -304,25 +304,24 @@
     "time": "1300",
     "minutes": "60",
     "roomIndex": [1],
-    "talkTitle": "Knowing What Risks Matter -- And Don't -- In Your Open Source",
-    "talkDescription": "As digital transformation accelerates, software developers face increasing pressure to speed up their work, and open-source software helps them meet aggressive timelines by dropping standardized code into an application. But cyber criminals are targeting more attacks on the software supply chain, exploiting software vulnerabilities that occur in production. As a result, organizations must prioritize protecting the open-source code in their applications. Attend this session to learn about the findings from the telemetry of thousands of real-world applications revealing trends of library usage, vulnerabilities, and best practices. You will learn about surprising findings such as: * Less than 10% of code in the typical application is open-source code actually used by the software. * Legacy software composition analysis (SCA) tools have a false positive rate of up to 69%. * The average library uses a version that is 2.5 years old, increasing risk and promising future headaches. * High-risk licenses are present in 69% of Java applications and 33% of Node applications. In a world of accelerating development and frequent exploitation of vulnerabilities, protecting applications containing open-source libraries and frameworks requires a different approach. Organizations need a comprehensive picture of active and inactive libraries and classes, library age, vulnerabilities, and licensing issues. Such observability enables an organization to address the riskiest issues - and not waste time with vulnerabilities that pose no risk.",
-    "talkMinDesc": "David Lindner | Knowing What Risks Matter -- And Don't -- In Your Open Source",
-    "talkTechLevel": "3",
-    "talkId": "risksmatter",
+    "talkTitle": "Knock knock. Identifying Assets in the Cloud",
+    "talkDescription": "Identifying and enumerating assets has become incredibly easy thanks to all the tools that have been released in the past few years, but being the first to a new target can be the difference between a P1 and a Duplicate! This talk will cover how we were able to monitor, fingerprint, and catalog cloud assets at a rate of over 200 thousand hosts a second in an attempt to find bounty targets and the bugs within them before anyone else.",
+    "talkTechLevel": "2",
+    "talkId": "knock-knock",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "David Lindner",
-      "speakerId": "DavidLindner",
-      "company": "Contrast Security",
+      "name": "Ben Sadeghipour",
+      "speakerId": "BenSadeghipour",
+      "company": "",
       "hidden": false,
-      "twitter": "@golfhackerdave",
+      "twitter": "@NahamSec",
       "github": "",
-      "linkedIn": "https://www.linkedin.com/in/dlindner",
-      "image": "DavidLindner.jpg",
-      "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer, David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field - from application development, to network architecture design and support, to IT security and consulting, to security training, to application security. Over the past decade, David has specialized in all things related to mobile applications and securing them. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs."
+      "linkedIn": "",
+      "image": "",
+      "bio": "NahamSec currently works as the Head of Hacked Education at HackerOne by day, and a hacker by night. He has helped identify and exploit over 600 security vulnerabilities across 100+ of web and mobile applications for companies such as Yahoo, Google, Airbnb, Snapchat, The US Department of Defense, Yelp, and more. He also cofounded Bug Bounty Forum, a community of 500+ active hackers sharing ideas and their experiences.  He also streams live hacking on Twitch, and creates educational content about hacking on YouTube."
     }]
   }, {
     "time": "1400",
@@ -1095,24 +1094,25 @@
     "time": "1620",
     "minutes": "60",
     "roomIndex": [0],
-    "talkTitle": "Knock knock. Identifying Assets in the Cloud",
-    "talkDescription": "Identifying and enumerating assets has become incredibly easy thanks to all the tools that have been released in the past few years, but being the first to a new target can be the difference between a P1 and a Duplicate! This talk will cover how we were able to monitor, fingerprint, and catalog cloud assets at a rate of over 200 thousand hosts a second in an attempt to find bounty targets and the bugs within them before anyone else.",
-    "talkTechLevel": "2",
-    "talkId": "knock-knock",
+    "talkTitle": "Knowing What Risks Matter -- And Don't -- In Your Open Source",
+    "talkDescription": "As digital transformation accelerates, software developers face increasing pressure to speed up their work, and open-source software helps them meet aggressive timelines by dropping standardized code into an application. But cyber criminals are targeting more attacks on the software supply chain, exploiting software vulnerabilities that occur in production. As a result, organizations must prioritize protecting the open-source code in their applications. Attend this session to learn about the findings from the telemetry of thousands of real-world applications revealing trends of library usage, vulnerabilities, and best practices. You will learn about surprising findings such as: * Less than 10% of code in the typical application is open-source code actually used by the software. * Legacy software composition analysis (SCA) tools have a false positive rate of up to 69%. * The average library uses a version that is 2.5 years old, increasing risk and promising future headaches. * High-risk licenses are present in 69% of Java applications and 33% of Node applications. In a world of accelerating development and frequent exploitation of vulnerabilities, protecting applications containing open-source libraries and frameworks requires a different approach. Organizations need a comprehensive picture of active and inactive libraries and classes, library age, vulnerabilities, and licensing issues. Such observability enables an organization to address the riskiest issues - and not waste time with vulnerabilities that pose no risk.",
+    "talkMinDesc": "David Lindner | Knowing What Risks Matter -- And Don't -- In Your Open Source",
+    "talkTechLevel": "3",
+    "talkId": "risksmatter",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Ben Sadeghipour",
-      "speakerId": "BenSadeghipour",
-      "company": "",
+      "name": "David Lindner",
+      "speakerId": "DavidLindner",
+      "company": "Contrast Security",
       "hidden": false,
-      "twitter": "@NahamSec",
+      "twitter": "@golfhackerdave",
       "github": "",
-      "linkedIn": "",
-      "image": "",
-      "bio": "NahamSec currently works as the Head of Hacked Education at HackerOne by day, and a hacker by night. He has helped identify and exploit over 600 security vulnerabilities across 100+ of web and mobile applications for companies such as Yahoo, Google, Airbnb, Snapchat, The US Department of Defense, Yelp, and more. He also cofounded Bug Bounty Forum, a community of 500+ active hackers sharing ideas and their experiences.  He also streams live hacking on Twitch, and creates educational content about hacking on YouTube."
+      "linkedIn": "https://www.linkedin.com/in/dlindner",
+      "image": "DavidLindner.jpg",
+      "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer, David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field - from application development, to network architecture design and support, to IT security and consulting, to security training, to application security. Over the past decade, David has specialized in all things related to mobile applications and securing them. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs."
     }]
   }, {
     "time": "1620",

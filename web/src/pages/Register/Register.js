@@ -43,6 +43,8 @@ class Register extends Component {
 				</div>
 				<div className="venue-section">
 					<h3 className="title">Students</h3>
+          <h3 className='closed-text'>The Student Submission for 2022 has closed.</h3>
+
 					<p className="text-highlight">
 						Are you interested in attending Kernelcon, but cannot
 						afford the con?
