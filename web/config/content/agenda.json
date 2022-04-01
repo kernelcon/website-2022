@@ -375,8 +375,8 @@
     "time": "1500",
     "minutes": "20",
     "roomIndex": [0, 1],
-    "talkTitle": "Break.",
-    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
+    "talkTitle": "Break: Book Signing.",
+    "talkDescription": "Book Signing: Andrew Martin. Author of Hacking Kubernetes.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -610,7 +610,7 @@
     "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "CISO Panel",
-    "talkDescription": "Panel TBD. This panel will be open to audience partiicpation.",
+    "talkDescription": "Please join us as we welcome CISOs from leading companies in the Technology, SaaS, and Finance spaces. This panel is made of up of experts with decades of experience in the security industry and community. They're here to answer your questions about careers, building programs, today's rapidly changing information security landscape, and more! Come with your own questions or sit and listen, this panel is sure to be a hit. Panelists include: Jeff Weeks, Rob LaMagna-Reiter, Reet Kaur, Joe Wilson and David Lindner.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
@@ -1025,8 +1025,8 @@
     "time": "1500",
     "minutes": "20",
     "roomIndex": [0, 1],
-    "talkTitle": "Break.",
-    "talkDescription": "Things to do during breaks: Stretch your legs, meet new friends, say thanks to the conference sponsors, grab a snack, maybe check out one of our book signings.",
+    "talkTitle": "Break: Book Signing.",
+    "talkDescription": "Book Signing: Chris Eagle. Author of The Ghidra Book and The IDA PRO Book.",
     "talkTechLevel": "",
     "talkId": "",
     "postCon": {
